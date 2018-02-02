@@ -6,11 +6,9 @@ Space Text is a modified version of Space Mono (fixed-width typeface family desi
 
 **[Download latest release](../../releases/latest)**
 
-## Language Support
+## Language Support & Character Set
 
 Latin Extended-A (Afrikaans, Basque, Breton, Catalan, Croatian, Czech, Danish, Dutch, English, Estonian, Finnish, French, Gaelic, German, Hungarian, Icelandic, Indonesian, Irish, Italian, Latvian, Lithuanian, Norwegian, Polish, Portuguese, Romanian, Saami, Serbian, Slovak, Slovenian, Spanish, Swahili, Swedish, Turkish)
-
-## Character Set
 
 ![Space Text Character Set](docs/02-space-text-character-set.png)
 
