@@ -1,4 +1,4 @@
-![Space Text](docs/01-space-text-about.png)
+![Space Text](docs/space-text-about.png)
 
 # Space Text
 
@@ -6,11 +6,17 @@ Space Text is a modified version of Space Mono (fixed-width typeface family desi
 
 **[Download latest release](../../releases/latest)**
 
+## OpenType Features
+
+Standard Ligatures, Case Sensitive Forms, Fractions, Numerators, Denominators, Scientific Inferiors, Superscript, Subscript, Oldstyle Figures, Lining Figures, Proportional Figures, Tabular Figures, Slashed Zero, Stylistic Sets
+
+![Space Text OpenType Features](docs/space-text-opentype-features.png)
+
 ## Language Support & Character Set
 
 Latin Extended-A (Afrikaans, Basque, Breton, Catalan, Croatian, Czech, Danish, Dutch, English, Estonian, Finnish, French, Gaelic, German, Hungarian, Icelandic, Indonesian, Irish, Italian, Latvian, Lithuanian, Norwegian, Polish, Portuguese, Romanian, Saami, Serbian, Slovak, Slovenian, Spanish, Swahili, Swedish, Turkish)
 
-![Space Text Character Set](docs/02-space-text-character-set.png)
+![Space Text Character Set](docs/space-text-character-set.png)
 
 ## License
 
