@@ -2,9 +2,9 @@
 
 # Space Text
 
-Space Text is a modified version of Space Mono (fixed-width typeface family designed by Colophon Foundry for Google Fonts). Space Text is available in 5 weights and ~~corresponding italics~~ (later this year).
+Space Text is a modified version of Space Mono (fixed-width typeface family designed by Colophon Foundry for Google Fonts). Space Text is available in 5 weights and ~~corresponding italics~~ (later this year). **[Latest release](../../releases/latest)**
 
-**[Download latest release](../../releases/latest)**
+![Space Text](docs/space-text-preview.png)
 
 ## OpenType Features
 
