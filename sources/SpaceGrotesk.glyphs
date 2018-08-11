@@ -1,5 +1,5 @@
 {
-.appVersion = "1056";
+.appVersion = "1131";
 classes = (
 {
 automatic = 1;
@@ -35,11 +35,11 @@ Tag = wght;
 );
 }
 );
-date = "2018-02-05 12:10:21 +0000";
+date = "2018-08-11 09:59:45 +0000";
 designer = "Florian Karsten (Space Text), Colophon Foundry (Space Mono)";
 designerURL = "floriankarsten.com, colophon-foundry.org";
 disablesNiceNames = 1;
-familyName = "Space Text";
+familyName = "Space Grotesk";
 featurePrefixes = (
 {
 automatic = 1;
@@ -4397,14 +4397,17 @@ unicode = 0139;
 },
 {
 glyphname = Lcaron;
-lastChange = "2017-07-18 16:27:41 +0000";
+lastChange = "2018-08-11 09:56:33 +0000";
 layers = (
 {
+color = 1;
 components = (
 {
+alignment = -1;
 name = L;
 },
 {
+alignment = -1;
 name = sidecaron;
 transform = "{1, 0, 0, 1, 122, 0}";
 }
@@ -4413,11 +4416,14 @@ layerId = "CCC6267B-7D5D-4B2E-A229-3A2D752D6A18";
 width = 536;
 },
 {
+color = 1;
 components = (
 {
+alignment = -1;
 name = L;
 },
 {
+alignment = -1;
 name = sidecaron;
 transform = "{1, 0, 0, 1, 76, 0}";
 }
@@ -4426,11 +4432,14 @@ layerId = "A285862E-BE3D-4D67-A40D-0E28E121AD88";
 width = 540;
 },
 {
+color = 1;
 components = (
 {
+alignment = -1;
 name = L;
 },
 {
+alignment = -1;
 name = sidecaron;
 transform = "{1, 0, 0, 1, 148, 0}";
 }
@@ -18998,14 +19007,17 @@ unicode = 0167;
 },
 {
 glyphname = tcaron;
-lastChange = "2017-11-11 15:20:27 +0000";
+lastChange = "2018-08-11 09:56:16 +0000";
 layers = (
 {
+color = 1;
 components = (
 {
+alignment = -1;
 name = t;
 },
 {
+alignment = -1;
 name = sidecaron;
 transform = "{1, 0, 0, 1, 206, 55}";
 }
@@ -19014,11 +19026,14 @@ layerId = "CCC6267B-7D5D-4B2E-A229-3A2D752D6A18";
 width = 422;
 },
 {
+color = 1;
 components = (
 {
+alignment = -1;
 name = t;
 },
 {
+alignment = -1;
 name = sidecaron;
 transform = "{1, 0, 0, 1, 190, 59}";
 }
@@ -19027,11 +19042,14 @@ layerId = "A285862E-BE3D-4D67-A40D-0E28E121AD88";
 width = 440;
 },
 {
+color = 1;
 components = (
 {
+alignment = -1;
 name = t;
 },
 {
+alignment = -1;
 name = sidecaron;
 transform = "{1, 0, 0, 1, 232, 45}";
 }
@@ -22673,14 +22691,17 @@ rightMetricsKey = l;
 },
 {
 glyphname = f_lcaron.liga;
-lastChange = "2017-11-17 17:29:57 +0000";
+lastChange = "2018-08-11 09:56:16 +0000";
 layers = (
 {
+color = 1;
 components = (
 {
+alignment = -1;
 name = f_l.liga;
 },
 {
+alignment = -1;
 name = sidecaron;
 transform = "{1, 0, 0, 1, 482, 0}";
 }
@@ -22689,11 +22710,14 @@ layerId = "CCC6267B-7D5D-4B2E-A229-3A2D752D6A18";
 width = 666;
 },
 {
+color = 1;
 components = (
 {
+alignment = -1;
 name = f_l.liga;
 },
 {
+alignment = -1;
 name = sidecaron;
 transform = "{1, 0, 0, 1, 460, 0}";
 }
@@ -22702,11 +22726,14 @@ layerId = "A285862E-BE3D-4D67-A40D-0E28E121AD88";
 width = 638;
 },
 {
+color = 1;
 components = (
 {
+alignment = -1;
 name = f_l.liga;
 },
 {
+alignment = -1;
 name = sidecaron;
 transform = "{1, 0, 0, 1, 510, 0}";
 }
@@ -33724,7 +33751,7 @@ unicode = 2044;
 },
 {
 glyphname = onehalf;
-lastChange = "2018-02-05 12:17:49 +0000";
+lastChange = "2018-08-11 09:58:17 +0000";
 layers = (
 {
 components = (
@@ -33760,14 +33787,18 @@ layerId = "A285862E-BE3D-4D67-A40D-0E28E121AD88";
 width = 712;
 },
 {
+color = 1;
 components = (
 {
+alignment = -1;
 name = one.numr;
 },
 {
+alignment = -1;
 name = fraction;
 },
 {
+alignment = -1;
 name = two.dnom;
 transform = "{1, 0, 0, 1, 362, 0}";
 }
@@ -33782,7 +33813,7 @@ unicode = 00BD;
 },
 {
 glyphname = onequarter;
-lastChange = "2018-02-05 12:17:49 +0000";
+lastChange = "2018-08-11 09:58:17 +0000";
 layers = (
 {
 components = (
@@ -33818,14 +33849,18 @@ layerId = "A285862E-BE3D-4D67-A40D-0E28E121AD88";
 width = 702;
 },
 {
+color = 1;
 components = (
 {
+alignment = -1;
 name = one.numr;
 },
 {
+alignment = -1;
 name = fraction;
 },
 {
+alignment = -1;
 name = four.dnom;
 transform = "{1, 0, 0, 1, 332, 0}";
 }
@@ -33840,7 +33875,7 @@ unicode = 00BC;
 },
 {
 glyphname = threequarters;
-lastChange = "2018-02-05 12:17:49 +0000";
+lastChange = "2018-08-11 09:58:17 +0000";
 layers = (
 {
 components = (
@@ -33877,15 +33912,19 @@ layerId = "A285862E-BE3D-4D67-A40D-0E28E121AD88";
 width = 800;
 },
 {
+color = 1;
 components = (
 {
+alignment = -1;
 name = three.numr;
 },
 {
+alignment = -1;
 name = fraction;
 transform = "{1, 0, 0, 1, 78, 0}";
 },
 {
+alignment = -1;
 name = four.dnom;
 transform = "{1, 0, 0, 1, 410, 0}";
 }
@@ -33900,7 +33939,7 @@ unicode = 00BE;
 },
 {
 glyphname = oneeighth;
-lastChange = "2018-02-05 12:17:49 +0000";
+lastChange = "2018-08-11 09:58:17 +0000";
 layers = (
 {
 components = (
@@ -33936,14 +33975,18 @@ layerId = "A285862E-BE3D-4D67-A40D-0E28E121AD88";
 width = 722;
 },
 {
+color = 1;
 components = (
 {
+alignment = -1;
 name = one.numr;
 },
 {
+alignment = -1;
 name = fraction;
 },
 {
+alignment = -1;
 name = eight.dnom;
 transform = "{1, 0, 0, 1, 362, 0}";
 }
@@ -33958,7 +34001,7 @@ unicode = 215B;
 },
 {
 glyphname = threeeighths;
-lastChange = "2018-02-05 12:17:49 +0000";
+lastChange = "2018-08-11 09:56:16 +0000";
 layers = (
 {
 components = (
@@ -33995,15 +34038,19 @@ layerId = "A285862E-BE3D-4D67-A40D-0E28E121AD88";
 width = 820;
 },
 {
+color = 1;
 components = (
 {
+alignment = -1;
 name = three.numr;
 },
 {
+alignment = -1;
 name = fraction;
 transform = "{1, 0, 0, 1, 78, 0}";
 },
 {
+alignment = -1;
 name = eight.dnom;
 transform = "{1, 0, 0, 1, 440, 0}";
 }
@@ -34018,7 +34065,7 @@ unicode = 215C;
 },
 {
 glyphname = fiveeighths;
-lastChange = "2018-02-01 13:00:16 +0000";
+lastChange = "2018-08-11 09:58:17 +0000";
 layers = (
 {
 components = (
@@ -34078,7 +34125,7 @@ unicode = 215D;
 },
 {
 glyphname = seveneighths;
-lastChange = "2018-02-05 12:17:49 +0000";
+lastChange = "2018-08-11 09:58:17 +0000";
 layers = (
 {
 components = (
@@ -34115,15 +34162,19 @@ layerId = "A285862E-BE3D-4D67-A40D-0E28E121AD88";
 width = 740;
 },
 {
+color = 1;
 components = (
 {
+alignment = -1;
 name = seven.numr;
 },
 {
+alignment = -1;
 name = fraction;
 transform = "{1, 0, 0, 1, 14, 0}";
 },
 {
+alignment = -1;
 name = eight.dnom;
 transform = "{1, 0, 0, 1, 376, 0}";
 }
@@ -52189,8 +52240,8 @@ weightClass = Light;
 {
 interpolationWeight = 440;
 instanceInterpolations = {
-"A285862E-BE3D-4D67-A40D-0E28E121AD88" = 0.39130;
-"CCC6267B-7D5D-4B2E-A229-3A2D752D6A18" = 0.60870;
+"A285862E-BE3D-4D67-A40D-0E28E121AD88" = 0.3913;
+"CCC6267B-7D5D-4B2E-A229-3A2D752D6A18" = 0.6087;
 };
 name = Regular;
 },

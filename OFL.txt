@@ -1,6 +1,6 @@
 Copyright (c) 2016, Google Inc.
-Copyright (c) 2017, Florian Karsten (floriankarsten.com),
-with Reserved Font Name 'Space Text'.
+Copyright (c) 2017, Florian Karsten (fonts.floriankarsten.com),
+with Reserved Font Name 'Space Grotesk'.
 
 This Font Software is licensed under the SIL Open Font License, Version 1.1.
 This license is copied below, and is also available with a FAQ at:
