@@ -50,7 +50,7 @@ name = Languagesystems;
 features = (
 {
 automatic = 1;
-code = "feature ccmp;\012feature locl;\012feature subs;\012feature sinf;\012feature sups;\012feature numr;\012feature dnom;\012feature frac;\012feature lnum;\012feature pnum;\012feature tnum;\012feature onum;\012feature case;\012feature zero;\012feature salt;\012feature ss01;\012feature ss02;\012feature ss03;\012feature ss04;\012feature ss05;\012";
+code = "feature ccmp;\012feature locl;\012feature subs;\012feature sinf;\012feature sups;\012feature numr;\012feature dnom;\012feature frac;\012feature lnum;\012feature pnum;\012feature tnum;\012feature onum;\012feature case;\012feature zero;\012feature salt;\012feature ss01;\012feature ss02;\012feature ss03;\012feature ss04;\012feature ss05;\012feature ss06;\012";
 name = aalt;
 },
 {
@@ -157,6 +157,11 @@ name = ss04;
 automatic = 1;
 code = "sub R by R.ss05;\012sub Racute by Racute.ss05;\012sub Rcaron by Rcaron.ss05;\012sub Rcommaaccent by Rcommaaccent.ss05;\012";
 name = ss05;
+},
+{
+automatic = 1;
+code = "sub ae by ae.ss06;\012sub aeacute by aeacute.ss06;\012sub oe by oe.ss06;\012";
+name = ss06;
 }
 );
 fontMaster = (
@@ -18345,7 +18350,7 @@ unicode = 0161;
 },
 {
 glyphname = scedilla;
-lastChange = "2018-10-16 15:25:38 +0000";
+lastChange = "2018-10-16 16:38:31 +0000";
 layers = (
 {
 components = (
@@ -18371,7 +18376,7 @@ transform = "{1, 0, 0, 1, 160, 0}";
 }
 );
 layerId = "A285862E-BE3D-4D67-A40D-0E28E121AD88";
-width = 521;
+width = 523;
 },
 {
 components = (
@@ -18393,7 +18398,7 @@ unicode = 015F;
 },
 {
 glyphname = scommaaccent;
-lastChange = "2018-10-16 15:25:38 +0000";
+lastChange = "2018-10-16 16:38:31 +0000";
 layers = (
 {
 components = (
@@ -18419,7 +18424,7 @@ transform = "{1, 0, 0, 1, 147, 0}";
 }
 );
 layerId = "A285862E-BE3D-4D67-A40D-0E28E121AD88";
-width = 521;
+width = 523;
 },
 {
 components = (
@@ -22300,8 +22305,8 @@ leftKerningGroup = v;
 rightKerningGroup = v;
 },
 {
-glyphname = ae.ss04;
-lastChange = "2018-10-16 16:16:52 +0000";
+glyphname = ae.ss06;
+lastChange = "2018-10-16 16:38:43 +0000";
 layers = (
 {
 anchors = (
@@ -22572,53 +22577,53 @@ rightKerningGroup = o;
 rightMetricsKey = e;
 },
 {
-glyphname = aeacute.ss04;
-lastChange = "2018-10-16 15:55:39 +0000";
+glyphname = aeacute.ss06;
+lastChange = "2018-10-16 16:38:51 +0000";
 layers = (
 {
 components = (
 {
-name = ae.ss04;
+name = ae.ss06;
+},
+{
+name = acutecomb;
+transform = "{1, 0, 0, 1, 163, 0}";
+}
+);
+layerId = "A285862E-BE3D-4D67-A40D-0E28E121AD88";
+width = 554;
+},
+{
+components = (
+{
+name = ae.ss06;
 },
 {
 name = acutecomb;
 transform = "{1, 0, 0, 1, 167, 0}";
 }
 );
-layerId = "A285862E-BE3D-4D67-A40D-0E28E121AD88";
-width = 558;
-},
-{
-components = (
-{
-name = ae.ss04;
-},
-{
-name = acutecomb;
-transform = "{1, 0, 0, 1, 171, 0}";
-}
-);
 layerId = "CCC6267B-7D5D-4B2E-A229-3A2D752D6A18";
-width = 575;
+width = 571;
 },
 {
 components = (
 {
-name = ae.ss04;
+name = ae.ss06;
 },
 {
 name = acutecomb;
-transform = "{1, 0, 0, 1, 177, 0}";
+transform = "{1, 0, 0, 1, 173, 0}";
 }
 );
 layerId = "5117E3E8-E17C-4812-BAF5-9E7064564A59";
-width = 594;
+width = 590;
 }
 );
 },
 {
-glyphname = oe.ss04;
-lastChange = "2018-10-16 15:54:59 +0000";
+glyphname = oe.ss06;
+lastChange = "2018-10-16 16:38:53 +0000";
 layers = (
 {
 layerId = "CCC6267B-7D5D-4B2E-A229-3A2D752D6A18";
