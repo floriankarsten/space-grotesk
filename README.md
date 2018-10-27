@@ -4,6 +4,8 @@
 
 Space Grotesk is a modified version of Space Mono (fixed-width typeface family designed by Colophon Foundry for Google Fonts). Space Grotesk is available in 5 weights and ~~corresponding italics~~ (later this year).
 
+Do you want to support this project? [Donate](https://paypal.me/kvetoslavbartos) via PayPal.
+
 ## Download Font Files (OTF, WOFF, WOFF2)
 
 * **[Latest Release](../../releases/latest)**
