@@ -29674,6 +29674,127 @@ note = florin.cap;
 unicode = 0192;
 },
 {
+glyphname = rupee;
+lastChange = "2019-09-27 09:03:51 +0000";
+layers = (
+{
+layerId = "A285862E-BE3D-4D67-A40D-0E28E121AD88";
+paths = (
+{
+closed = 1;
+nodes = (
+"78 652 LINE",
+"282 652 LINE SMOOTH",
+"396 652 OFFCURVE",
+"462 594 OFFCURVE",
+"462 493 CURVE SMOOTH",
+"462 392 OFFCURVE",
+"396 334 OFFCURVE",
+"282 334 CURVE SMOOTH",
+"78 334 LINE",
+"78 286 LINE",
+"288 286 LINE SMOOTH",
+"416 286 OFFCURVE",
+"516 361 OFFCURVE",
+"516 493 CURVE SMOOTH",
+"516 565 OFFCURVE",
+"477 617 OFFCURVE",
+"437 642 CURVE",
+"437 680 LINE",
+"78 680 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"428 0 LINE",
+"496 0 LINE",
+"282 316 LINE",
+"219 316 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"78 469 LINE",
+"628 469 LINE",
+"628 517 LINE",
+"78 517 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"78 652 LINE",
+"628 652 LINE",
+"628 700 LINE",
+"78 700 LINE"
+);
+}
+);
+width = 676;
+},
+{
+layerId = "5117E3E8-E17C-4812-BAF5-9E7064564A59";
+paths = (
+{
+closed = 1;
+nodes = (
+"54 588 LINE",
+"233 588 LINE SMOOTH",
+"304 588 OFFCURVE",
+"352 542 OFFCURVE",
+"352 470 CURVE SMOOTH",
+"352 398 OFFCURVE",
+"304 352 OFFCURVE",
+"233 352 CURVE SMOOTH",
+"54 352 LINE",
+"54 240 LINE",
+"244 240 LINE SMOOTH",
+"384 240 OFFCURVE",
+"488 321 OFFCURVE",
+"488 454 CURVE SMOOTH",
+"488 511 OFFCURVE",
+"461 560 OFFCURVE",
+"422 586 CURVE",
+"422 640 LINE",
+"54 640 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"340 0 LINE",
+"496 0 LINE",
+"288 316 LINE",
+"144 316 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"54 418 LINE",
+"594 418 LINE",
+"594 522 LINE",
+"54 522 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"54 596 LINE",
+"594 596 LINE",
+"594 700 LINE",
+"54 700 LINE"
+);
+}
+);
+width = 622;
+}
+);
+unicode = 20A8;
+},
+{
 glyphname = sterling;
 lastChange = "2018-01-05 12:43:41 +0000";
 layers = (
