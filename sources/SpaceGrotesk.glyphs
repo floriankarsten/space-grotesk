@@ -1,21 +1,5 @@
 {
 .appVersion = "1230";
-DisplayStrings = (
-"noHO\012miserablo",
-"/f_f.liga/f_f_i.liga/f_f_j.liga/f_i.liga/f_j.liga/f_l.liga/f_lcaron.liga/t_t.liga",
-"/f_f.liga/f_f_i.liga/f_f_j.liga/f_i.liga/f_j.liga/f_l.liga/f_lcaron.liga/t_t.liga",
-"/f_l.liga",
-"²³¹/foursuperior",
-"/ringcomb.case/acutecomb.case/ringacutecomb.case",
-"1/divisionslash 2 1//2",
-"Los denunciantes son usuarios de varios modelos de teléfonos móviles de ambas compañías, entre los que se encuentran los iPhone X, iPhone 8 y iPhone 7 Plus de Apple y los Galaxy S8 y Note8 de Samsung.    \012Lea: Apple pierde US$44.000 millones por la guerra comercial entre China y EE.UU.\012Los posibles efectos nocivos de la exposición a estas radiaciones, incluyen el riesgo de cáncer, daños genéticos, cambios en el aparato reproductor, déficits de memoria y desórdenes neurológicos, entre otros, según dijeron los denunciantes. 1978\012\012Disparition des abeilles : une coupable impuissance\012Brexit : l/quoteright opposition britannique tente d/quoteright empêcher une sortie sans accord\012L/quoteright autoroute urbaine qui déchire Bombay\012L/quoteright arrêté antipesticides du maire de Langouët suspendu par la justice\012S/eogonek dziowie oskar/zdotaccent ani o akcj/eogonek  przeciwá Ma/lslash gorzacie Gersdorf /zdotaccent/aogonek daj/aogonek  zado/sacute/cacute uczynienia\012Dlaczego zgin/aogonek/lslash  kolarz Bjorg Lambvrecht. Jest wynik prokuratorskiego /sacute ledztwa\012Deal to develop three high-tech agriculture projects worth $73m inked in Bình Phc\012Tin tc, tin nóng,  zgin/aogonek/lslash  /dcroat c báo /dcroat in t - Tui Tr Online\012Không /dcroat i nào sút tung li tuyn n Vit Nam  Gii vô /dcroat ch /Dcroat ông Nam Á 2019\012/Dcroat ây là chc vô /dcroat ch hoàn toàn thuyt phc, bi các cô gái Vit Nam /dcroat ã thng tt c các trn /dcroat u. Ngoài ra, các cô gái Vit Nam /dcroat ã cng s hu hiu s bàn thng bàn thua vt tri. Sau 5 trn, các hc trò HLV Mai /Dcroat c Chung ghi /dcroat c 24 bàn và ch /dcroat  thng li mt bàn.\012/Dcroat iu /dcroat áng nói là bàn thua duy nht ca tuyn n Vit Nam  gii /dcroat u này li /dcroat n t tình hung /dcroat á phn li nhà ca hu v Trn Th Hng Nhung trong trn bán kt vi Philippines. Nh vy, trong sut gii không có bt k/ygrave  chân sút ca /dcroat i bóng nào có th xuyên thng /dcroat c mành li ca th thành Kim Thanh.",
-"// /backslash  /slash.case  /backslash.case  /divisionslash  /slashshortcomb  \0121//2 1/backslash 2 1/slash.case FOOD/backslash.case  1/divisionslash 2   /slashlongcomb   ",
-"-­/endash/emdash _/hyphen.case/endash.case/emdash.case \012two-steps ste­ps",
-"­",
-"HH 1ª 2º HHªHHºHH\012HH 2ª 3º HHªHHºHH\012HH 4ª 5º HHªHHºHH\012HH 5ª 6º HHªHHºHH\012HH 6ª 7º HHªHHºHH\012HH 7ª 8º HHªHHºHH\012HH 8ª 9º HHªHHºHH\012HH 9ª 0º HHªHHºHH\012HH 0ª 1º HHªHHºHH",
-"/f_f.liga  /f_f_i.liga  /f_f_j.liga  /f_i.liga  /f_j.liga  /f_l.liga  /f_lcaron.liga  /t_t.liga \012ff ffi ffj fi fj fl f/lcaron  tt ft",
-"/lcaron"
-);
 classes = (
 {
 automatic = 1;
@@ -71,7 +55,7 @@ name = Languagesystems;
 features = (
 {
 automatic = 1;
-code = "feature locl;\012feature subs;\012feature sinf;\012feature sups;\012feature numr;\012feature dnom;\012feature frac;\012feature lnum;\012feature pnum;\012feature tnum;\012feature onum;\012feature case;\012feature zero;\012feature salt;\012feature ss01;\012feature ss02;\012feature ss03;\012feature ss04;\012feature ss05;\012";
+code = "feature locl;\012feature subs;\012feature sinf;\012feature sups;\012feature numr;\012feature dnom;\012feature frac;\012feature lnum;\012feature pnum;\012feature tnum;\012feature onum;\012feature case;\012feature zero;\012feature salt;\012feature ss01;\012feature ss02;\012feature ss03;\012feature ss04;\012feature ss05;\012feature ordn;\012";
 name = aalt;
 },
 {
@@ -96,7 +80,7 @@ name = sinf;
 },
 {
 automatic = 1;
-code = "sub zero by zero.sups;\012sub one by one.sups;\012sub two by two.sups;\012sub three by three.sups;\012sub four by four.sups;\012sub five by five.sups;\012sub six by six.sups;\012sub seven by seven.sups;\012sub eight by eight.sups;\012sub nine by nine.sups;\012";
+code = "sub one by onesuperior;\012sub two by twosuperior;\012sub three by threesuperior;\012sub four by foursuperior;\012sub zero by zero.sups;\012sub five by five.sups;\012sub six by six.sups;\012sub seven by seven.sups;\012sub eight by eight.sups;\012sub nine by nine.sups;\012";
 name = sups;
 },
 {
@@ -113,6 +97,11 @@ name = dnom;
 automatic = 1;
 code = "lookup FRAC {\012	sub slash by fraction;\012} FRAC;\012lookup UP {\012	sub [zero one two three four five six seven eight nine] by [zero.numr one.numr two.numr three.numr four.numr five.numr six.numr seven.numr eight.numr nine.numr];\012} UP;\012lookup DOWN {\012	sub fraction [zero.numr one.numr two.numr three.numr four.numr five.numr six.numr seven.numr eight.numr nine.numr]' by [zero.dnom one.dnom two.dnom three.dnom four.dnom five.dnom six.dnom seven.dnom eight.dnom nine.dnom];\012	sub [zero.dnom one.dnom two.dnom three.dnom four.dnom five.dnom six.dnom seven.dnom eight.dnom nine.dnom] [zero.numr one.numr two.numr three.numr four.numr five.numr six.numr seven.numr eight.numr nine.numr]' by [zero.dnom one.dnom two.dnom three.dnom four.dnom five.dnom six.dnom seven.dnom eight.dnom nine.dnom];\012} DOWN;\012";
 name = frac;
+},
+{
+automatic = 1;
+code = "sub [zero one two three four five six seven eight nine] [A a]' by ordfeminine;\012sub [zero one two three four five six seven eight nine] [O o]' by ordmasculine;\012";
+name = ordn;
 },
 {
 automatic = 1;
@@ -4290,7 +4279,7 @@ unicode = 0051;
 },
 {
 glyphname = R;
-lastChange = "2019-08-27 21:58:32 +0000";
+lastChange = "2019-09-27 08:39:55 +0000";
 layers = (
 {
 anchors = (
@@ -4365,29 +4354,29 @@ closed = 1;
 nodes = (
 "58 0 LINE",
 "190 0 LINE",
-"190 259 LINE",
-"366 259 LINE SMOOTH",
-"495 259 OFFCURVE",
-"590 346 OFFCURVE",
-"590 479 CURVE SMOOTH",
-"590 612 OFFCURVE",
-"498 699 OFFCURVE",
-"366 699 CURVE SMOOTH",
-"58 699 LINE"
+"190 260 LINE",
+"366 260 LINE SMOOTH",
+"495 260 OFFCURVE",
+"590 347 OFFCURVE",
+"590 480 CURVE SMOOTH",
+"590 613 OFFCURVE",
+"498 700 OFFCURVE",
+"366 700 CURVE SMOOTH",
+"58 700 LINE"
 );
 },
 {
 closed = 1;
 nodes = (
-"353 579 LINE SMOOTH",
-"416 579 OFFCURVE",
-"458 540 OFFCURVE",
-"458 479 CURVE SMOOTH",
-"458 418 OFFCURVE",
+"353 580 LINE SMOOTH",
+"416 580 OFFCURVE",
+"458 541 OFFCURVE",
+"458 480 CURVE SMOOTH",
+"458 419 OFFCURVE",
 "416 379 OFFCURVE",
 "353 379 CURVE SMOOTH",
 "190 379 LINE",
-"190 579 LINE"
+"190 580 LINE"
 );
 },
 {
@@ -29685,6 +29674,127 @@ note = florin.cap;
 unicode = 0192;
 },
 {
+glyphname = rupee;
+lastChange = "2019-09-27 09:03:51 +0000";
+layers = (
+{
+layerId = "A285862E-BE3D-4D67-A40D-0E28E121AD88";
+paths = (
+{
+closed = 1;
+nodes = (
+"78 652 LINE",
+"282 652 LINE SMOOTH",
+"396 652 OFFCURVE",
+"462 594 OFFCURVE",
+"462 493 CURVE SMOOTH",
+"462 392 OFFCURVE",
+"396 334 OFFCURVE",
+"282 334 CURVE SMOOTH",
+"78 334 LINE",
+"78 286 LINE",
+"288 286 LINE SMOOTH",
+"416 286 OFFCURVE",
+"516 361 OFFCURVE",
+"516 493 CURVE SMOOTH",
+"516 565 OFFCURVE",
+"477 617 OFFCURVE",
+"437 642 CURVE",
+"437 680 LINE",
+"78 680 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"428 0 LINE",
+"496 0 LINE",
+"282 316 LINE",
+"219 316 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"78 469 LINE",
+"628 469 LINE",
+"628 517 LINE",
+"78 517 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"78 652 LINE",
+"628 652 LINE",
+"628 700 LINE",
+"78 700 LINE"
+);
+}
+);
+width = 676;
+},
+{
+layerId = "5117E3E8-E17C-4812-BAF5-9E7064564A59";
+paths = (
+{
+closed = 1;
+nodes = (
+"54 588 LINE",
+"233 588 LINE SMOOTH",
+"304 588 OFFCURVE",
+"352 542 OFFCURVE",
+"352 470 CURVE SMOOTH",
+"352 398 OFFCURVE",
+"304 352 OFFCURVE",
+"233 352 CURVE SMOOTH",
+"54 352 LINE",
+"54 240 LINE",
+"244 240 LINE SMOOTH",
+"384 240 OFFCURVE",
+"488 321 OFFCURVE",
+"488 454 CURVE SMOOTH",
+"488 511 OFFCURVE",
+"461 560 OFFCURVE",
+"422 586 CURVE",
+"422 640 LINE",
+"54 640 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"340 0 LINE",
+"496 0 LINE",
+"288 316 LINE",
+"144 316 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"54 418 LINE",
+"594 418 LINE",
+"594 522 LINE",
+"54 522 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"54 596 LINE",
+"594 596 LINE",
+"594 700 LINE",
+"54 700 LINE"
+);
+}
+);
+width = 622;
+}
+);
+unicode = 20A8;
+},
+{
 glyphname = sterling;
 lastChange = "2018-01-05 12:43:41 +0000";
 layers = (
@@ -38831,6 +38941,9 @@ bracketleft.case = {
 "@MMK_R_four" = -20;
 "@MMK_R_one" = -35;
 };
+f = {
+f = -105;
+};
 fraction = {
 "@MMK_R_eight.dnom" = -270;
 "@MMK_R_five.dnom" = -260;
@@ -38871,9 +38984,6 @@ slash.case = {
 "@MMK_R_six" = -5;
 "@MMK_R_two" = -10;
 "@MMK_R_zero" = -5;
-};
-f = {
-f = -105;
 };
 };
 };
