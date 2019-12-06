@@ -1231,11 +1231,11 @@ capHeight = 700;
 customParameters = (
 {
 name = typoAscender;
-value = 900;
+value = 950;
 },
 {
 name = typoDescender;
-value = -250;
+value = -300;
 },
 {
 name = typoLineGap;
@@ -1243,11 +1243,11 @@ value = 0;
 },
 {
 name = hheaAscender;
-value = 900;
+value = 950;
 },
 {
 name = hheaDescender;
-value = -250;
+value = -300;
 },
 {
 name = hheaLineGap;
@@ -1255,11 +1255,11 @@ value = 0;
 },
 {
 name = winAscent;
-value = 1100;
+value = 1050;
 },
 {
 name = winDescent;
-value = 400;
+value = 380;
 },
 {
 name = strikeoutPosition;
@@ -1273,8 +1273,8 @@ value = 50;
 descender = -216;
 horizontalStems = (
 44,
-48,
-46
+46,
+48
 );
 id = "A285862E-BE3D-4D67-A40D-0E28E121AD88";
 verticalStems = (
@@ -1299,11 +1299,11 @@ capHeight = 700;
 customParameters = (
 {
 name = typoAscender;
-value = 900;
+value = 950;
 },
 {
 name = typoDescender;
-value = -250;
+value = -300;
 },
 {
 name = typoLineGap;
@@ -1311,11 +1311,11 @@ value = 0;
 },
 {
 name = hheaAscender;
-value = 900;
+value = 950;
 },
 {
 name = hheaDescender;
-value = -250;
+value = -300;
 },
 {
 name = hheaLineGap;
@@ -1323,11 +1323,11 @@ value = 0;
 },
 {
 name = winAscent;
-value = 1100;
+value = 1050;
 },
 {
 name = winDescent;
-value = 400;
+value = 380;
 },
 {
 name = strikeoutPosition;
