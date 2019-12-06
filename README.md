@@ -2,11 +2,11 @@
 
 # Space Grotesk
 
-Space Grotesk is a modified version of Space Mono (fixed-width typeface family designed by Colophon Foundry for Google Fonts). Space Grotesk is available in 5 weights and ~~corresponding italics~~ (later this year).
+Space Grotesk (designed by Florian Karsten) is a modified version of Space Mono (fixed-width typeface family designed by Colophon Foundry for Google Fonts). Space Grotesk is available in 5 weights.
 
-Do you want to support this project? [Donate](https://paypal.me/kvetoslavbartos) via PayPal.
+Support this project via [PayPal](https://paypal.me/kvetoslavbartos).
 
-## Download Font Files (OTF, WOFF, WOFF2)
+## Download Font Files (OTF, TTF, WOFF, WOFF2)
 
 * **[Latest Release](../../releases/latest)**
 * **[All Releases](../../releases)**
@@ -35,4 +35,4 @@ See [OFL.txt](OFL.txt) for more details.
 
 Florian Karsten is a graphic designer & developer highly interested in art & culture, open-source and cryptocurrency world.
 
-Questions, comments, requests, suggestions: mail@floriankarsten.com
+Questions, comments, requests, suggestions: fonts@floriankarsten.com
