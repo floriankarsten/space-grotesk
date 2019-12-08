@@ -1251,11 +1251,11 @@ value = 286;
 },
 {
 name = winAscent;
-value = 986;
+value = 1000;
 },
 {
 name = winDescent;
-value = 214;
+value = 350;
 },
 {
 name = hheaAscender;
@@ -1264,6 +1264,10 @@ value = 986;
 {
 name = hheaDescender;
 value = -214;
+},
+{
+name = hheaLineGap;
+value = 20;
 },
 {
 name = strikeoutPosition;
@@ -1315,11 +1319,11 @@ value = 286;
 },
 {
 name = winAscent;
-value = 986;
+value = 1000;
 },
 {
 name = winDescent;
-value = 214;
+value = 350;
 },
 {
 name = hheaAscender;
@@ -1328,6 +1332,10 @@ value = 986;
 {
 name = hheaDescender;
 value = -214;
+},
+{
+name = hheaLineGap;
+value = 20;
 },
 {
 name = strikeoutPosition;
@@ -1587,6 +1595,7 @@ unicode = 0020;
 },
 {
 glyphname = nbspace;
+lastChange = "2019-12-08 19:08:50 +0000";
 layers = (
 {
 layerId = "A285862E-BE3D-4D67-A40D-0E28E121AD88";
@@ -6651,7 +6660,7 @@ unicode = 00C5;
 },
 {
 glyphname = Aringacute;
-lastChange = "2019-01-09 13:21:46 +0000";
+lastChange = "2019-12-08 19:34:36 +0000";
 layers = (
 {
 components = (
@@ -16393,7 +16402,7 @@ unicode = 030C;
 },
 {
 glyphname = commaaccentcomb;
-lastChange = "2018-08-05 13:08:03 +0000";
+lastChange = "2019-12-08 19:23:37 +0000";
 layers = (
 {
 anchors = (
@@ -16453,16 +16462,16 @@ nodes = (
 "141 -237 OFFCURVE",
 "148 -236 OFFCURVE",
 "152 -235 CURVE",
-"152 -255 LINE SMOOTH",
-"152 -274 OFFCURVE",
-"144 -283 OFFCURVE",
-"123 -283 CURVE SMOOTH",
-"46 -283 LINE",
-"46 -351 LINE",
-"141 -351 LINE SMOOTH",
-"192 -351 OFFCURVE",
-"230 -312 OFFCURVE",
-"230 -261 CURVE SMOOTH",
+"152 -254 LINE SMOOTH",
+"152 -273 OFFCURVE",
+"144 -282 OFFCURVE",
+"123 -282 CURVE SMOOTH",
+"46 -282 LINE",
+"46 -350 LINE",
+"141 -350 LINE SMOOTH",
+"192 -350 OFFCURVE",
+"230 -311 OFFCURVE",
+"230 -260 CURVE SMOOTH",
 "230 -144 LINE SMOOTH",
 "230 -89 OFFCURVE",
 "189 -50 OFFCURVE",
@@ -38867,7 +38876,7 @@ width = 296;
 {
 export = 0;
 glyphname = ringacutecomb.case;
-lastChange = "2018-02-01 12:59:55 +0000";
+lastChange = "2019-12-08 19:34:33 +0000";
 layers = (
 {
 components = (
