@@ -1247,7 +1247,19 @@ value = -214;
 },
 {
 name = typoLineGap;
-value = 286;
+value = 50;
+},
+{
+name = hheaAscender;
+value = 950;
+},
+{
+name = hheaDescender;
+value = -350;
+},
+{
+name = hheaLineGap;
+value = 50;
 },
 {
 name = winAscent;
@@ -1256,18 +1268,6 @@ value = 1000;
 {
 name = winDescent;
 value = 350;
-},
-{
-name = hheaAscender;
-value = 986;
-},
-{
-name = hheaDescender;
-value = -214;
-},
-{
-name = hheaLineGap;
-value = 20;
 },
 {
 name = strikeoutPosition;
@@ -1315,7 +1315,19 @@ value = -214;
 },
 {
 name = typoLineGap;
-value = 286;
+value = 50;
+},
+{
+name = hheaAscender;
+value = 950;
+},
+{
+name = hheaDescender;
+value = -350;
+},
+{
+name = hheaLineGap;
+value = 50;
 },
 {
 name = winAscent;
@@ -1324,18 +1336,6 @@ value = 1000;
 {
 name = winDescent;
 value = 350;
-},
-{
-name = hheaAscender;
-value = 986;
-},
-{
-name = hheaDescender;
-value = -214;
-},
-{
-name = hheaLineGap;
-value = 20;
 },
 {
 name = strikeoutPosition;
@@ -39182,6 +39182,7 @@ width = 600;
 );
 instances = (
 {
+exports = 0;
 interpolationWeight = 300;
 interpolationWidth = 5;
 instanceInterpolations = {
@@ -39199,6 +39200,7 @@ instanceInterpolations = {
 name = Regular;
 },
 {
+exports = 0;
 interpolationWeight = 530;
 interpolationWidth = 5;
 instanceInterpolations = {
@@ -39209,6 +39211,7 @@ name = Medium;
 weightClass = Medium;
 },
 {
+exports = 0;
 interpolationWeight = 615;
 instanceInterpolations = {
 "5117E3E8-E17C-4812-BAF5-9E7064564A59" = 0.7875;
@@ -39218,6 +39221,7 @@ name = SemiBold;
 weightClass = SemiBold;
 },
 {
+exports = 0;
 interpolationWeight = 700;
 interpolationWidth = 5;
 instanceInterpolations = {
