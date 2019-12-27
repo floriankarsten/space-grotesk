@@ -1,2 +1,0 @@
-fontmake==2.0.3
-git+https://github.com/googlefonts/gftools
