@@ -2,6 +2,6 @@
 
 Issues to discuss:
 
-- [] serifs
-- [] inktraps
-- [] contrast
+- [ ] serifs
+- [ ] inktraps
+- [ ] contrast
