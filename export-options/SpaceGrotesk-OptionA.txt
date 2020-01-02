@@ -1,0 +1,19 @@
+(
+    {
+        familyName = "Space Grotesk A";
+    },
+    {
+        "Rename Glyphs" = (
+            "B=B.ss03",
+            "B.ss03=B",
+            "D=D.ss03",
+            "D.ss03=D",
+            "I=I.ss04",
+            "I.ss04=I",
+            "IJ=IJ.ss04",
+            "IJ.ss04=IJ",
+            "a=a.ss01",
+            "a.ss01=a"
+        );
+    }
+)
