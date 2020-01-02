@@ -13659,7 +13659,7 @@ unicode = 0078;
 },
 {
 glyphname = y;
-lastChange = "2019-12-27 23:42:15 +0000";
+lastChange = "2020-01-02 20:52:46 +0000";
 layers = (
 {
 anchors = (
@@ -13850,16 +13850,16 @@ nodes = (
 width = 548;
 }
 );
-leftKerningGroup = v;
+leftKerningGroup = u;
 leftMetricsKey = u;
 note = y;
-rightKerningGroup = v;
+rightKerningGroup = u;
 rightMetricsKey = u;
 unicode = 0079;
 },
 {
 glyphname = yacute;
-lastChange = "2019-12-27 23:42:17 +0000";
+lastChange = "2020-01-02 20:52:46 +0000";
 layers = (
 {
 components = (
@@ -13888,13 +13888,13 @@ layerId = "5117E3E8-E17C-4812-BAF5-9E7064564A59";
 width = 586;
 }
 );
-leftKerningGroup = v;
-rightKerningGroup = v;
+leftKerningGroup = u;
+rightKerningGroup = u;
 unicode = 00FD;
 },
 {
 glyphname = ycircumflex;
-lastChange = "2019-12-27 23:42:17 +0000";
+lastChange = "2020-01-02 20:52:46 +0000";
 layers = (
 {
 components = (
@@ -13923,13 +13923,13 @@ layerId = "5117E3E8-E17C-4812-BAF5-9E7064564A59";
 width = 586;
 }
 );
-leftKerningGroup = v;
-rightKerningGroup = v;
+leftKerningGroup = u;
+rightKerningGroup = u;
 unicode = 0177;
 },
 {
 glyphname = ydieresis;
-lastChange = "2019-12-27 23:42:17 +0000";
+lastChange = "2020-01-02 20:52:46 +0000";
 layers = (
 {
 components = (
@@ -13958,13 +13958,13 @@ layerId = "5117E3E8-E17C-4812-BAF5-9E7064564A59";
 width = 586;
 }
 );
-leftKerningGroup = v;
-rightKerningGroup = v;
+leftKerningGroup = u;
+rightKerningGroup = u;
 unicode = 00FF;
 },
 {
 glyphname = ygrave;
-lastChange = "2019-12-27 23:42:17 +0000";
+lastChange = "2020-01-02 20:52:46 +0000";
 layers = (
 {
 components = (
@@ -13993,8 +13993,8 @@ layerId = "5117E3E8-E17C-4812-BAF5-9E7064564A59";
 width = 586;
 }
 );
-leftKerningGroup = v;
-rightKerningGroup = v;
+leftKerningGroup = u;
+rightKerningGroup = u;
 unicode = 1EF3;
 },
 {
