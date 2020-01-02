@@ -12,6 +12,8 @@
             "I.ss04=I",
             "IJ=IJ.ss04",
             "IJ.ss04=IJ",
+            "J=J.ss04",
+            "J.ss04=J",
             "a=a.ss01",
             "a.ss01=a"
         );
