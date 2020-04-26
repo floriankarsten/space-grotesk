@@ -1,9 +1,0 @@
-(
-    {
-        familyName = "Space Grotesk C";
-    },
-    {
-        "Rename Glyphs" = (
-        );
-    }
-)
