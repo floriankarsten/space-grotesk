@@ -32,11 +32,11 @@ Tag = wght;
 },
 {
 name = "Variable Font File Name";
-value = SpaceGroteskVF;
+value = SpaceGroteskVariable;
 },
 {
 name = "Variable Font Family Name";
-value = "Space Grotesk VF";
+value = "Space Grotesk Variable";
 },
 {
 name = fsType;
@@ -25320,15 +25320,15 @@ rightMetricsKey = guilsinglright;
 },
 {
 glyphname = space;
-lastChange = "2020-04-26 18:28:54 +0000";
+lastChange = "2020-04-28 18:14:53 +0000";
 layers = (
 {
 layerId = "A285862E-BE3D-4D67-A40D-0E28E121AD88";
-width = 250;
+width = 258;
 },
 {
 layerId = "5117E3E8-E17C-4812-BAF5-9E7064564A59";
-width = 246;
+width = 254;
 }
 );
 note = space;
@@ -35297,6 +35297,11 @@ germandbls = {
 "@MMK_R_v" = -28;
 "@MMK_R_w" = -18;
 };
+parenleft = {
+"@MMK_R_iwide" = 40;
+"@MMK_R_o" = -12;
+hbar = 20;
+};
 slash = {
 "@MMK_R_A" = -14;
 "@MMK_R_J" = -46;
@@ -35313,14 +35318,9 @@ space = {
 };
 tcaron = {
 "@MMK_R_bracketright" = 20;
-backslash = 20;
 "@MMK_R_quoteleft" = 16;
+backslash = 20;
 parenright = 20;
-};
-parenleft = {
-"@MMK_R_iwide" = 40;
-"@MMK_R_o" = -12;
-hbar = 20;
 };
 };
 "5117E3E8-E17C-4812-BAF5-9E7064564A59" = {
@@ -35905,11 +35905,11 @@ comma = {
 j = 20;
 };
 dcroat = {
+"@MMK_R_bracketright" = 20;
 "@MMK_R_i" = 26;
 "@MMK_R_quoteleft" = 40;
 backslash = 60;
 hbar = 58;
-"@MMK_R_bracketright" = 20;
 };
 fraction = {
 "@MMK_R_eight.dnom" = -234;
@@ -35945,9 +35945,9 @@ Hbar = 36;
 hbar = 60;
 };
 tcaron = {
+"@MMK_R_bracketright" = 40;
 "@MMK_R_quoteleft" = 30;
 backslash = 50;
-"@MMK_R_bracketright" = 40;
 };
 };
 };
