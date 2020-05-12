@@ -5,4 +5,7 @@ Issues to discuss:
 - [x] serifs
 - [x] inktraps
 - [ ] contrast
-- [ ] spacing
+- [x] spacing
+– [x] currency symbols
+– [x] Vietnamese language support
+– [ ] Pan African Latin language support (?)
