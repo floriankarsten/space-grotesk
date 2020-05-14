@@ -32,7 +32,7 @@ Tag = wght;
 },
 {
 name = "Variable Font File Name";
-value = SpaceGroteskVariable;
+value = "SpaceGroteskVariable[wght]";
 },
 {
 name = "Variable Font Family Name";
@@ -217,6 +217,15 @@ value = 290;
 {
 name = strikeoutSize;
 value = 50;
+},
+{
+name = "Axis Location";
+value = (
+{
+Axis = Weight;
+Location = 300;
+}
+);
 }
 );
 descender = -214;
@@ -284,6 +293,15 @@ value = 297;
 {
 name = strikeoutSize;
 value = 50;
+},
+{
+name = "Axis Location";
+value = (
+{
+Axis = Weight;
+Location = 700;
+}
+);
 }
 );
 descender = -214;
@@ -42942,6 +42960,12 @@ width = 600;
 );
 instances = (
 {
+customParameters = (
+{
+name = "New Parameter";
+value = "New Value";
+}
+);
 interpolationWeight = 300;
 interpolationWidth = 5;
 instanceInterpolations = {
