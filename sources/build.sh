@@ -21,10 +21,11 @@ ttfs=$(ls ../fonts/ttf/static/*.ttf)
 for ttf in $ttfs
 do
 	gftools fix-dsig -f $ttf;
-	gftools fix-nonhinting $ttf "$ttf.fix";
+	ttfautohint $ttf $ttf.fix;
+	mv "$ttf.fix" $ttf;
+	gftools fix-hinting $ttf;
 	mv "$ttf.fix" $ttf;
 done
-rm ../fonts/ttf/static/*backup*.ttf
 
 vfs=$(ls ../fonts/ttf/*.ttf)
 for vf in $vfs
