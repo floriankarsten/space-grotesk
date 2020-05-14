@@ -11,7 +11,7 @@ code = "zero zero.zero one two three four five six seven eight nine zero.tf zero
 name = Numbers;
 }
 );
-copyright = "Copyright © 2020 by Florian Karsten (Space Grotesk), Colophon Foundry (Space Mono). All rights reserved.";
+copyright = "Copyright 2020 The Space Grotesk Project Authors (https://github.com/floriankarsten/space-grotesk)";
 customParameters = (
 {
 name = vendorID;
@@ -48,11 +48,11 @@ name = license;
 value = "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL";
 }
 );
-date = "2020-04-26 11:56:29 +0000";
+date = "2020-05-14 21:08:43 +0000";
 designer = "Florian Karsten (Space Grotesk), Colophon Foundry (Space Mono)";
 designerURL = floriankarsten.com;
 disablesNiceNames = 1;
-familyName = "Space Grotesk (Horn v3)";
+familyName = "Space Grotesk";
 featurePrefixes = (
 {
 automatic = 1;
