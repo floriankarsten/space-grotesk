@@ -17,6 +17,8 @@ rm -rf master_ufo/ instance_ufo/
 
 echo "Post processing"
 
+mkdir -p ../fonts/woff2
+
 ttfs=$(ls ../fonts/ttf/static/*.ttf)
 for ttf in $ttfs
 do
@@ -25,6 +27,7 @@ do
 	mv "$ttf.fix" $ttf;
 	gftools fix-hinting $ttf;
 	mv "$ttf.fix" $ttf;
+	cp $ttf ../fonts/woff2;
 done
 
 vfs=$(ls ../fonts/ttf/*.ttf)
@@ -34,9 +37,16 @@ do
 	gftools fix-nonhinting $vf "$vf.fix";
 	mv "$vf.fix" $vf;
 	gftools fix-unwanted-tables --tables MVAR $vf;
+	cp $vf ../fonts/woff2;
 done
 rm ../fonts/ttf/*backup*.ttf
 
-echo "Voila! Done."
+ttfs=$(ls ../fonts/woff2/*.ttf)
+for ttf in $ttfs
+do
+	woff2_compress $ttf;
+done
+rm ../fonts/woff2/*.ttf
 
+echo "Voila! Done."
 cd ..
