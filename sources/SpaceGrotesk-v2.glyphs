@@ -200,7 +200,7 @@ value = 0;
 },
 {
 name = winAscent;
-value = 1034;
+value = 1056;
 },
 {
 name = winDescent;
@@ -213,15 +213,6 @@ value = 291;
 {
 name = strikeoutSize;
 value = 50;
-},
-{
-name = "Axis Location";
-value = (
-{
-Axis = Weight;
-Location = 300;
-}
-);
 }
 );
 descender = -214;
@@ -276,7 +267,7 @@ value = 0;
 },
 {
 name = winAscent;
-value = 1034;
+value = 1056;
 },
 {
 name = winDescent;
@@ -289,15 +280,6 @@ value = 297;
 {
 name = strikeoutSize;
 value = 50;
-},
-{
-name = "Axis Location";
-value = (
-{
-Axis = Weight;
-Location = 700;
-}
-);
 }
 );
 descender = -214;
@@ -3120,7 +3102,7 @@ unicode = 0126;
 },
 {
 glyphname = I;
-lastChange = "2020-05-15 12:35:45 +0000";
+lastChange = "2020-05-15 15:18:49 +0000";
 layers = (
 {
 anchors = (
@@ -42306,6 +42288,12 @@ width = 600;
 );
 instances = (
 {
+customParameters = (
+{
+name = weightClass;
+value = 300;
+}
+);
 interpolationWeight = 300;
 interpolationWidth = 5;
 instanceInterpolations = {
@@ -42315,6 +42303,12 @@ name = Light;
 weightClass = Light;
 },
 {
+customParameters = (
+{
+name = weightClass;
+value = 400;
+}
+);
 interpolationWeight = 416;
 instanceInterpolations = {
 "5117E3E8-E17C-4812-BAF5-9E7064564A59" = 0.29;
@@ -42323,6 +42317,12 @@ instanceInterpolations = {
 name = Regular;
 },
 {
+customParameters = (
+{
+name = weightClass;
+value = 500;
+}
+);
 interpolationWeight = 560;
 interpolationWidth = 5;
 instanceInterpolations = {
@@ -42333,6 +42333,12 @@ name = Medium;
 weightClass = Medium;
 },
 {
+customParameters = (
+{
+name = weightClass;
+value = 700;
+}
+);
 interpolationWeight = 700;
 interpolationWidth = 5;
 instanceInterpolations = {
