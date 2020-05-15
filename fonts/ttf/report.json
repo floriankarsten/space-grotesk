@@ -1,9 +1,9 @@
 {
     "result": {
         "INFO": 8,
-        "PASS": 79,
+        "PASS": 81,
         "SKIP": 74,
-        "WARN": 6
+        "WARN": 4
     },
     "sections": [
         {
@@ -526,23 +526,13 @@
                     ],
                     "logs": [
                         {
-                            "message": "Please consider using HTTPS URLs at name table entry [plat=3, enc=1, name=13] [code: http-in-description]",
-                            "status": "WARN",
-                            "traceback": null
-                        },
-                        {
-                            "message": "For now we're still accepting http URLs, but you should consider using https instead.\n",
-                            "status": "WARN",
-                            "traceback": null
-                        },
-                        {
                             "message": "Licensing entry on name table is correctly set.",
                             "status": "PASS",
                             "traceback": null
                         }
                     ],
                     "rationale": "\n    A known licensing description must be provided in the NameID 14 (LICENSE DESCRIPTION) entries of the name table.\n\n    The source of truth for this check (to determine which license is in use) is a file placed side-by-side to your font project including the licensing terms.\n\n    Depending on the chosen license, one of the following string snippets is expected to be found on the NameID 13 (LICENSE DESCRIPTION) entries of the name table:\n    - \"This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL\"\n    - \"Licensed under the Apache License, Version 2.0\"\n    - \"Licensed under the Ubuntu Font Licence 1.0.\"\n\n\n    Currently accepted licenses are Apache or Open Font License.\n    For a small set of legacy families the Ubuntu Font License may be acceptable as well.\n\n    When in doubt, please choose OFL for new font projects.\n  ",
-                    "result": "WARN"
+                    "result": "PASS"
                 },
                 {
                     "description": "License URL matches License text on name table?",
@@ -559,38 +549,13 @@
                     ],
                     "logs": [
                         {
-                            "message": "Please consider using HTTPS URLs at name table entry [plat=3, enc=1, name=13] [code: http-in-description]",
-                            "status": "WARN",
-                            "traceback": null
-                        },
-                        {
-                            "message": "Please consider using HTTPS URLs at name table entry [plat=3, enc=1, name=13] [code: http-in-description]",
-                            "status": "WARN",
-                            "traceback": null
-                        },
-                        {
-                            "message": "Please consider using HTTPS URLs at name table entry [plat=3, enc=1, name=13] [code: http-in-description]",
-                            "status": "WARN",
-                            "traceback": null
-                        },
-                        {
-                            "message": "Please consider using HTTPS URLs at name table entry [plat=3, enc=1, name=14] [code: http-in-license-info]",
-                            "status": "WARN",
-                            "traceback": null
-                        },
-                        {
-                            "message": "For now we're still accepting http URLs, but you should consider using https instead.\n",
-                            "status": "WARN",
-                            "traceback": null
-                        },
-                        {
                             "message": "Font has a valid license URL in NAME table.",
                             "status": "PASS",
                             "traceback": null
                         }
                     ],
                     "rationale": "\n    A known license URL must be provided in the NameID 14 (LICENSE INFO URL) entry of the name table.\n\n    The source of truth for this check is the licensing text found on the NameID 13 entry (LICENSE DESCRIPTION).\n\n    The string snippets used for detecting licensing terms are:\n    - \"This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL\"\n    - \"Licensed under the Apache License, Version 2.0\"\n    - \"Licensed under the Ubuntu Font Licence 1.0.\"\n\n\n    Currently accepted licenses are Apache or Open Font License.\n    For a small set of legacy families the Ubuntu Font License may be acceptable as well.\n\n    When in doubt, please choose OFL for new font projects.\n  ",
-                    "result": "WARN"
+                    "result": "PASS"
                 },
                 {
                     "description": "Description strings in the name table must not exceed 200 characters.",
@@ -630,7 +595,7 @@
                     ],
                     "logs": [
                         {
-                            "message": "Hinting filesize impact:\n\n\t|  | SpaceGrotesk[wght].ttf |\n\t|:--- | ---:|\n\t| Dehinted Size | 107.7kb |\n\t| Hinted Size | 106.9kb |\n\t| Increase | -804 bytes |\n\t| Change   | -0.7 % |\n [code: size-impact]",
+                            "message": "Hinting filesize impact:\n\n\t|  | SpaceGrotesk[wght].ttf |\n\t|:--- | ---:|\n\t| Dehinted Size | 107.7kb |\n\t| Hinted Size | 107.0kb |\n\t| Increase | -768 bytes |\n\t| Change   | -0.7 % |\n [code: size-impact]",
                             "status": "INFO",
                             "traceback": null
                         }
@@ -2403,9 +2368,9 @@
             ],
             "result": {
                 "INFO": 5,
-                "PASS": 32,
+                "PASS": 34,
                 "SKIP": 63,
-                "WARN": 5
+                "WARN": 3
             }
         },
         {
@@ -2698,7 +2663,7 @@
                     ],
                     "logs": [
                         {
-                            "message": "This font contains the following optional tables [loca, GSUB, prep, gasp, DSIG, GPOS]",
+                            "message": "This font contains the following optional tables [GPOS, loca, gasp, GSUB, prep, DSIG]",
                             "status": "INFO",
                             "traceback": null
                         },
