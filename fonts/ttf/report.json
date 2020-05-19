@@ -595,7 +595,7 @@
                     ],
                     "logs": [
                         {
-                            "message": "Hinting filesize impact:\n\n\t|  | SpaceGrotesk[wght].ttf |\n\t|:--- | ---:|\n\t| Dehinted Size | 107.7kb |\n\t| Hinted Size | 106.9kb |\n\t| Increase | -768 bytes |\n\t| Change   | -0.7 % |\n [code: size-impact]",
+                            "message": "Hinting filesize impact:\n\n\t|  | SpaceGrotesk[wght].ttf |\n\t|:--- | ---:|\n\t| Dehinted Size | 108.0kb |\n\t| Hinted Size | 107.2kb |\n\t| Increase | -768 bytes |\n\t| Change   | -0.7 % |\n [code: size-impact]",
                             "status": "INFO",
                             "traceback": null
                         }
@@ -2663,7 +2663,7 @@
                     ],
                     "logs": [
                         {
-                            "message": "This font contains the following optional tables [gasp, loca, DSIG, prep, GPOS, GSUB]",
+                            "message": "This font contains the following optional tables [GSUB, DSIG, gasp, prep, loca, GPOS]",
                             "status": "INFO",
                             "traceback": null
                         },
