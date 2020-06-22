@@ -18,8 +18,6 @@ rm -rf master_ufo/ instance_ufo/
 
 echo "Post processing"
 
-
-
 ttfs=$(ls ../fonts/ttf/static/*.ttf)
 for ttf in $ttfs
 do
