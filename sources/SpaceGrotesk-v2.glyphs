@@ -48,9 +48,9 @@ name = "Use Typo Metrics";
 value = 1;
 }
 );
-date = "2020-05-14 21:08:43 +0000";
-designer = "Florian Karsten (Space Grotesk), Colophon Foundry (Space Mono)";
-designerURL = floriankarsten.com;
+date = "2020-06-24 13:44:26 +0000";
+designer = "Florian Karsten";
+designerURL = "https://fonts.floriankarsten.com";
 disablesNiceNames = 1;
 familyName = "Space Grotesk";
 featurePrefixes = (
@@ -43629,7 +43629,7 @@ backslash = 50;
 };
 };
 manufacturer = "Florian Karsten";
-manufacturerURL = "https://floriankarsten.com";
+manufacturerURL = "https://fonts.floriankarsten.com";
 unitsPerEm = 1000;
 userData = {
 GSDimensionPlugin.Dimensions = {
