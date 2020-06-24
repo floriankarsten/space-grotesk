@@ -41898,6 +41898,16 @@ isBold = 1;
 linkStyle = Regular;
 name = Bold;
 weightClass = Bold;
+},
+{
+exports = 0;
+interpolationWeight = 842;
+instanceInterpolations = {
+"5117E3E8-E17C-4812-BAF5-9E7064564A59" = 1.355;
+"CEFBB1E5-951F-4065-926E-8B9137F837F5" = -0.355;
+};
+name = "Black (Extrapolation Test)";
+weightClass = Black;
 }
 );
 kerning = {
