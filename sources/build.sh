@@ -1,99 +1,54 @@
-<<<<<<< HEAD
-# source venv/bin/activate
-
-mkdir -p ../fonts ../fonts/ttf ../fonts/otf ../fonts/variable
-
-# Generating TTFs
-fontmake -g SpaceGrotesk.glyphs -i -o ttf --output-dir ../fonts/ttf/
-
-# Post processing TTFs
-ttfs=$(ls ../fonts/ttf/*.ttf)
-for ttf in $ttfs
-do
-	ttfautohint $ttf "$ttf.fix";
-	mv "$ttf.fix" $ttf;
-
-    gftools fix-hinting $ttf;
-    mv "$ttf.fix" $ttf;
-
-    gftools fix-dsig -f $ttf;
-done
-
-# Generating OTFs
-fontmake -g SpaceGrotesk.glyphs -i -o otf --output-dir ../fonts/otf/
-
-# Post processing OTFs
-otfs=$(ls ../fonts/otf/*.otf)
-for otf in $otfs
-do
-    gftools fix-dsig -f $otf;
-done
-
-# Generating VFs
-VF_FILE=../fonts/variable/SpaceGrotesk\[wght]\.ttf
-fontmake -g SpaceGrotesk.glyphs -o variable --output-path $VF_FILE
-
-rm -rf master_ufo/ instance_ufo/
-
-# Post processing VFs
-ttfautohint $VF_FILE $VF_FILE.fix
-mv $VF_FILE.fix $VF_FILE
-
-gftools fix-hinting $VF_FILE
-mv $VF_FILE.fix $VF_FILE
-
-gftools fix-dsig -f $VF_FILE
-
-gftools fix-unwanted-tables $VF_FILE -t MVAR
-=======
 #!/bin/sh
 set -e
 
-echo "Generating Static OTFs"
-mkdir -p ../fonts/otf
-fontmake -g "SpaceGrotesk-v2.glyphs" -i -o otf --output-dir ../fonts/otf/
+mkdir -p ../fonts/ttf ../fonts/otf ../fonts/ttf/static ../fonts/woff2
 
-echo "Generating Static TTFs"
-mkdir -p ../fonts/ttf/static
-fontmake -g "SpaceGrotesk-v2.glyphs" -i -o ttf --output-dir ../fonts/ttf/static/
 
 echo "Generating VFs"
-mkdir -p ../fonts/ttf
-fontmake -g "SpaceGrotesk-v2.glyphs" -o variable --output-path ../fonts/ttf/SpaceGrotesk\[wght\].ttf
-#statmake --stylespace ./stat.stylespace --designspace master_ufo/SpaceGrotesk.designspace ../fonts/ttf/SpaceGrotesk\[wght\].ttf
+VF_File=../fonts/ttf/SpaceGrotesk\[wght\].ttf
+glyphs2ufo SpaceGrotesk-v2.glyphs --generate-GDEF
+fontmake -m SpaceGrotesk.designspace -o variable --output-path $VF_File
 
-rm -rf master_ufo/ instance_ufo/
+echo "Post processing VFs"
+    gftools fix-nonhinting $VF_File $VF_File.fix
+    mv $VF_File.fix $VF_File
+    gftools fix-dsig -f $VF_File
+    gftools fix-unwanted-tables $VF_File -t MVAR
+    python3 spaceG_stat_table.py $VF_File
 
-echo "Post processing"
+echo "Generating Static TTFs"
+fontmake -m SpaceGrotesk.designspace -i -o ttf --output-dir ../fonts/ttf/static/ -a
 
+echo "Post processing Static TTFs"
 ttfs=$(ls ../fonts/ttf/static/*.ttf)
 for ttf in $ttfs
 do
 	gftools fix-dsig -f $ttf;
-	ttfautohint $ttf $ttf.fix
-	mv "$ttf.fix" $ttf
 	gftools fix-hinting $ttf
 	mv "$ttf.fix" $ttf
+	cp $ttf ../fonts/woff2
+done
+
+echo "Generating Static OTFs"
+# fontmake -g "SpaceGrotesk-v2.glyphs" -i -o otf --output-dir ../fonts/otf/ -a
+fontmake -m SpaceGrotesk.designspace -i -o otf --output-dir ../fonts/otf/static/ -a
+
+echo "Post processing Static OTF"
+otf=$(ls ../fonts/otf/*.otf)
+for otf in $otf
+do
+	gftools fix-dsig -f $otf
+done
+
+rm -rf master_ufo/ instance_ufo/ ../fonts/ttf/*backup*.ttf *.ufo
+
+echo "Post processing Static Woff2"
+ttfs=$(ls ../fonts/woff2/*.ttf)
+for ttf in $ttfs
+do
 	woff2_compress $ttf
 done
-
-vfs=$(ls ../fonts/ttf/*.ttf)
-for vf in $vfs
-do
-	gftools fix-dsig -f $vf;
-	gftools fix-nonhinting $vf "$vf.fix"
-	mv "$vf.fix" $vf
-	gftools fix-unwanted-tables --tables MVAR $vf
-	woff2_compress $vf
-done
-rm ../fonts/ttf/*backup*.ttf
-
-mkdir -p ../fonts/woff2
-mv ../fonts/ttf/*.woff2 ../fonts/woff2
-
-mkdir -p ../fonts/woff2/static
-mv ../fonts/ttf/static/*.woff2 ../fonts/woff2/static
+rm ../fonts/woff2/*.ttf
 
 echo "Voila! Done."
 cd ..
->>>>>>> 92cca2b44655135c120eb4e9c851f5969f469cd1

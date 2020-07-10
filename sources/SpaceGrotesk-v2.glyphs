@@ -1,5 +1,5 @@
 {
-.appVersion = "1286";
+.appVersion = "1342";
 classes = (
 {
 automatic = 1;
@@ -175,20 +175,20 @@ name = typoAscender;
 value = 960;
 },
 {
-name = hheaAscender;
-value = 960;
-},
-{
 name = typoDescender;
-value = -340;
-},
-{
-name = hheaDescender;
 value = -340;
 },
 {
 name = typoLineGap;
 value = 0;
+},
+{
+name = hheaAscender;
+value = 960;
+},
+{
+name = hheaDescender;
+value = -340;
 },
 {
 name = hheaLineGap;
@@ -242,20 +242,20 @@ name = typoAscender;
 value = 960;
 },
 {
-name = hheaAscender;
-value = 960;
-},
-{
 name = typoDescender;
-value = -340;
-},
-{
-name = hheaDescender;
 value = -340;
 },
 {
 name = typoLineGap;
 value = 0;
+},
+{
+name = hheaAscender;
+value = 960;
+},
+{
+name = hheaDescender;
+value = -340;
 },
 {
 name = hheaLineGap;
