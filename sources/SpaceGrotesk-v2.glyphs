@@ -38,6 +38,10 @@ value = "This Font Software is licensed under the SIL Open Font License, Version
 {
 name = "Use Typo Metrics";
 value = 1;
+},
+{
+name = "Variable Font Origin";
+value = "CEFBB1E5-951F-4065-926E-8B9137F837F5";
 }
 );
 date = "2020-06-25 07:45:46 +0000";
