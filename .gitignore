@@ -7,4 +7,6 @@
 *.vfbak
 # minisite files
 /docs/node_modules
+/docs/package-lock.json
 /minisite/node_modules
+/minisite/package-lock.json
