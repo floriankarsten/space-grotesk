@@ -27,6 +27,7 @@ do
 	gftools fix-hinting $ttf
 	mv "$ttf.fix" $ttf
 	woff2_compress $ttf
+	sfnt2woff $ttf
 done
 
 vfs=$(ls ../fonts/ttf/*.ttf)
@@ -37,6 +38,7 @@ do
 	mv "$vf.fix" $vf
 	gftools fix-unwanted-tables --tables MVAR $vf
 	woff2_compress $vf
+	sfnt2woff $vf
 done
 rm ../fonts/ttf/*backup*.ttf
 
@@ -45,6 +47,12 @@ mv ../fonts/ttf/*.woff2 ../fonts/woff2
 
 mkdir -p ../fonts/woff2/static
 mv ../fonts/ttf/static/*.woff2 ../fonts/woff2/static
+
+mkdir -p ../fonts/woff
+mv ../fonts/ttf/*.woff ../fonts/woff
+
+mkdir -p ../fonts/woff/static
+mv ../fonts/ttf/static/*.woff ../fonts/woff/static
 
 echo "Voila! Done."
 cd ..
