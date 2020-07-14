@@ -1,5 +1,5 @@
 {
-.appVersion = "1286";
+.appVersion = "1342";
 classes = (
 {
 automatic = 1;
@@ -70,17 +70,17 @@ name = locl;
 },
 {
 automatic = 1;
-code = "sub zero by zero.subs;\012sub one by one.subs;\012sub two by two.subs;\012sub three by three.subs;\012sub four by four.subs;\012sub five by five.subs;\012sub six by six.subs;\012sub seven by seven.subs;\012sub eight by eight.subs;\012sub nine by nine.subs;\012";
+code = "sub zero by zeroinferior;\012sub one by oneinferior;\012sub two by twoinferior;\012sub three by threeinferior;\012sub four by fourinferior;\012sub five by fiveinferior;\012sub six by sixinferior;\012sub seven by seveninferior;\012sub eight by eightinferior;\012sub nine by nineinferior;\012";
 name = subs;
 },
 {
 automatic = 1;
-code = "sub zero by zero.subs;\012sub one by one.subs;\012sub two by two.subs;\012sub three by three.subs;\012sub four by four.subs;\012sub five by five.subs;\012sub six by six.subs;\012sub seven by seven.subs;\012sub eight by eight.subs;\012sub nine by nine.subs;\012";
+code = "sub zero by zeroinferior;\012sub one by oneinferior;\012sub two by twoinferior;\012sub three by threeinferior;\012sub four by fourinferior;\012sub five by fiveinferior;\012sub six by sixinferior;\012sub seven by seveninferior;\012sub eight by eightinferior;\012sub nine by nineinferior;\012";
 name = sinf;
 },
 {
 automatic = 1;
-code = "sub one by onesuperior;\012sub two by twosuperior;\012sub three by threesuperior;\012sub four by foursuperior;\012sub zero by zero.sups;\012sub five by five.sups;\012sub six by six.sups;\012sub seven by seven.sups;\012sub eight by eight.sups;\012sub nine by nine.sups;\012";
+code = "sub zero by zerosuperior;\012sub one by onesuperior;\012sub two by twosuperior;\012sub three by threesuperior;\012sub four by foursuperior;\012sub five by fivesuperior;\012sub six by sixsuperior;\012sub seven by sevensuperior;\012sub eight by eightsuperior;\012sub nine by ninesuperior;\012";
 name = sups;
 },
 {
@@ -135,7 +135,7 @@ name = liga;
 },
 {
 automatic = 1;
-code = "sub zero by zero.zero;\012sub zero.lf by zero.lf.zero;\012sub zero.osf by zero.osf.zero;\012sub zero.tf by zero.tf.zero;\012sub zero.tosf by zero.tosf.zero;\012sub zero.subs by zero.subs.zero;\012sub zero.dnom by zero.dnom.zero;\012sub zero.numr by zero.numr.zero;\012sub zero.sups by zero.sups.zero;\012";
+code = "sub zero by zero.zero;\012sub zero.lf by zero.lf.zero;\012sub zero.osf by zero.osf.zero;\012sub zero.tf by zero.tf.zero;\012sub zero.tosf by zero.tosf.zero;\012sub zeroinferior by zeroinferior.zero;\012sub zero.subs by zero.subs.zero;\012sub zero.dnom by zero.dnom.zero;\012sub zero.numr by zero.numr.zero;\012sub zerosuperior by zerosuperior.zero;\012sub zero.sups by zero.sups.zero;\012";
 name = zero;
 },
 {
@@ -25272,8 +25272,318 @@ note = zero.tosn;
 rightMetricsKey = zero.tosf;
 },
 {
+glyphname = zeroinferior;
+lastChange = "2020-07-14 09:51:51 +0000";
+layers = (
+{
+components = (
+{
+name = zero.dnom;
+transform = "{1, 0, 0, 1, 0, -200}";
+}
+);
+layerId = "CEFBB1E5-951F-4065-926E-8B9137F837F5";
+width = 404;
+},
+{
+components = (
+{
+name = zero.dnom;
+transform = "{1, 0, 0, 1, 0, -200}";
+}
+);
+layerId = "5117E3E8-E17C-4812-BAF5-9E7064564A59";
+width = 388;
+}
+);
+leftKerningGroup = zero.dnom;
+leftMetricsKey = zero;
+rightKerningGroup = zero.dnom;
+rightMetricsKey = zero;
+unicode = 2080;
+},
+{
+glyphname = oneinferior;
+lastChange = "2020-07-14 09:51:56 +0000";
+layers = (
+{
+components = (
+{
+name = one.dnom;
+transform = "{1, 0, 0, 1, 0, -200}";
+}
+);
+layerId = "CEFBB1E5-951F-4065-926E-8B9137F837F5";
+width = 246;
+},
+{
+components = (
+{
+name = one.dnom;
+transform = "{1, 0, 0, 1, 0, -200}";
+}
+);
+layerId = "5117E3E8-E17C-4812-BAF5-9E7064564A59";
+width = 270;
+}
+);
+leftKerningGroup = one.dnom;
+leftMetricsKey = one;
+rightKerningGroup = one.dnom;
+rightMetricsKey = one;
+unicode = 2081;
+},
+{
+glyphname = twoinferior;
+lastChange = "2020-07-14 09:52:01 +0000";
+layers = (
+{
+components = (
+{
+name = two.dnom;
+transform = "{1, 0, 0, 1, 0, -200}";
+}
+);
+layerId = "CEFBB1E5-951F-4065-926E-8B9137F837F5";
+width = 367;
+},
+{
+components = (
+{
+name = two.dnom;
+transform = "{1, 0, 0, 1, 0, -200}";
+}
+);
+layerId = "5117E3E8-E17C-4812-BAF5-9E7064564A59";
+width = 372;
+}
+);
+leftKerningGroup = two.dnom;
+leftMetricsKey = two;
+rightKerningGroup = two.dnom;
+rightMetricsKey = two;
+unicode = 2082;
+},
+{
+glyphname = threeinferior;
+lastChange = "2020-07-14 09:52:05 +0000";
+layers = (
+{
+components = (
+{
+name = three.dnom;
+transform = "{1, 0, 0, 1, 0, -200}";
+}
+);
+layerId = "CEFBB1E5-951F-4065-926E-8B9137F837F5";
+width = 380;
+},
+{
+components = (
+{
+name = three.dnom;
+transform = "{1, 0, 0, 1, 0, -200}";
+}
+);
+layerId = "5117E3E8-E17C-4812-BAF5-9E7064564A59";
+width = 371;
+}
+);
+leftKerningGroup = three.dnom;
+leftMetricsKey = three;
+rightKerningGroup = three.dnom;
+rightMetricsKey = three;
+unicode = 2083;
+},
+{
+glyphname = fourinferior;
+lastChange = "2020-07-14 09:52:10 +0000";
+layers = (
+{
+components = (
+{
+name = four.dnom;
+transform = "{1, 0, 0, 1, 0, -200}";
+}
+);
+layerId = "CEFBB1E5-951F-4065-926E-8B9137F837F5";
+width = 394;
+},
+{
+components = (
+{
+name = four.dnom;
+transform = "{1, 0, 0, 1, 0, -200}";
+}
+);
+layerId = "5117E3E8-E17C-4812-BAF5-9E7064564A59";
+width = 390;
+}
+);
+leftKerningGroup = four.dnom;
+leftMetricsKey = four;
+rightKerningGroup = four.dnom;
+rightMetricsKey = four;
+unicode = 2084;
+},
+{
+glyphname = fiveinferior;
+lastChange = "2020-07-14 09:52:14 +0000";
+layers = (
+{
+components = (
+{
+name = five.dnom;
+transform = "{1, 0, 0, 1, 0, -200}";
+}
+);
+layerId = "CEFBB1E5-951F-4065-926E-8B9137F837F5";
+width = 376;
+},
+{
+components = (
+{
+name = five.dnom;
+transform = "{1, 0, 0, 1, 0, -200}";
+}
+);
+layerId = "5117E3E8-E17C-4812-BAF5-9E7064564A59";
+width = 368;
+}
+);
+leftKerningGroup = five.dnom;
+leftMetricsKey = five;
+rightKerningGroup = five.dnom;
+rightMetricsKey = five;
+unicode = 2085;
+},
+{
+glyphname = sixinferior;
+lastChange = "2020-07-14 09:52:18 +0000";
+layers = (
+{
+components = (
+{
+name = six.dnom;
+transform = "{1, 0, 0, 1, 0, -200}";
+}
+);
+layerId = "CEFBB1E5-951F-4065-926E-8B9137F837F5";
+width = 394;
+},
+{
+components = (
+{
+name = six.dnom;
+transform = "{1, 0, 0, 1, 0, -200}";
+}
+);
+layerId = "5117E3E8-E17C-4812-BAF5-9E7064564A59";
+width = 378;
+}
+);
+leftKerningGroup = six.dnom;
+leftMetricsKey = six;
+rightKerningGroup = six.dnom;
+rightMetricsKey = six;
+unicode = 2086;
+},
+{
+glyphname = seveninferior;
+lastChange = "2020-07-14 09:52:23 +0000";
+layers = (
+{
+components = (
+{
+name = seven.dnom;
+transform = "{1, 0, 0, 1, 0, -200}";
+}
+);
+layerId = "CEFBB1E5-951F-4065-926E-8B9137F837F5";
+width = 340;
+},
+{
+components = (
+{
+name = seven.dnom;
+transform = "{1, 0, 0, 1, 0, -200}";
+}
+);
+layerId = "5117E3E8-E17C-4812-BAF5-9E7064564A59";
+width = 342;
+}
+);
+leftKerningGroup = seven.dnom;
+leftMetricsKey = seven;
+rightKerningGroup = seven.dnom;
+rightMetricsKey = seven;
+unicode = 2087;
+},
+{
+glyphname = eightinferior;
+lastChange = "2020-07-14 09:52:27 +0000";
+layers = (
+{
+components = (
+{
+name = eight.dnom;
+transform = "{1, 0, 0, 1, 0, -200}";
+}
+);
+layerId = "CEFBB1E5-951F-4065-926E-8B9137F837F5";
+width = 396;
+},
+{
+components = (
+{
+name = eight.dnom;
+transform = "{1, 0, 0, 1, 0, -200}";
+}
+);
+layerId = "5117E3E8-E17C-4812-BAF5-9E7064564A59";
+width = 380;
+}
+);
+leftKerningGroup = eight.dnom;
+leftMetricsKey = eight;
+rightKerningGroup = eight.dnom;
+rightMetricsKey = eight;
+unicode = 2088;
+},
+{
+glyphname = nineinferior;
+lastChange = "2020-07-14 09:52:30 +0000";
+layers = (
+{
+components = (
+{
+name = nine.dnom;
+transform = "{1, 0, 0, 1, 0, -200}";
+}
+);
+layerId = "CEFBB1E5-951F-4065-926E-8B9137F837F5";
+width = 394;
+},
+{
+components = (
+{
+name = nine.dnom;
+transform = "{1, 0, 0, 1, 0, -200}";
+}
+);
+layerId = "5117E3E8-E17C-4812-BAF5-9E7064564A59";
+width = 378;
+}
+);
+leftKerningGroup = nine.dnom;
+leftMetricsKey = nine;
+rightKerningGroup = nine.dnom;
+rightMetricsKey = nine;
+unicode = 2089;
+},
+{
 glyphname = zero.subs;
-lastChange = "2020-05-18 13:06:21 +0000";
+lastChange = "2020-07-14 09:41:15 +0000";
 layers = (
 {
 components = (
@@ -25301,7 +25611,7 @@ rightKerningGroup = zero.dnom;
 },
 {
 glyphname = one.subs;
-lastChange = "2020-05-16 11:21:48 +0000";
+lastChange = "2020-07-14 09:41:33 +0000";
 layers = (
 {
 components = (
@@ -26782,8 +27092,39 @@ rightKerningGroup = nine.numr;
 rightMetricsKey = nine.numr;
 },
 {
+glyphname = zerosuperior;
+lastChange = "2020-07-14 09:45:51 +0000";
+layers = (
+{
+components = (
+{
+name = zero.dnom;
+transform = "{1, 0, 0, 1, 0, 350}";
+}
+);
+layerId = "CEFBB1E5-951F-4065-926E-8B9137F837F5";
+width = 404;
+},
+{
+components = (
+{
+name = zero.dnom;
+transform = "{1, 0, 0, 1, 0, 350}";
+}
+);
+layerId = "5117E3E8-E17C-4812-BAF5-9E7064564A59";
+width = 388;
+}
+);
+leftKerningGroup = zero.numr;
+leftMetricsKey = zero;
+rightKerningGroup = zero.numr;
+rightMetricsKey = zero;
+unicode = 2070;
+},
+{
 glyphname = onesuperior;
-lastChange = "2020-05-16 11:21:48 +0000";
+lastChange = "2020-07-14 09:46:06 +0000";
 layers = (
 {
 components = (
@@ -26806,13 +27147,15 @@ layerId = "CEFBB1E5-951F-4065-926E-8B9137F837F5";
 width = 246;
 }
 );
+leftKerningGroup = one.numr;
 leftMetricsKey = one;
+rightKerningGroup = one.numr;
 rightMetricsKey = one;
 unicode = 00B9;
 },
 {
 glyphname = twosuperior;
-lastChange = "2020-05-16 11:21:48 +0000";
+lastChange = "2020-07-14 09:46:12 +0000";
 layers = (
 {
 components = (
@@ -26835,13 +27178,15 @@ layerId = "CEFBB1E5-951F-4065-926E-8B9137F837F5";
 width = 367;
 }
 );
+leftKerningGroup = two.numr;
 leftMetricsKey = two;
+rightKerningGroup = two.numr;
 rightMetricsKey = two;
 unicode = 00B2;
 },
 {
 glyphname = threesuperior;
-lastChange = "2020-05-18 13:05:55 +0000";
+lastChange = "2020-07-14 09:46:17 +0000";
 layers = (
 {
 components = (
@@ -26864,13 +27209,15 @@ layerId = "CEFBB1E5-951F-4065-926E-8B9137F837F5";
 width = 380;
 }
 );
+leftKerningGroup = three.numr;
 leftMetricsKey = three;
+rightKerningGroup = three.numr;
 rightMetricsKey = three;
 unicode = 00B3;
 },
 {
 glyphname = foursuperior;
-lastChange = "2020-05-16 11:21:48 +0000";
+lastChange = "2020-07-14 09:46:21 +0000";
 layers = (
 {
 components = (
@@ -26893,9 +27240,166 @@ layerId = "CEFBB1E5-951F-4065-926E-8B9137F837F5";
 width = 394;
 }
 );
+leftKerningGroup = four.numr;
 leftMetricsKey = four;
+rightKerningGroup = four.numr;
 rightMetricsKey = four;
 unicode = 2074;
+},
+{
+glyphname = fivesuperior;
+lastChange = "2020-07-14 09:46:25 +0000";
+layers = (
+{
+components = (
+{
+name = five.dnom;
+transform = "{1, 0, 0, 1, 0, 350}";
+}
+);
+layerId = "CEFBB1E5-951F-4065-926E-8B9137F837F5";
+width = 376;
+},
+{
+components = (
+{
+name = five.dnom;
+transform = "{1, 0, 0, 1, 0, 350}";
+}
+);
+layerId = "5117E3E8-E17C-4812-BAF5-9E7064564A59";
+width = 368;
+}
+);
+leftKerningGroup = five.numr;
+leftMetricsKey = five;
+rightKerningGroup = five.numr;
+rightMetricsKey = five;
+unicode = 2075;
+},
+{
+glyphname = sixsuperior;
+lastChange = "2020-07-14 09:46:29 +0000";
+layers = (
+{
+components = (
+{
+name = six.dnom;
+transform = "{1, 0, 0, 1, 0, 350}";
+}
+);
+layerId = "CEFBB1E5-951F-4065-926E-8B9137F837F5";
+width = 394;
+},
+{
+components = (
+{
+name = six.dnom;
+transform = "{1, 0, 0, 1, 0, 350}";
+}
+);
+layerId = "5117E3E8-E17C-4812-BAF5-9E7064564A59";
+width = 378;
+}
+);
+leftKerningGroup = six.numr;
+leftMetricsKey = six;
+rightKerningGroup = six.numr;
+rightMetricsKey = six;
+unicode = 2076;
+},
+{
+glyphname = sevensuperior;
+lastChange = "2020-07-14 09:46:33 +0000";
+layers = (
+{
+components = (
+{
+name = seven.dnom;
+transform = "{1, 0, 0, 1, 0, 350}";
+}
+);
+layerId = "CEFBB1E5-951F-4065-926E-8B9137F837F5";
+width = 340;
+},
+{
+components = (
+{
+name = seven.dnom;
+transform = "{1, 0, 0, 1, 0, 350}";
+}
+);
+layerId = "5117E3E8-E17C-4812-BAF5-9E7064564A59";
+width = 342;
+}
+);
+leftKerningGroup = seven.numr;
+leftMetricsKey = seven;
+rightKerningGroup = seven.numr;
+rightMetricsKey = seven;
+unicode = 2077;
+},
+{
+glyphname = eightsuperior;
+lastChange = "2020-07-14 09:46:37 +0000";
+layers = (
+{
+components = (
+{
+name = eight.dnom;
+transform = "{1, 0, 0, 1, 0, 350}";
+}
+);
+layerId = "CEFBB1E5-951F-4065-926E-8B9137F837F5";
+width = 396;
+},
+{
+components = (
+{
+name = eight.dnom;
+transform = "{1, 0, 0, 1, 0, 350}";
+}
+);
+layerId = "5117E3E8-E17C-4812-BAF5-9E7064564A59";
+width = 380;
+}
+);
+leftKerningGroup = eight.numr;
+leftMetricsKey = eight;
+rightKerningGroup = eight.numr;
+rightMetricsKey = eight;
+unicode = 2078;
+},
+{
+glyphname = ninesuperior;
+lastChange = "2020-07-14 09:46:42 +0000";
+layers = (
+{
+components = (
+{
+name = nine.dnom;
+transform = "{1, 0, 0, 1, 0, 350}";
+}
+);
+layerId = "CEFBB1E5-951F-4065-926E-8B9137F837F5";
+width = 394;
+},
+{
+components = (
+{
+name = nine.dnom;
+transform = "{1, 0, 0, 1, 0, 350}";
+}
+);
+layerId = "5117E3E8-E17C-4812-BAF5-9E7064564A59";
+width = 378;
+}
+);
+leftKerningGroup = nine.numr;
+leftMetricsKey = nine;
+rightKerningGroup = nine.numr;
+rightMetricsKey = nine;
+unicode = 2079;
 },
 {
 glyphname = zero.sups;
@@ -27602,6 +28106,36 @@ rightMetricsKey = seven.numr;
 unicode = 215E;
 },
 {
+glyphname = zeroinferior.zero;
+lastChange = "2020-07-14 09:52:42 +0000";
+layers = (
+{
+components = (
+{
+name = zero.dnom.zero;
+transform = "{1, 0, 0, 1, 0, -200}";
+}
+);
+layerId = "CEFBB1E5-951F-4065-926E-8B9137F837F5";
+width = 404;
+},
+{
+components = (
+{
+name = zero.dnom.zero;
+transform = "{1, 0, 0, 1, 0, -200}";
+}
+);
+layerId = "5117E3E8-E17C-4812-BAF5-9E7064564A59";
+width = 388;
+}
+);
+leftKerningGroup = zero.dnom;
+leftMetricsKey = zero;
+rightKerningGroup = zero.dnom;
+rightMetricsKey = zero;
+},
+{
 glyphname = zero.subs.zero;
 lastChange = "2020-05-18 13:06:21 +0000";
 layers = (
@@ -27774,6 +28308,36 @@ leftKerningGroup = zero.numr;
 leftMetricsKey = zero.dnom;
 rightKerningGroup = zero.numr;
 rightMetricsKey = zero.dnom;
+},
+{
+glyphname = zerosuperior.zero;
+lastChange = "2020-07-14 09:45:59 +0000";
+layers = (
+{
+components = (
+{
+name = zero.dnom.zero;
+transform = "{1, 0, 0, 1, 0, 350}";
+}
+);
+layerId = "CEFBB1E5-951F-4065-926E-8B9137F837F5";
+width = 404;
+},
+{
+components = (
+{
+name = zero.dnom.zero;
+transform = "{1, 0, 0, 1, 0, 350}";
+}
+);
+layerId = "5117E3E8-E17C-4812-BAF5-9E7064564A59";
+width = 388;
+}
+);
+leftKerningGroup = zero.numr;
+leftMetricsKey = zero;
+rightKerningGroup = zero.numr;
+rightMetricsKey = zero;
 },
 {
 glyphname = zero.sups.zero;
