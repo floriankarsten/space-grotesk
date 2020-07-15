@@ -5,5 +5,5 @@
 # font editor temporary files
 *(Autosaved).glyphs
 *.vfbak
-
-venv
+/docs/node_modules
+/docs/package-lock.json
