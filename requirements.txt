@@ -1,4 +1,3 @@
 fontmake
 git+https://github.com/googlefonts/gftools
-git+https://github.com/google/woff2
 statmake

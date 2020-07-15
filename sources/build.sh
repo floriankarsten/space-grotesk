@@ -1,7 +1,7 @@
 #!/bin/sh
 set -e
 
-mkdir -p ../fonts/ttf ../fonts/otf ../fonts/ttf/static ../fonts/woff ../fonts/woff/static ../fonts/woff2 ../fonts/woff2/static
+mkdir -p ../fonts/ttf ../fonts/otf ../fonts/ttf/static ../fonts/woff2 ../fonts/woff2/static
 
 
 echo "Generating VFs"
@@ -16,7 +16,6 @@ echo "Post processing VFs"
     gftools fix-unwanted-tables $VF_File -t MVAR
     python3 spaceG_stat_table.py $VF_File
 	woff2_compress $VF_File
-	sfnt2woff $VF_File
 
 echo "Generating Static TTFs"
 fontmake -m SpaceGrotesk.designspace -i -o ttf --output-dir ../fonts/ttf/static/ -a
@@ -29,27 +28,24 @@ do
 	gftools fix-hinting $ttf
 	mv "$ttf.fix" $ttf
 	woff2_compress $ttf
-	sfnt2woff $ttf
-	#cp $ttf ../fonts/woff2
 done
 
-# echo "Generating Static OTFs"
-# fontmake -m SpaceGrotesk.designspace -i -o otf --output-dir ../fonts/otf/static/ -a
+echo "Generating Static OTFs"
+fontmake -m SpaceGrotesk.designspace -i -o otf --output-dir ../fonts/otf/static/ -a
 
-# echo "Post processing Static OTF"
-# otf=$(ls ../fonts/otf/*.otf)
-# for otf in $otf
-# do
-# 	gftools fix-dsig -f $otf
-# done
+echo "Post processing Static OTF"
+otf=$(ls ../fonts/otf/*.otf)
+for otf in $otf
+do
+	gftools fix-dsig -f $otf
+done
 
-# rm -rf master_ufo/ instance_ufo/ ../fonts/ttf/*backup*.ttf *.ufo
+echo "Woff2 static and vf"
 
-# echo "Woff2 static and vf"
+mv ../fonts/ttf/*.woff2 ../fonts/woff2
+mv ../fonts/ttf/static/*.woff2 ../fonts/woff2/static
 
-# mv ../fonts/ttf/*.woff2 ../fonts/woff2
-# mv ../fonts/ttf/static/*.woff2 ../fonts/woff2/static
-
+rm -rf master_ufo/ instance_ufo/ ../fonts/ttf/*backup*.ttf *.ufo ../instance_ufo
 
 echo "Voila! Done."
 cd ..
