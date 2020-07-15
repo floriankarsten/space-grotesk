@@ -47,6 +47,8 @@
 
 html {
 	font-size: 12px;
+	--scroll-behavior: smooth;
+	scroll-behavior: smooth;
 }
 
 body {
@@ -59,9 +61,12 @@ body {
 
 	color: white;
 	background-color: black;
-	padding-bottom: 2.75rem;
+	padding-bottom: 2.75rem;	
+}
 
-	
+a {
+	color: inherit;
+	text-decoration: none;
 }
 
 span.label {
@@ -75,12 +80,106 @@ span.label {
 	letter-spacing: 0.04em;
 }
 
+header {
+	font-weight: 500;
+	font-size: 1rem;
+	line-height: 1;
+	letter-spacing: 0.04em;
+	padding: 0 2.5rem;
+
+	& > .content {
+		padding: 2.75rem 0;
+		border-bottom: solid white 0.85vw;
+
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+	}	
+}
+
+nav {
+	ul {
+		display: flex;
+
+		li + li {
+			margin-left: 2rem;
+		}
+	}
+}
+
 section {
 	padding: 0 2.5rem;
 
 	& > .content {
 		padding: 2.75rem 0;
 		border-bottom: solid white 0.85vw;
+	}
+}
+
+.intro {
+	position: relative;
+
+	.text {
+		font-family: 'Space Grotesk Variable';
+		font-size: 15vw;
+		line-height: 0.85;
+		text-align: center;
+		padding-bottom: 2.25rem;
+		transition: font-weight 300ms;
+	}
+
+	.weight-switch {
+		display: flex;
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+
+		div {
+			display: flex;
+			align-items: flex-end;
+			padding-bottom: 2.75rem;
+
+			&:nth-child(1), &:nth-child(4) {
+				width: 16.666%;
+				flex: 0 0 16.666%;
+			}
+
+			&:nth-child(2), &:nth-child(3) {
+				width: 33.333%;
+				flex: 0 0 33.333%;
+				justify-content: space-around;
+			}
+
+			&:nth-child(4) {
+				justify-content: flex-end;
+			}
+
+			span {
+				display: inline-block;
+				position: relative;
+
+				font-weight: 500;
+				font-size: 1rem;
+				line-height: 1;
+				letter-spacing: 0.04em;
+			}
+
+			&.active {
+				span:before {
+					content: " ";
+					position: relative;
+					display: inline-block;
+					width: 1em;
+					height: 1em;
+					border-radius: 0.5em;
+					margin-right: 0.5em;
+					background-color: white;
+					bottom: -0.125em;
+				}
+			}
+		}
 	}
 }
 
@@ -135,6 +234,46 @@ section {
 			}
 		}
 	}
+}
+
+.about {
+	display: grid;
+	grid-template-columns: 50% 50%;
+	grid-template-rows: auto;
+
+	.title, .author {
+		font-weight: 500;
+		font-size: 1rem;
+		line-height: 1;
+		letter-spacing: 0.04em;
+	}	
+
+	.title {
+		grid-column-start: 1;
+		grid-column-end: 2;
+		grid-row-start: 1;
+		grid-row-end: 2;
+	}
+
+	.author {
+		grid-column-start: 1;
+		grid-column-end: 2;
+		grid-row-start: 2;
+		grid-row-end: 3;
+		align-self: end;
+		padding-bottom: 0.4rem;
+		padding-right: 2.5rem;
+		line-height: 1.2;
+	}
+
+	.description {
+		grid-column-start: 2;
+		grid-column-end: 3;
+		grid-row-start: 1;
+		grid-row-end: 3;
+		font-size: 2rem;
+		line-height: 1.25;
+	}	
 }
 
 .style-overview {
@@ -223,16 +362,97 @@ section > .character-set {
 				display: flex;
 				justify-content: space-around;
 				align-items: center;
-				border: 1px solid white;
-
-				font-size: 32vw;
-				line-height: 1;
-				font-weight: 700;
+				position: relative;
+				//border: 1px solid white;				
 
 				height: calc(100vh - 9.25rem);
+				padding-bottom: 2.75rem;
 
-				span {
-					padding-top: 2vw;
+				div.character-content {
+					display: block;
+					position: relative;
+					width: 100%;
+					text-align: center;
+					padding: 0;
+
+					& > span {
+						display: block;
+						position: absolute;
+						left: 0px;
+						width: 100%;
+						height: 0;
+						border-top: 1px dotted #444;
+
+						&:before {
+							display: block;
+							position: absolute;
+							bottom: 0.5rem;
+							left: 0;
+							font-size: 0.8rem;
+							font-weight: 500;
+							letter-spacing: 0.05em;
+							color: #444;
+						}
+
+						&.baseline {
+							bottom: 28%;
+
+							&:before {
+								content: "Baseline";
+							}
+						}
+
+						&.x-height {
+							bottom: 59.275%;
+
+							&:before {
+								content: "X-Height";
+							}
+						}
+
+						&.ascender {
+							bottom: 72.25%;
+
+							&:before {
+								content: "Cap Height";
+							}
+						}
+
+						&.descender {
+							bottom: 15.25%;
+
+							&:before {
+								content: "Descender";
+							}
+						}
+					}
+
+					div.character {
+						width: 100%;
+						height: auto;
+						z-index: 1;
+						padding: 0.325em 0 0.25em 0;
+
+						font-size: 28vw;
+						line-height: 1;
+						font-weight: 700;
+						letter-spacing: 0;
+						text-align: center;
+					}
+				}
+
+				div#character-info {
+					position: absolute;
+					bottom: 0;
+					left: 0;
+
+					font-weight: 500;
+					line-height: 1;
+					letter-spacing: 0.04em;
+
+					span + span {
+						margin-left: 2rem;
+					}
 				}
 			}
 		}
@@ -264,9 +484,13 @@ section > .character-set {
 					font-weight: 700;
 					text-align: center;
 
+					cursor: default;
+					transition: background-color 300ms, color 300ms;
+
 					&.active {
 						background-color: white;
 						color: black;
+						transition: background-color 100ms, color 100ms;
 					}
 				}
 			}

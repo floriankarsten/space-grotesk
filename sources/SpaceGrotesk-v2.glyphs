@@ -11171,7 +11171,7 @@ unicode = 00E6;
 },
 {
 glyphname = aeacute;
-lastChange = "2020-06-02 18:02:18 +0000";
+lastChange = "2020-07-14 11:38:55 +0000";
 layers = (
 {
 components = (
@@ -11185,7 +11185,7 @@ transform = "{1, 0, 0, 1, 328, 0}";
 }
 );
 layerId = "5117E3E8-E17C-4812-BAF5-9E7064564A59";
-width = 896;
+width = 874;
 },
 {
 components = (
@@ -11200,11 +11200,13 @@ transform = "{1, 0, 0, 1, 375, 0}";
 }
 );
 layerId = "CEFBB1E5-951F-4065-926E-8B9137F837F5";
-width = 949;
+width = 946;
 }
 );
 leftKerningGroup = a;
+leftMetricsKey = a;
 rightKerningGroup = o;
+rightMetricsKey = e;
 unicode = 01FD;
 },
 {
@@ -27960,7 +27962,7 @@ unicode = 2044;
 },
 {
 glyphname = onehalf;
-lastChange = "2020-06-25 07:45:22 +0000";
+lastChange = "2020-07-14 11:38:56 +0000";
 layers = (
 {
 components = (
@@ -28003,7 +28005,7 @@ unicode = 00BD;
 },
 {
 glyphname = onethird;
-lastChange = "2020-06-25 07:45:22 +0000";
+lastChange = "2020-07-14 11:38:56 +0000";
 layers = (
 {
 components = (
@@ -28046,7 +28048,7 @@ unicode = 2153;
 },
 {
 glyphname = twothirds;
-lastChange = "2020-06-25 07:45:22 +0000";
+lastChange = "2020-07-14 11:38:56 +0000";
 layers = (
 {
 components = (
@@ -28089,7 +28091,7 @@ unicode = 2154;
 },
 {
 glyphname = onequarter;
-lastChange = "2020-06-25 07:45:22 +0000";
+lastChange = "2020-07-14 11:38:56 +0000";
 layers = (
 {
 components = (
@@ -28132,7 +28134,7 @@ unicode = 00BC;
 },
 {
 glyphname = threequarters;
-lastChange = "2020-06-25 07:45:22 +0000";
+lastChange = "2020-07-14 11:38:56 +0000";
 layers = (
 {
 components = (
@@ -28175,7 +28177,7 @@ unicode = 00BE;
 },
 {
 glyphname = oneeighth;
-lastChange = "2020-06-25 07:45:22 +0000";
+lastChange = "2020-07-14 11:38:56 +0000";
 layers = (
 {
 components = (
@@ -28218,7 +28220,7 @@ unicode = 215B;
 },
 {
 glyphname = threeeighths;
-lastChange = "2020-06-25 07:45:22 +0000";
+lastChange = "2020-07-14 11:38:56 +0000";
 layers = (
 {
 components = (
@@ -28261,7 +28263,7 @@ unicode = 215C;
 },
 {
 glyphname = fiveeighths;
-lastChange = "2020-06-25 07:45:22 +0000";
+lastChange = "2020-07-14 11:38:56 +0000";
 layers = (
 {
 components = (
@@ -28304,7 +28306,7 @@ unicode = 215D;
 },
 {
 glyphname = seveneighths;
-lastChange = "2020-06-25 07:45:22 +0000";
+lastChange = "2020-07-14 11:38:56 +0000";
 layers = (
 {
 components = (
