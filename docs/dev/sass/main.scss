@@ -497,3 +497,53 @@ section > .character-set {
 		}
 	}
 }
+
+.ot-container {
+	display: flex;
+	flex-wrap: wrap;
+
+	.ot {
+		flex: 0 0 50%;
+		
+		border-top: 1px solid white;
+
+		&:nth-child(odd) {
+			.ot-content {
+				border-right: 1px solid white;
+				padding-right: 2.5rem;
+			}
+		}
+
+		&:nth-child(even) {
+			.ot-content {
+				padding-left: 2.5rem;
+			}
+		}
+
+		.ot-content {
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: space-between;
+			height: 10vw;
+
+
+			.label {
+				flex: 0 0 100%;
+				align-self: flex-end;
+				order: 3;
+				padding: 0;
+			}
+
+			.ot-string {
+				flex: 0 1 auto;
+				font-weight: 700;
+				font-size: 4vw;
+				line-height: 1;
+
+				span {
+					color: aqua;
+				}
+			}
+		}
+	}
+}
