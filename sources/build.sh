@@ -1,58 +1,51 @@
 #!/bin/sh
 set -e
 
-echo "Generating Static OTFs"
-mkdir -p ../fonts/otf
-fontmake -g "SpaceGrotesk-v2.glyphs" -i -o otf --output-dir ../fonts/otf/
+mkdir -p ../fonts/ttf ../fonts/otf ../fonts/ttf/static ../fonts/woff2 ../fonts/woff2/static
 
-echo "Generating Static TTFs"
-mkdir -p ../fonts/ttf/static
-fontmake -g "SpaceGrotesk-v2.glyphs" -i -o ttf --output-dir ../fonts/ttf/static/
 
 echo "Generating VFs"
-mkdir -p ../fonts/ttf
-fontmake -g "SpaceGrotesk-v2.glyphs" -o variable --output-path ../fonts/ttf/SpaceGrotesk\[wght\].ttf
-#statmake --stylespace ./stat.stylespace --designspace master_ufo/SpaceGrotesk.designspace ../fonts/ttf/SpaceGrotesk\[wght\].ttf
+VF_File=../fonts/ttf/SpaceGrotesk\[wght\].ttf
+glyphs2ufo SpaceGrotesk-v2.glyphs --generate-GDEF
+fontmake -m SpaceGrotesk.designspace -o variable --output-path $VF_File
 
-rm -rf master_ufo/ instance_ufo/
+echo "Post processing VFs"
+    gftools fix-nonhinting $VF_File $VF_File.fix
+    mv $VF_File.fix $VF_File
+    gftools fix-dsig -f $VF_File
+    gftools fix-unwanted-tables $VF_File -t MVAR
+    python3 spaceG_stat_table.py $VF_File
+	woff2_compress $VF_File
 
-echo "Post processing"
+echo "Generating Static TTFs"
+fontmake -m SpaceGrotesk.designspace -i -o ttf --output-dir ../fonts/ttf/static/ -a
 
+echo "Post processing Static TTFs"
 ttfs=$(ls ../fonts/ttf/static/*.ttf)
 for ttf in $ttfs
 do
 	gftools fix-dsig -f $ttf;
-	ttfautohint $ttf $ttf.fix
-	mv "$ttf.fix" $ttf
 	gftools fix-hinting $ttf
 	mv "$ttf.fix" $ttf
 	woff2_compress $ttf
-	sfnt2woff $ttf
 done
 
-vfs=$(ls ../fonts/ttf/*.ttf)
-for vf in $vfs
+echo "Generating Static OTFs"
+fontmake -m SpaceGrotesk.designspace -i -o otf --output-dir ../fonts/otf/static/ -a
+
+echo "Post processing Static OTF"
+otf=$(ls ../fonts/otf/*.otf)
+for otf in $otf
 do
-	gftools fix-dsig -f $vf;
-	gftools fix-nonhinting $vf "$vf.fix"
-	mv "$vf.fix" $vf
-	gftools fix-unwanted-tables --tables MVAR $vf
-	woff2_compress $vf
-	sfnt2woff $vf
+	gftools fix-dsig -f $otf
 done
-rm ../fonts/ttf/*backup*.ttf
 
-mkdir -p ../fonts/woff2
+echo "Woff2 static and vf"
+
 mv ../fonts/ttf/*.woff2 ../fonts/woff2
-
-mkdir -p ../fonts/woff2/static
 mv ../fonts/ttf/static/*.woff2 ../fonts/woff2/static
 
-mkdir -p ../fonts/woff
-mv ../fonts/ttf/*.woff ../fonts/woff
-
-mkdir -p ../fonts/woff/static
-mv ../fonts/ttf/static/*.woff ../fonts/woff/static
+rm -rf master_ufo/ instance_ufo/ ../fonts/ttf/*backup*.ttf *.ufo ../instance_ufo
 
 echo "Voila! Done."
 cd ..

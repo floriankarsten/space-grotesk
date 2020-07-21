@@ -1,0 +1,148 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<designspace format="4.1">
+  <axes>
+    <axis tag="wght" name="Weight" minimum="300" maximum="700" default="300">
+      <map input="300" output="300"/>
+      <map input="400" output="416"/>
+      <map input="500" output="560"/>
+      <map input="700" output="700"/>
+    </axis>
+  </axes>
+  <sources>
+    <source filename="SpaceGrotesk-Light.ufo" name="Space Grotesk Light" familyname="Space Grotesk" stylename="Light">
+      <lib copy="1"/>
+      <groups copy="1"/>
+      <features copy="1"/>
+      <info copy="1"/>
+      <location>
+        <dimension name="Weight" xvalue="300"/>
+      </location>
+    </source>
+    <source filename="SpaceGrotesk-Bold.ufo" name="Space Grotesk Bold" familyname="Space Grotesk" stylename="Bold">
+      <location>
+        <dimension name="Weight" xvalue="700"/>
+      </location>
+    </source>
+  </sources>
+  <instances>
+    <instance name="Space Grotesk Light" familyname="Space Grotesk" stylename="Light" filename="../instance_ufo/SpaceGrotesk-Light.ufo" stylemapfamilyname="Space Grotesk Light" stylemapstylename="regular">
+      <location>
+        <dimension name="Weight" xvalue="300"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance name="Space Grotesk Regular" familyname="Space Grotesk" stylename="Regular" filename="../instance_ufo/SpaceGrotesk-Regular.ufo" stylemapfamilyname="Space Grotesk" stylemapstylename="regular">
+      <location>
+        <dimension name="Weight" xvalue="416"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance name="Space Grotesk Medium" familyname="Space Grotesk" stylename="Medium" filename="../instance_ufo/SpaceGrotesk-Medium.ufo" stylemapfamilyname="Space Grotesk Medium" stylemapstylename="regular">
+      <location>
+        <dimension name="Weight" xvalue="560"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance name="Space Grotesk Bold" familyname="Space Grotesk" stylename="Bold" filename="../instance_ufo/SpaceGrotesk-Bold.ufo" stylemapfamilyname="Space Grotesk" stylemapstylename="bold">
+      <location>
+        <dimension name="Weight" xvalue="700"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+  </instances>
+  <lib>
+    <dict>
+      <key>GSDimensionPlugin.Dimensions</key>
+      <dict>
+        <key>15F8661D-6546-4179-B268-C9CC39310889</key>
+        <dict>
+          <key>HH</key>
+          <string>78</string>
+          <key>HV</key>
+          <string>84</string>
+          <key>OH</key>
+          <string>78</string>
+          <key>OV</key>
+          <string>84</string>
+          <key>nV</key>
+          <string>78</string>
+          <key>nd</key>
+          <string>60</string>
+          <key>oH</key>
+          <string>74</string>
+          <key>oV</key>
+          <string>80</string>
+          <key>tH</key>
+          <string>72</string>
+        </dict>
+        <key>5117E3E8-E17C-4812-BAF5-9E7064564A59</key>
+        <dict>
+          <key>HH</key>
+          <string>120</string>
+          <key>HV</key>
+          <string>132</string>
+          <key>OH</key>
+          <string>118</string>
+          <key>OV</key>
+          <string>132</string>
+          <key>nV</key>
+          <string>126</string>
+          <key>nd</key>
+          <string>100</string>
+          <key>oH</key>
+          <string>112</string>
+          <key>oV</key>
+          <string>126</string>
+          <key>tH</key>
+          <string>104</string>
+        </dict>
+        <key>A285862E-BE3D-4D67-A40D-0E28E121AD88</key>
+        <dict>
+          <key>HH</key>
+          <string>48</string>
+          <key>HV</key>
+          <string>54</string>
+          <key>OH</key>
+          <string>48</string>
+          <key>OV</key>
+          <string>54</string>
+          <key>nV</key>
+          <string>50</string>
+          <key>nd</key>
+          <string>42</string>
+          <key>oH</key>
+          <string>46</string>
+          <key>oV</key>
+          <string>50</string>
+          <key>tH</key>
+          <string>44</string>
+        </dict>
+        <key>CCC6267B-7D5D-4B2E-A229-3A2D752D6A18</key>
+        <dict>
+          <key>HH</key>
+          <string>92</string>
+          <key>HV</key>
+          <string>100</string>
+          <key>OH</key>
+          <string>92</string>
+          <key>OV</key>
+          <string>100</string>
+          <key>nV</key>
+          <string>94</string>
+          <key>nd</key>
+          <string>70</string>
+          <key>oH</key>
+          <string>86</string>
+          <key>oV</key>
+          <string>94</string>
+          <key>tH</key>
+          <string>82</string>
+        </dict>
+      </dict>
+    </dict>
+  </lib>
+</designspace>
