@@ -23,13 +23,13 @@
 </header>
 
 <section>
-	<div class="content intro">
+	<div class="content large-type intro">
 		<div class="text" style="font-weight: 700;">
 			SPACE<br>
 			√5&©3€ā¾<br>
 			GROTESK
 		</div>
-		<div class="weight-switch">
+		<div class="switch-container">
 			<div data-weight="300"><span>300 Light</span></div>
 			<div data-weight="400"><span>400 Regular</span></div>
 			<div data-weight="500"><span>500 Medium</span></div>
@@ -106,6 +106,22 @@
 			<span>Jó foxim és don Quijote húszwattos lámpánál ülve egy pár bűvös cipőt készít. Jó foxim és don Quijote húszwattos lámpánál ülve egy pár bűvös cipőt készít.</span>
 			<span>Nechť již hříšné saxofony ďáblů rozzvučí síň úděsnými tóny waltzu, tanga a quickstepu. Nechť již hříšné saxofony ďáblů rozzvučí síň úděsnými tóny waltzu, tanga a quickstepu.</span>
 			<span>D'fhuascail Íosa Úrmhac na hÓighe Beannaithe pór Éava agus Ádhaimh. D'fhuascail Íosa Úrmhac na hÓighe Beannaithe pór Éava agus Ádhaimh.</span>
+		</div>
+	</div>
+</section>
+
+<section>
+	<div class="content large-type intro">
+		<div class="text" style="font-weight: 700;">
+			Curiosity<br>
+			Gemini<br>
+			Atlantis
+		</div>
+		<div class="switch-container">
+			<div data-weight="300"><span>300 Light</span></div>
+			<div data-weight="400"><span>400 Regular</span></div>
+			<div data-weight="500"><span>500 Medium</span></div>
+			<div data-weight="700" class="active"><span>700 Bold</span></div>
 		</div>
 	</div>
 </section>
@@ -751,13 +767,26 @@
 </section>
 
 <section id="opentype-features">
-	<div class="content">
+	<div class="content large-type opentype">
 		<span class="label">OpenType Features</span>
+		<div class="text" style="font-weight: 700;">
+			<span style="font-feature-settings: 'case' 1;">{</span>A<span style="font-feature-settings: 'ss01' 1;">a</span><span style="font-feature-settings: 'ss02' 1;">B</span>bCc<span style="font-feature-settings: 'case' 1;">}</span><br>
+			<span style="font-feature-settings: 'frac' 1;">3/5</span> H<span style="font-feature-settings: 'subs' 1;">2</span>0<br>
+			<span style="font-feature-settings: 'tnum' 1;">1</span>9<span style="font-feature-settings: 'zero' 1;">0</span>6 <span style="font-feature-settings: 'onum' 1;">1964</span>
+		</div>
+		<div class="switch-container">
+			<div data-features="on" class="active"><span>On</span></div>
+			<div data-features="off"><span>Off</span></div>
+		</div>
+	</div>
+</section>
 
+<section class="ot-section">
+	<div class="content">
 		<div class="ot-container">
 			<div class="ot">
 				<div class="ot-content">
-					<span class="label">Case sensitive forms</span>
+					<span class="label">Case Sensitive Forms</span>
 					<span class="ot-string">
 						<span>{</span>H<span>–</span>O<span>}</span>N<span>/</span>M
 					</span>
@@ -769,40 +798,87 @@
 
 			<div class="ot">
 				<div class="ot-content">
-					<span class="label">Case sensitive forms</span>
+					<span class="label">Superscript, Subscript</span>
 					<span class="ot-string">
-						<span>{</span>H<span>–</span>O<span>}</span>N<span>/</span>M
+						32 m<span>2</span> H<span>2</span>O
 					</span>
-					<span class="ot-string" style="font-feature-settings: 'case' 1;">
-						{H–O}N/M
+					<span class="ot-string">
+						32 m<span style="font-feature-settings: 'sups' 1;">2</span> H<span style="font-feature-settings: 'subs' 1;">2</span>O
 					</span>
 				</div>
 			</div>
 
 			<div class="ot">
 				<div class="ot-content">
-					<span class="label">Case sensitive forms</span>
+					<span class="label">Tabular Figures</span>
 					<span class="ot-string">
-						<span>{</span>H<span>–</span>O<span>}</span>N<span>/</span>M
+						<span>11</span>. <span>4</span>. <span>1970</span>
 					</span>
-					<span class="ot-string" style="font-feature-settings: 'case' 1;">
-						{H–O}N/M
+					<span class="ot-string" style="font-feature-settings: 'tnum' 1;">
+						11. 4. 1970
 					</span>
 				</div>
 			</div>
 
 			<div class="ot">
 				<div class="ot-content">
-					<span class="label">Case sensitive forms</span>
+					<span class="label">Oldstyle Figures</span>
 					<span class="ot-string">
-						<span>{</span>H<span>–</span>O<span>}</span>N<span>/</span>M
+						<span>7</span>. <span>12</span>. <span>1972</span>
 					</span>
-					<span class="ot-string" style="font-feature-settings: 'case' 1;">
-						{H–O}N/M
+					<span class="ot-string" style="font-feature-settings: 'onum' 1;">
+						7. 12. 1972
 					</span>
 				</div>
 			</div>
 
+			<div class="ot">
+				<div class="ot-content">
+					<span class="label">Fractions</span>
+					<span class="ot-string" style="font-feature-settings: 'case' 1;">
+						<span>1/3 2/5 4/7</span>
+					</span>
+					<span class="ot-string" style="font-feature-settings: 'frac' 1;">
+						1/3 2/5 4/7
+					</span>
+				</div>
+			</div>
+
+			<div class="ot">
+				<div class="ot-content">
+					<span class="label">Slashed Zero</span>
+					<span class="ot-string">
+						19<span>0</span>6
+					</span>
+					<span class="ot-string" style="font-feature-settings: 'zero' 1;">
+						1906
+					</span>
+				</div>
+			</div>
+
+			<div class="ot">
+				<div class="ot-content">
+					<span class="label">Stylistic Set 1</span>
+					<span class="ot-string">
+						Sp<span>a</span>ce
+					</span>
+					<span class="ot-string" style="font-feature-settings: 'ss01' 1;">
+						Space
+					</span>
+				</div>
+			</div>
+
+			<div class="ot">
+				<div class="ot-content">
+					<span class="label">Stylistic Set 2</span>
+					<span class="ot-string">
+						<span>D</span>ISCOVERY
+					</span>
+					<span class="ot-string" style="font-feature-settings: 'ss02' 1;">
+						DISCOVERY
+					</span>
+				</div>
+			</div>
 		</div>
 	</div>
 </section>

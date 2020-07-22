@@ -114,21 +114,23 @@ section {
 		padding: 2.75rem 0;
 		border-bottom: solid white 0.85vw;
 	}
+
+	&.ot-section > .content {
+		padding: 0;
+	}
 }
 
-.intro {
+.large-type {
 	position: relative;
 
 	.text {
-		font-family: 'Space Grotesk Variable';
 		font-size: 15vw;
-		line-height: 0.85;
+		line-height: 0.925;
 		text-align: center;
 		padding-bottom: 2.25rem;
-		transition: font-weight 300ms;
 	}
 
-	.weight-switch {
+	.switch-container {
 		display: flex;
 		position: absolute;
 		top: 0;
@@ -140,21 +142,6 @@ section {
 			display: flex;
 			align-items: flex-end;
 			padding-bottom: 2.75rem;
-
-			&:nth-child(1), &:nth-child(4) {
-				width: 16.666%;
-				flex: 0 0 16.666%;
-			}
-
-			&:nth-child(2), &:nth-child(3) {
-				width: 33.333%;
-				flex: 0 0 33.333%;
-				justify-content: space-around;
-			}
-
-			&:nth-child(4) {
-				justify-content: flex-end;
-			}
 
 			span {
 				display: inline-block;
@@ -178,6 +165,60 @@ section {
 					background-color: white;
 					bottom: -0.125em;
 				}
+			}
+		}
+	}
+}
+
+.large-type.intro {
+	.text {
+		font-family: 'Space Grotesk Variable';
+		transition: font-weight 300ms;
+	}
+
+	.switch-container {
+		div {
+			&:nth-child(1), &:nth-child(4) {
+				width: 16.666%;
+				flex: 0 0 16.666%;
+			}
+
+			&:nth-child(2), &:nth-child(3) {
+				width: 33.333%;
+				flex: 0 0 33.333%;
+				justify-content: space-around;
+			}
+
+			&:nth-child(4) {
+				justify-content: flex-end;
+			}
+		}
+	}
+}
+
+.large-type.opentype {
+	.text {
+		font-family: 'Space Grotesk Variable';
+		transition: font-weight 300ms;
+
+		span {
+			color: white;
+			transition: color 300ms;
+		}
+
+		span.disabled {
+			color: aqua;
+			font-feature-settings: normal !important;
+		}
+	}
+
+	.switch-container {
+		div {
+			width: 50%;
+			flex: 0 0 50%;
+
+			&:last-child {
+				justify-content: flex-end;
 			}
 		}
 	}
@@ -504,12 +545,15 @@ section > .character-set {
 
 	.ot {
 		flex: 0 0 50%;
-		
-		border-top: 1px solid white;
+		border-top: 1px dotted #444;
+
+		&:nth-child(1), &:nth-child(2) {
+			border-top: none;
+		}
 
 		&:nth-child(odd) {
 			.ot-content {
-				border-right: 1px solid white;
+				border-right: 1px dotted #444;
 				padding-right: 2.5rem;
 			}
 		}
@@ -524,24 +568,27 @@ section > .character-set {
 			display: flex;
 			flex-wrap: wrap;
 			justify-content: space-between;
-			height: 10vw;
+			padding-top: 2.5rem;
+			padding-bottom: 2.5rem;
 
 
 			.label {
 				flex: 0 0 100%;
 				align-self: flex-end;
 				order: 3;
-				padding: 0;
+				padding: 4rem 0 0 0;
 			}
 
 			.ot-string {
 				flex: 0 1 auto;
 				font-weight: 700;
-				font-size: 4vw;
+				font-size: 3.75vw;
 				line-height: 1;
 
-				span {
-					color: aqua;
+				&:nth-child(2) {
+					span {
+						color: aqua;
+					}
 				}
 			}
 		}

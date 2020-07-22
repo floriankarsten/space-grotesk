@@ -6434,7 +6434,7 @@ unicode = 0033;
 },
 {
 glyphname = four;
-lastChange = "2020-06-02 09:59:57 +0000";
+lastChange = "2020-07-22 04:53:57 +0000";
 layers = (
 {
 layerId = "5117E3E8-E17C-4812-BAF5-9E7064564A59";
@@ -6442,30 +6442,31 @@ paths = (
 {
 closed = 1;
 nodes = (
-"26 252 LINE",
+"26 290 LINE",
 "26 142 LINE",
-"374 142 LINE",
-"374 0 LINE",
-"502 0 LINE",
-"502 142 LINE",
-"618 142 LINE",
-"618 256 LINE",
-"502 256 LINE",
-"502 700 LINE",
-"271 700 LINE"
+"370 142 LINE",
+"370 0 LINE",
+"498 0 LINE",
+"498 142 LINE",
+"614 142 LINE",
+"614 256 LINE",
+"498 256 LINE",
+"498 700 LINE",
+"268 700 LINE"
 );
 },
 {
 closed = 1;
 nodes = (
-"374 618 LINE",
-"374 256 LINE",
-"158 256 LINE",
-"356 618 LINE"
+"370 618 LINE",
+"370 256 LINE",
+"148 256 LINE",
+"148 272 LINE",
+"352 618 LINE"
 );
 }
 );
-width = 640;
+width = 636;
 },
 {
 layerId = "CEFBB1E5-951F-4065-926E-8B9137F837F5";
@@ -6473,30 +6474,31 @@ paths = (
 {
 closed = 1;
 nodes = (
-"33 198 LINE",
-"33 144 LINE",
-"413 144 LINE",
-"413 0 LINE",
-"475 0 LINE",
-"475 144 LINE",
-"597 144 LINE",
-"597 200 LINE",
-"475 200 LINE",
-"475 700 LINE",
-"355 700 LINE"
+"34 218 LINE",
+"34 144 LINE",
+"408 144 LINE",
+"408 0 LINE",
+"470 0 LINE",
+"470 144 LINE",
+"592 144 LINE",
+"592 200 LINE",
+"470 200 LINE",
+"470 700 LINE",
+"350 700 LINE"
 );
 },
 {
 closed = 1;
 nodes = (
-"413 664 LINE",
-"413 200 LINE",
-"103 200 LINE",
-"401 664 LINE"
+"408 664 LINE",
+"408 200 LINE",
+"99 200 LINE",
+"99 210 LINE",
+"396 664 LINE"
 );
 }
 );
-width = 624;
+width = 620;
 }
 );
 leftKerningGroup = four;
@@ -31546,7 +31548,7 @@ rightMetricsKey = three;
 },
 {
 glyphname = four.lf;
-lastChange = "2020-05-16 11:21:48 +0000";
+lastChange = "2020-07-22 04:54:04 +0000";
 layers = (
 {
 components = (
@@ -31565,7 +31567,7 @@ name = four;
 }
 );
 layerId = "CEFBB1E5-951F-4065-926E-8B9137F837F5";
-width = 624;
+width = 620;
 }
 );
 leftKerningGroup = four;
@@ -32077,7 +32079,7 @@ rightKerningGroup = three.osf;
 },
 {
 glyphname = four.osf;
-lastChange = "2020-05-17 22:41:01 +0000";
+lastChange = "2020-07-22 04:56:15 +0000";
 layers = (
 {
 layerId = "5117E3E8-E17C-4812-BAF5-9E7064564A59";
@@ -32085,30 +32087,31 @@ paths = (
 {
 closed = 1;
 nodes = (
-"32 98 LINE",
+"32 136 LINE",
 "32 0 LINE",
-"364 0 LINE",
-"364 -200 LINE",
-"490 -200 LINE",
-"490 0 LINE",
-"604 0 LINE",
-"604 106 LINE",
-"490 106 LINE",
-"490 496 LINE",
-"264 496 LINE"
+"360 0 LINE",
+"360 -200 LINE",
+"486 -200 LINE",
+"486 0 LINE",
+"600 0 LINE",
+"600 106 LINE",
+"486 106 LINE",
+"486 496 LINE",
+"262 496 LINE"
 );
 },
 {
 closed = 1;
 nodes = (
-"364 410 LINE",
-"364 106 LINE",
-"168 106 LINE",
-"346 410 LINE"
+"360 410 LINE",
+"360 106 LINE",
+"158 106 LINE",
+"158 122 LINE",
+"342 410 LINE"
 );
 }
 );
-width = 624;
+width = 620;
 },
 {
 layerId = "CEFBB1E5-951F-4065-926E-8B9137F837F5";
@@ -32116,30 +32119,31 @@ paths = (
 {
 closed = 1;
 nodes = (
-"32 51 LINE",
+"32 76 LINE",
 "32 0 LINE",
-"403 0 LINE",
-"403 -200 LINE",
-"463 -200 LINE",
-"463 0 LINE",
-"587 0 LINE",
-"587 54 LINE",
-"463 54 LINE",
-"463 486 LINE",
-"355 486 LINE"
+"394 0 LINE",
+"394 -200 LINE",
+"454 -200 LINE",
+"454 0 LINE",
+"578 0 LINE",
+"578 54 LINE",
+"454 54 LINE",
+"454 486 LINE",
+"346 486 LINE"
 );
 },
 {
 closed = 1;
 nodes = (
-"403 444 LINE",
-"403 54 LINE",
-"101 54 LINE",
-"391 444 LINE"
+"394 444 LINE",
+"394 54 LINE",
+"91 54 LINE",
+"91 64 LINE",
+"382 444 LINE"
 );
 }
 );
-width = 614;
+width = 606;
 }
 );
 leftKerningGroup = four.osf;
@@ -32987,7 +32991,7 @@ note = three;
 },
 {
 glyphname = four.tf;
-lastChange = "2020-05-16 11:21:48 +0000";
+lastChange = "2020-07-22 04:55:47 +0000";
 layers = (
 {
 layerId = "5117E3E8-E17C-4812-BAF5-9E7064564A59";
@@ -32995,26 +32999,27 @@ paths = (
 {
 closed = 1;
 nodes = (
-"32 252 LINE",
+"32 290 LINE",
 "32 142 LINE",
-"360 142 LINE",
-"360 0 LINE",
+"362 142 LINE",
+"362 0 LINE",
 "490 0 LINE",
 "490 142 LINE",
 "604 142 LINE",
 "604 256 LINE",
 "490 256 LINE",
 "490 700 LINE",
-"258 700 LINE"
+"259 700 LINE"
 );
 },
 {
 closed = 1;
 nodes = (
-"360 614 LINE",
-"360 256 LINE",
-"162 256 LINE",
-"342 614 LINE"
+"362 618 LINE",
+"362 256 LINE",
+"152 256 LINE",
+"152 272 LINE",
+"344 618 LINE"
 );
 }
 );
@@ -33026,26 +33031,27 @@ paths = (
 {
 closed = 1;
 nodes = (
-"39 198 LINE",
-"39 144 LINE",
-"409 144 LINE",
-"409 0 LINE",
-"471 0 LINE",
-"471 144 LINE",
-"594 144 LINE",
-"594 200 LINE",
-"471 200 LINE",
-"471 700 LINE",
-"362 700 LINE"
+"38 218 LINE",
+"38 144 LINE",
+"408 144 LINE",
+"408 0 LINE",
+"470 0 LINE",
+"470 144 LINE",
+"592 144 LINE",
+"592 200 LINE",
+"470 200 LINE",
+"470 700 LINE",
+"350 700 LINE"
 );
 },
 {
 closed = 1;
 nodes = (
-"409 644 LINE",
-"409 200 LINE",
-"108 200 LINE",
-"396 644 LINE"
+"408 664 LINE",
+"408 200 LINE",
+"102 200 LINE",
+"102 210 LINE",
+"396 664 LINE"
 );
 }
 );
@@ -33403,12 +33409,13 @@ note = three.tosn;
 },
 {
 glyphname = four.tosf;
-lastChange = "2020-05-16 11:21:48 +0000";
+lastChange = "2020-07-22 04:56:26 +0000";
 layers = (
 {
 components = (
 {
 name = four.osf;
+transform = "{1, 0, 0, 1, -2, 0}";
 }
 );
 layerId = "5117E3E8-E17C-4812-BAF5-9E7064564A59";
@@ -33419,7 +33426,7 @@ components = (
 {
 alignment = -1;
 name = four.osf;
-transform = "{1, 0, 0, 1, 7, 0}";
+transform = "{1, 0, 0, 1, 6, 0}";
 }
 );
 layerId = "CEFBB1E5-951F-4065-926E-8B9137F837F5";
@@ -34540,7 +34547,7 @@ rightKerningGroup = three.dnom;
 },
 {
 glyphname = four.dnom;
-lastChange = "2020-05-18 13:05:58 +0000";
+lastChange = "2020-07-22 04:57:44 +0000";
 layers = (
 {
 layerId = "5117E3E8-E17C-4812-BAF5-9E7064564A59";
@@ -34548,7 +34555,7 @@ paths = (
 {
 closed = 1;
 nodes = (
-"16 141 LINE",
+"16 159 LINE",
 "16 71 LINE",
 "218 71 LINE",
 "218 0 LINE",
@@ -34566,7 +34573,8 @@ closed = 1;
 nodes = (
 "218 286 LINE",
 "218 147 LINE",
-"117 147 LINE",
+"116 147 LINE",
+"116 159 LINE",
 "204 286 LINE"
 );
 }
@@ -34579,7 +34587,7 @@ paths = (
 {
 closed = 1;
 nodes = (
-"22 126 LINE",
+"22 142 LINE",
 "22 88 LINE",
 "243 88 LINE",
 "243 0 LINE",
@@ -34597,7 +34605,8 @@ closed = 1;
 nodes = (
 "243 307 LINE",
 "243 132 LINE",
-"86 132 LINE",
+"84 132 LINE",
+"84 142 LINE",
 "231 307 LINE"
 );
 }
