@@ -17707,6 +17707,33 @@ rightKerningGroup = u;
 unicode = E132;
 },
 {
+glyphname = uni0251;
+lastChange = "2020-07-24 00:51:50 +0000";
+layers = (
+{
+components = (
+{
+name = a.ss01;
+}
+);
+layerId = "CEFBB1E5-951F-4065-926E-8B9137F837F5";
+width = 664;
+},
+{
+components = (
+{
+name = a.ss01;
+}
+);
+layerId = "5117E3E8-E17C-4812-BAF5-9E7064564A59";
+width = 660;
+}
+);
+leftKerningGroup = a;
+rightKerningGroup = a.ss01;
+unicode = 0251;
+},
+{
 glyphname = pi;
 lastChange = "2020-05-18 13:00:46 +0000";
 layers = (
@@ -32073,7 +32100,7 @@ unicode = 1E93;
 },
 {
 glyphname = a.ss01;
-lastChange = "2020-05-17 18:51:28 +0000";
+lastChange = "2020-07-24 00:51:45 +0000";
 layers = (
 {
 anchors = (
