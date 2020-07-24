@@ -28997,6 +28997,41 @@ rightKerningGroup = o;
 unicode = 0180;
 },
 {
+glyphname = ddotbelow;
+lastChange = "2020-07-24 00:12:41 +0000";
+layers = (
+{
+components = (
+{
+name = d;
+},
+{
+name = dotbelowcomb;
+transform = "{1, 0, 0, 1, 204, 0}";
+}
+);
+layerId = "CEFBB1E5-951F-4065-926E-8B9137F837F5";
+width = 646;
+},
+{
+components = (
+{
+name = d;
+},
+{
+name = dotbelowcomb;
+transform = "{1, 0, 0, 1, 203, 0}";
+}
+);
+layerId = "5117E3E8-E17C-4812-BAF5-9E7064564A59";
+width = 638;
+}
+);
+leftKerningGroup = o;
+rightKerningGroup = l;
+unicode = 1E0D;
+},
+{
 glyphname = ecircumflexacute;
 lastChange = "2020-06-02 18:02:18 +0000";
 layers = (
