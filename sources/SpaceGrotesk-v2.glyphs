@@ -3,7 +3,7 @@
 classes = (
 {
 automatic = 1;
-code = "A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Agrave Aacute Acircumflex Atilde Adieresis Amacron Abreve Aring Aogonek AE Ccedilla Cacute Ccircumflex Ccaron Cdotaccent Eth Dcaron uni1E0E Dcroat Egrave Eacute Ecircumflex Ecaron Edieresis Emacron Ebreve Edotaccent Eogonek Gcircumflex Gbreve Gdotaccent Hcircumflex Hbar Igrave Iacute Icircumflex Itilde Idieresis Imacron Idotaccent Iogonek Ibreve Jcircumflex Lacute Lcaron uni1E38 uni1E3A Lslash Ldot Nacute Ncaron Ntilde uni1E48 Ograve Oacute Ocircumflex Otilde Odieresis Omacron Ohungarumlaut Obreve Oslash OE Racute Rcaron uni1E5C uni1E5E Sacute Scircumflex Scaron Scedilla Tcaron uni1E6E Tbar Ugrave Uacute Ucircumflex Utilde Udieresis Umacron Ubreve Uring Uhungarumlaut Uogonek Wcircumflex Yacute Ycircumflex Ydieresis Zacute Zcaron Zdotaccent Thorn Eng IJ Abreveacute Abrevedotbelow Abrevegrave Abrevehookabove Abrevetilde Acaron Acircumflexacute Acircumflexdotbelow Acircumflexgrave Acircumflexhookabove Acircumflextilde Adotbelow Ahookabove Aringacute AEacute Bstroke Ddotbelow Ecircumflexacute Ecircumflexdotbelow Ecircumflexgrave Ecircumflexhookabove Ecircumflextilde Edotbelow Ehookabove Etilde Gcaron Gcommaaccent Gmacron Hbrevebelow Hdotbelow Icaron Idotbelow Ihookabove Kcommaaccent Lcommaaccent Ldotbelow Mdotbelow Ncommaaccent Ndotaccent Ndotbelow Ocaron Ocircumflexacute Ocircumflexdotbelow Ocircumflexgrave Ocircumflexhookabove Ocircumflextilde Odotbelow Ohookabove Ohorn Ohornacute Ohorndotbelow Ohorngrave Ohornhookabove Ohorntilde Oogonek Oslashacute Rcommaaccent Rdotbelow Scommaaccent Sdotaccent Sdotbelow Germandbls Schwa Tcedilla Tcommaaccent Tdotbelow Ucaron Udieresisacute Udieresiscaron Udieresisgrave Udieresismacron Udotbelow Uhookabove Uhorn Uhornacute Uhorndotbelow Uhorngrave Uhornhookabove Uhorntilde Wacute Wdieresis Wgrave Ydotaccent Ydotbelow Ygrave Yhookabove Ytilde Zdotbelow B.ss04 Bstroke.ss04 D.ss04 Eth.ss04 Dcaron.ss04 Dcroat.ss04 Ddotbelow.ss04 uni1E0E.ss04 IJ.ss04 J.ss04 I.ss05 Iacute.ss05 Ibreve.ss05 Icaron.ss05 Icircumflex.ss05 Idieresis.ss05 Idotaccent.ss05 Idotbelow.ss05 Igrave.ss05 Ihookabove.ss05 Imacron.ss05 Iogonek.ss05 Itilde.ss05";
+code = "A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Agrave Aacute Acircumflex Atilde Adieresis Amacron Abreve Aring Aogonek AE Ccedilla Cacute Ccircumflex Ccaron Cdotaccent Eth Dcaron uni1E0E Dcroat Egrave Eacute Ecircumflex Ecaron Edieresis Emacron Ebreve Edotaccent Eogonek Gcircumflex Gbreve Gdotaccent Hcircumflex Hbar Igrave Iacute Icircumflex Itilde Idieresis Imacron Idotaccent Iogonek Ibreve Jcircumflex Lacute Lcaron uni1E38 uni1E3A Lslash Ldot Nacute Ncaron Ntilde uni1E48 Ograve Oacute Ocircumflex Otilde Odieresis Omacron Ohungarumlaut Obreve Oslash OE Racute Rcaron uni1E5C uni1E5E Sacute Scircumflex Scaron Scedilla Tcaron uni1E6E Tbar Ugrave Uacute Ucircumflex Utilde Udieresis Umacron Ubreve Uring Uhungarumlaut Uogonek Wcircumflex Yacute Ycircumflex Ydieresis Zacute Zcaron Zdotaccent Thorn Eng IJ Abreveacute Abrevedotbelow Abrevegrave Abrevehookabove Abrevetilde Acaron Acircumflexacute Acircumflexdotbelow Acircumflexgrave Acircumflexhookabove Acircumflextilde Adotbelow Ahookabove Aringacute AEacute Bstroke Ddotbelow Ecircumflexacute Ecircumflexdotbelow Ecircumflexgrave Ecircumflexhookabove Ecircumflextilde Edotbelow Ehookabove Etilde Gcaron Gcommaaccent Gmacron Hbrevebelow Hdotbelow Icaron Idotbelow Ihookabove Jacute Kcommaaccent Lcommaaccent Ldotbelow Mdotbelow Ncommaaccent Ndotaccent Ndotbelow Ocaron Ocircumflexacute Ocircumflexdotbelow Ocircumflexgrave Ocircumflexhookabove Ocircumflextilde Odotbelow Ohookabove Ohorn Ohornacute Ohorndotbelow Ohorngrave Ohornhookabove Ohorntilde Oogonek Oslashacute Rcommaaccent Rdotbelow Scommaaccent Sdotaccent Sdotbelow Germandbls Schwa Tcedilla Tcommaaccent Tdotbelow Ucaron Udieresisacute Udieresiscaron Udieresisgrave Udieresismacron Udotbelow Uhookabove Uhorn Uhornacute Uhorndotbelow Uhorngrave Uhornhookabove Uhorntilde Wacute Wdieresis Wgrave Ydotaccent Ydotbelow Ygrave Yhookabove Ytilde Zdotbelow B.ss04 Bstroke.ss04 D.ss04 Eth.ss04 Dcaron.ss04 Dcroat.ss04 Ddotbelow.ss04 uni1E0E.ss04 IJ.ss04 J.ss04 Jacute.ss04 Jcircumflex.ss04 I.ss05 Iacute.ss05 Ibreve.ss05 Icaron.ss05 Icircumflex.ss05 Idieresis.ss05 Idotaccent.ss05 Idotbelow.ss05 Igrave.ss05 Ihookabove.ss05 Imacron.ss05 Iogonek.ss05 Itilde.ss05";
 name = Uppercase;
 }
 );
@@ -806,7 +806,7 @@ name = ccmp;
 },
 {
 automatic = 1;
-code = "lookup locl_latn_0 {\012	script latn;\012	language AZE;\012	language CRT;\012	language KAZ;\012	language TAT;\012	language TRK;\012	sub i by idotaccent;\012} locl_latn_0;\012\012lookup locl_latn_1 {\012	script latn;\012	language ROM;\012	language MOL;\012	sub Scedilla by Scommaaccent;\012	sub scedilla by scommaaccent;\012	sub Tcedilla by Tcommaaccent;\012	sub tcedilla by tcommaaccent;\012} locl_latn_1;\012\012lookup locl_latn_2 {\012	script latn;\012	language CAT;\012	sub  l' periodcentered' l by ldot;\012	sub  L' periodcentered' L by Ldot;\012} locl_latn_2;\012\012lookup locl_latn_3 {\012	script latn;\012	language NLD;\012	sub iacute j' by jacute;\012} locl_latn_3;\012";
+code = "lookup locl_latn_0 {\012	script latn;\012	language AZE;\012	language CRT;\012	language KAZ;\012	language TAT;\012	language TRK;\012	sub i by idotaccent;\012} locl_latn_0;\012\012lookup locl_latn_1 {\012	script latn;\012	language ROM;\012	language MOL;\012	sub Scedilla by Scommaaccent;\012	sub scedilla by scommaaccent;\012	sub Tcedilla by Tcommaaccent;\012	sub tcedilla by tcommaaccent;\012} locl_latn_1;\012\012lookup locl_latn_2 {\012	script latn;\012	language CAT;\012	sub  l' periodcentered' l by ldot;\012	sub  L' periodcentered' L by Ldot;\012} locl_latn_2;\012\012lookup locl_latn_3 {\012	script latn;\012	language NLD;\012	sub iacute j' by jacute;\012	sub Iacute J' by Jacute;\012} locl_latn_3;\012";
 name = locl;
 },
 {
@@ -891,7 +891,7 @@ name = ss01;
 },
 {
 automatic = 1;
-code = "sub B by B.ss04;\012sub Bstroke by Bstroke.ss04;\012sub D by D.ss04;\012sub Eth by Eth.ss04;\012sub Dcaron by Dcaron.ss04;\012sub Dcroat by Dcroat.ss04;\012sub Ddotbelow by Ddotbelow.ss04;\012sub uni1E0E by uni1E0E.ss04;\012sub IJ by IJ.ss04;\012sub J by J.ss04;\012sub IJacute by IJacute.ss04;\012";
+code = "sub B by B.ss04;\012sub Bstroke by Bstroke.ss04;\012sub D by D.ss04;\012sub Eth by Eth.ss04;\012sub Dcaron by Dcaron.ss04;\012sub Dcroat by Dcroat.ss04;\012sub Ddotbelow by Ddotbelow.ss04;\012sub uni1E0E by uni1E0E.ss04;\012sub IJ by IJ.ss04;\012sub J by J.ss04;\012sub Jacute by Jacute.ss04;\012sub Jcircumflex by Jcircumflex.ss04;\012sub IJacute by IJacute.ss04;\012";
 name = ss04;
 },
 {
@@ -1985,7 +1985,7 @@ unicode = 0049;
 },
 {
 glyphname = J;
-lastChange = "2020-07-23 23:03:24 +0000";
+lastChange = "2020-07-24 00:30:02 +0000";
 layers = (
 {
 anchors = (
@@ -23016,6 +23016,33 @@ width = 448;
 unicode = 02C7;
 },
 {
+glyphname = uni02C9;
+lastChange = "2020-07-24 00:32:59 +0000";
+layers = (
+{
+components = (
+{
+alignment = 1;
+name = macron;
+}
+);
+layerId = "CEFBB1E5-951F-4065-926E-8B9137F837F5";
+width = 420;
+},
+{
+components = (
+{
+alignment = 1;
+name = macron;
+}
+);
+layerId = "5117E3E8-E17C-4812-BAF5-9E7064564A59";
+width = 408;
+}
+);
+unicode = 02C9;
+},
+{
 glyphname = tilde;
 lastChange = "2020-06-02 18:02:13 +0000";
 layers = (
@@ -23069,25 +23096,48 @@ unicode = 00A8;
 },
 {
 glyphname = macron;
-lastChange = "2020-06-02 18:02:13 +0000";
+lastChange = "2020-07-24 00:33:47 +0000";
 layers = (
 {
-components = (
+anchors = (
 {
-name = macroncomb;
+name = _top;
+position = "{204, 496}";
 }
 );
 layerId = "5117E3E8-E17C-4812-BAF5-9E7064564A59";
+paths = (
+{
+closed = 1;
+nodes = (
+"40 666 LINE",
+"40 566 LINE",
+"368 566 LINE",
+"368 666 LINE"
+);
+}
+);
 width = 408;
 },
 {
-components = (
+anchors = (
 {
-alignment = -1;
-name = macroncomb;
+name = _top;
+position = "{210, 486}";
 }
 );
 layerId = "CEFBB1E5-951F-4065-926E-8B9137F837F5";
+paths = (
+{
+closed = 1;
+nodes = (
+"60 630 LINE",
+"60 578 LINE",
+"360 578 LINE",
+"360 630 LINE"
+);
+}
+);
 width = 420;
 }
 );
@@ -25112,6 +25162,42 @@ width = 236;
 leftKerningGroup = I;
 rightKerningGroup = I;
 unicode = 1EC8;
+},
+{
+glyphname = Jacute;
+lastChange = "2020-07-24 00:30:06 +0000";
+layers = (
+{
+components = (
+{
+name = J;
+},
+{
+alignment = -1;
+name = acutecomb.case;
+transform = "{1, 0, 0, 1, 324, 0}";
+}
+);
+layerId = "CEFBB1E5-951F-4065-926E-8B9137F837F5";
+width = 588;
+},
+{
+components = (
+{
+name = J;
+},
+{
+alignment = -1;
+name = acutecomb.case;
+transform = "{1, 0, 0, 1, 294, 0}";
+}
+);
+layerId = "5117E3E8-E17C-4812-BAF5-9E7064564A59";
+width = 610;
+}
+);
+leftKerningGroup = J;
+rightKerningGroup = JSerif;
 },
 {
 glyphname = Kcommaaccent;
@@ -27904,6 +27990,40 @@ leftMetricsKey = J;
 note = J;
 rightKerningGroup = U;
 rightMetricsKey = U;
+},
+{
+glyphname = Jacute.ss04;
+lastChange = "2020-07-24 00:30:45 +0000";
+layers = (
+{
+components = (
+{
+name = J.ss04;
+},
+{
+name = acutecomb.case;
+transform = "{1, 0, 0, 1, 329, 0}";
+}
+);
+layerId = "CEFBB1E5-951F-4065-926E-8B9137F837F5";
+width = 548;
+},
+{
+components = (
+{
+name = J.ss04;
+},
+{
+name = acutecomb.case;
+transform = "{1, 0, 0, 1, 304, 0}";
+}
+);
+layerId = "5117E3E8-E17C-4812-BAF5-9E7064564A59";
+width = 550;
+}
+);
+leftKerningGroup = J;
+rightKerningGroup = U;
 },
 {
 glyphname = Jcircumflex.ss04;
