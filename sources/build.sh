@@ -1,7 +1,7 @@
 #!/bin/sh
 set -e
 
-mkdir -p ../fonts/ttf ../fonts/otf ../fonts/ttf/static ../fonts/woff2 ../fonts/woff2/static
+mkdir -p ../fonts/otf ../fonts/ttf ../fonts/ttf/static ../fonts/woff2 ../fonts/woff2/static
 
 
 echo "Generating VFs"
@@ -17,10 +17,10 @@ echo "Post processing VFs"
     python3 spaceG_stat_table.py $VF_File
 	woff2_compress $VF_File
 
-echo "Generating Static TTFs"
+echo "Generating static TTFs"
 fontmake -m SpaceGrotesk.designspace -i -o ttf --output-dir ../fonts/ttf/static/ -a
 
-echo "Post processing Static TTFs"
+echo "Post processing static TTFs"
 ttfs=$(ls ../fonts/ttf/static/*.ttf)
 for ttf in $ttfs
 do
@@ -30,10 +30,10 @@ do
 	woff2_compress $ttf
 done
 
-echo "Generating Static OTFs"
-fontmake -m SpaceGrotesk.designspace -i -o otf --output-dir ../fonts/otf/static/ -a
+echo "Generating static OTFs"
+fontmake -m SpaceGrotesk.designspace -i -o otf --output-dir ../fonts/otf/ -a
 
-echo "Post processing Static OTF"
+echo "Post processing static OTFs"
 otf=$(ls ../fonts/otf/*.otf)
 for otf in $otf
 do
@@ -45,7 +45,7 @@ echo "Woff2 static and vf"
 mv ../fonts/ttf/*.woff2 ../fonts/woff2
 mv ../fonts/ttf/static/*.woff2 ../fonts/woff2/static
 
-rm -rf master_ufo/ instance_ufo/ ../fonts/ttf/*backup*.ttf *.ufo ../instance_ufo
+rm -rf master_ufo/ instance_ufo/ ../fonts/ttf/*backup*.ttf *.ufo ../instance_ufo SpaceGrotesk-v2.designspace
 
 echo "Voila! Done."
 cd ..
