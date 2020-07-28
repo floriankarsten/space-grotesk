@@ -382,16 +382,28 @@ section > .character-set {
 	padding-top: 0;
 	padding-bottom: 3rem;
 
-	& > div {
-		width: 50%;
-		flex: 0 0 50%;
+	@include min-screen(600px) {
+		display: flex;
+
+		& > div {
+			width: 50%;
+			flex: 0 0 50%;
+		}
 	}
+
+	
 
 	span.label {
 		padding-bottom: 2.75rem;
 	}
 
 	.character-preview {
+		display: none;
+
+		@include min-screen(600px) {
+			display: block;
+		}
+
 		padding-right: 2.5rem;
 
 		& > div {
@@ -514,19 +526,38 @@ section > .character-set {
 				border-left: 1px solid white;
 
 				& > span {
-					width: 12.5%;
-					width: 0 0 12.5%;
-					padding: 2vw 0;
+					width: 16.666%;
+					flex: 0 0 16.666%;
+					padding: 4.5vw 0 4vw 0;
 
 					border-right: 1px solid white;
 					border-bottom: 1px solid white;
 
-					font-size: 2.5vw;
+					font-size: 7.5vw;
 					font-weight: 700;
 					text-align: center;
 
 					cursor: default;
 					transition: background-color 300ms, color 300ms;
+
+					@include min-screen(600px) {
+						padding: 2.5vw 0 2.25vw 0;
+						font-size: 3.75vw;
+					}
+
+					@include min-screen(900px) {
+						width: 20%;
+						flex: 0 0 12.5%;
+						padding: 2vw 0 1.75vw 0;
+						font-size: 2.95vw;
+					}
+
+					@include min-screen(1200px) {
+						width: 10%;
+						flex: 0 0 10%;
+						padding: 1.5vw 0 1.25vw 0;
+						font-size: 2.25vw;
+					}
 
 					&.active {
 						background-color: white;
