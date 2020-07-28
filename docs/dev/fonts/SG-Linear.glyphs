@@ -785,7 +785,7 @@ date = "2020-07-25 08:18:42 +0000";
 designer = "Florian Karsten";
 designerURL = "https://fonts.floriankarsten.com";
 disablesNiceNames = 1;
-familyName = "Space Grotesk";
+familyName = "Space Grotesk Linear";
 featurePrefixes = (
 {
 automatic = 1;
@@ -49199,12 +49199,6 @@ width = 310;
 );
 instances = (
 {
-customParameters = (
-{
-name = weightClass;
-value = 300;
-}
-);
 interpolationWeight = 300;
 interpolationWidth = 5;
 instanceInterpolations = {
@@ -49214,42 +49208,6 @@ name = Light;
 weightClass = Light;
 },
 {
-customParameters = (
-{
-name = weightClass;
-value = 400;
-}
-);
-interpolationWeight = 416;
-instanceInterpolations = {
-"5117E3E8-E17C-4812-BAF5-9E7064564A59" = 0.29;
-"CEFBB1E5-951F-4065-926E-8B9137F837F5" = 0.71;
-};
-name = Regular;
-},
-{
-customParameters = (
-{
-name = weightClass;
-value = 500;
-}
-);
-interpolationWeight = 560;
-interpolationWidth = 5;
-instanceInterpolations = {
-"5117E3E8-E17C-4812-BAF5-9E7064564A59" = 0.65;
-"CEFBB1E5-951F-4065-926E-8B9137F837F5" = 0.35;
-};
-name = Medium;
-weightClass = Medium;
-},
-{
-customParameters = (
-{
-name = weightClass;
-value = 700;
-}
-);
 interpolationWeight = 700;
 interpolationWidth = 5;
 instanceInterpolations = {

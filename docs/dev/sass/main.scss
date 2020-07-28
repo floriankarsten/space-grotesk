@@ -10,6 +10,30 @@
 }
 
 @font-face {
+	font-family: 'Space Grotesk OpenType';
+	src:	url("../fonts/SG-OpenType.woff2") format("woff2"),
+			url("../fonts/SG-OpenType.woff") format("woff");
+	font-weight: 100 700;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Space Grotesk Transition';
+	src:	url("../fonts/SG-Transition.woff2") format("woff2"),
+			url("../fonts/SG-Transition.woff") format("woff");
+	font-weight: 100 700;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Space Grotesk Linear';
+	src:	url("../fonts/SG-Linear.woff2") format("woff2"),
+			url("../fonts/SG-Linear.woff") format("woff");
+	font-weight: 100 700;
+	font-style: normal;
+}
+
+@font-face {
 	font-family: 'Space Grotesk';
 	src:	url("../fonts/SpaceGrotesk-Light.woff2") format("woff2"),
 			url("../fonts/SpaceGrotesk-Light.woff") format("woff");
@@ -170,6 +194,33 @@ section {
 	}
 }
 
+.large-type.variable-animation {
+	.text {
+		font-family: 'Space Grotesk Linear';
+		padding-bottom: 1rem;
+		transition: none;
+
+		animation-name: variableloop;
+		animation-duration: 2500ms;
+		animation-timing-function: ease-in-out;
+		animation-iteration-count: infinite;
+	}
+}
+
+@keyframes variableloop {
+	from {
+		font-weight: 300;
+	}
+
+	50% {
+		font-weight: 700;
+	}
+
+	to {
+		font-weight: 300;
+	}
+}
+
 .large-type.intro {
 	.text {
 		font-family: 'Space Grotesk Variable';
@@ -198,17 +249,41 @@ section {
 
 .large-type.opentype {
 	.text {
-		font-family: 'Space Grotesk Variable';
-		transition: font-weight 300ms;
+		font-family: 'Space Grotesk OpenType';
 
 		span {
-			color: white;
-			transition: color 300ms;
+			//color: white;
+			color: aqua;
+			font-weight: 700;
+			transition: font-weight 300ms, color 300ms;
 		}
 
 		span.disabled {
 			color: aqua;
-			font-feature-settings: normal !important;
+			font-weight: 100;
+		}
+	}
+
+	.switch-container {
+		div {
+			width: 50%;
+			flex: 0 0 50%;
+
+			&:last-child {
+				justify-content: flex-end;
+			}
+		}
+	}
+}
+
+.large-type.transition {
+	.text {
+		font-family: 'Space Grotesk Transition';
+		font-weight: 100;
+		transition: font-weight 300ms;
+
+		&.disabled {
+			font-weight: 700;
 		}
 	}
 

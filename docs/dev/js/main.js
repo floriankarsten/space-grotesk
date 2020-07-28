@@ -35,3 +35,16 @@ $( ".opentype .switch-container > div" ).hover(
     }
   }, function() {}
 );
+
+$( ".transition .switch-container > div" ).hover(
+  function() {
+    var features = $(this).data('features');
+    $(this).addClass('active').siblings().removeClass('active');
+
+    if(features == 'off') {
+      $('.transition > .text').addClass('disabled');
+    } else {
+      $('.transition > .text').removeClass('disabled');
+    }
+  }, function() {}
+);
