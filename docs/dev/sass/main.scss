@@ -10,6 +10,30 @@
 }
 
 @font-face {
+	font-family: 'Space Grotesk OpenType';
+	src:	url("../fonts/SG-OpenType.woff2") format("woff2"),
+			url("../fonts/SG-OpenType.woff") format("woff");
+	font-weight: 100 700;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Space Grotesk Transition';
+	src:	url("../fonts/SG-Transition.woff2") format("woff2"),
+			url("../fonts/SG-Transition.woff") format("woff");
+	font-weight: 100 700;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Space Grotesk Linear';
+	src:	url("../fonts/SG-Linear.woff2") format("woff2"),
+			url("../fonts/SG-Linear.woff") format("woff");
+	font-weight: 100 700;
+	font-style: normal;
+}
+
+@font-face {
 	font-family: 'Space Grotesk';
 	src:	url("../fonts/SpaceGrotesk-Light.woff2") format("woff2"),
 			url("../fonts/SpaceGrotesk-Light.woff") format("woff");
@@ -115,7 +139,7 @@ section {
 		border-bottom: solid white 0.85vw;
 	}
 
-	&#opentype-features > .content {
+	&.ot-section > .content {
 		padding: 0;
 	}
 }
@@ -170,6 +194,33 @@ section {
 	}
 }
 
+.large-type.variable-animation {
+	.text {
+		font-family: 'Space Grotesk Linear';
+		padding-bottom: 1rem;
+		transition: none;
+
+		animation-name: variableloop;
+		animation-duration: 2500ms;
+		animation-timing-function: ease-in-out;
+		animation-iteration-count: infinite;
+	}
+}
+
+@keyframes variableloop {
+	from {
+		font-weight: 300;
+	}
+
+	50% {
+		font-weight: 700;
+	}
+
+	to {
+		font-weight: 300;
+	}
+}
+
 .large-type.intro {
 	.text {
 		font-family: 'Space Grotesk Variable';
@@ -198,17 +249,41 @@ section {
 
 .large-type.opentype {
 	.text {
-		font-family: 'Space Grotesk Variable';
-		transition: font-weight 300ms;
+		font-family: 'Space Grotesk OpenType';
 
 		span {
-			color: white;
-			transition: color 300ms;
+			//color: white;
+			color: aqua;
+			font-weight: 700;
+			transition: font-weight 300ms, color 300ms;
 		}
 
 		span.disabled {
 			color: aqua;
-			font-feature-settings: normal !important;
+			font-weight: 100;
+		}
+	}
+
+	.switch-container {
+		div {
+			width: 50%;
+			flex: 0 0 50%;
+
+			&:last-child {
+				justify-content: flex-end;
+			}
+		}
+	}
+}
+
+.large-type.transition {
+	.text {
+		font-family: 'Space Grotesk Transition';
+		font-weight: 100;
+		transition: font-weight 300ms;
+
+		&.disabled {
+			font-weight: 700;
 		}
 	}
 
@@ -382,16 +457,28 @@ section > .character-set {
 	padding-top: 0;
 	padding-bottom: 3rem;
 
-	& > div {
-		width: 50%;
-		flex: 0 0 50%;
+	@include min-screen(600px) {
+		display: flex;
+
+		& > div {
+			width: 50%;
+			flex: 0 0 50%;
+		}
 	}
+
+	
 
 	span.label {
 		padding-bottom: 2.75rem;
 	}
 
 	.character-preview {
+		display: none;
+
+		@include min-screen(600px) {
+			display: block;
+		}
+
 		padding-right: 2.5rem;
 
 		& > div {
@@ -514,19 +601,38 @@ section > .character-set {
 				border-left: 1px solid white;
 
 				& > span {
-					width: 12.5%;
-					width: 0 0 12.5%;
-					padding: 2vw 0;
+					width: 16.666%;
+					flex: 0 0 16.666%;
+					padding: 4.5vw 0 4vw 0;
 
 					border-right: 1px solid white;
 					border-bottom: 1px solid white;
 
-					font-size: 2.5vw;
+					font-size: 7.5vw;
 					font-weight: 700;
 					text-align: center;
 
 					cursor: default;
 					transition: background-color 300ms, color 300ms;
+
+					@include min-screen(600px) {
+						padding: 2.5vw 0 2.25vw 0;
+						font-size: 3.75vw;
+					}
+
+					@include min-screen(900px) {
+						width: 20%;
+						flex: 0 0 12.5%;
+						padding: 2vw 0 1.75vw 0;
+						font-size: 2.95vw;
+					}
+
+					@include min-screen(1200px) {
+						width: 10%;
+						flex: 0 0 10%;
+						padding: 1.5vw 0 1.25vw 0;
+						font-size: 2.25vw;
+					}
 
 					&.active {
 						background-color: white;
