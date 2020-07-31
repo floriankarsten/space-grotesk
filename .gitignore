@@ -2,8 +2,10 @@
 .DS_Store
 .empty
 .sparkleshare
-# font editor temporary files
+# temporary files
 *(Autosaved).glyphs
 *.vfbak
+# minisite files
 /docs/node_modules
 /docs/package-lock.json
+/sources/build-minisite.sh
