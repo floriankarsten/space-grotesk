@@ -8,4 +8,3 @@
 # minisite files
 /docs/node_modules
 /docs/package-lock.json
-/sources/build-minisite.sh
