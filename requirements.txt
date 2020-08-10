@@ -1,4 +1,4 @@
 fontmake
-git+https://github.com/googlefonts/gftools
+gftools
 statmake
 brotli
