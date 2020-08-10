@@ -28,7 +28,7 @@ jobs:
           update-wheel: "true"
           update-setuptools: "true"
       - name: Build fonts
-        run: cd source && ./build.sh && cd ..
+        run: cd sources && ./build.sh && cd ..
       - name: Font Bakery CI tests
         uses: f-actions/font-bakery@v1
         with:
