@@ -1,4 +1,6 @@
-fontmake
 gftools
+fontbakery
+ttfautohint
+fontmake
 statmake
 brotli
