@@ -14,11 +14,11 @@ $( ".character-list > div > div > span" ).hover(
   }, function() {}
 );
 
-$( ".intro .switch-container > div" ).hover(
+$( ".weights .switch-container > div" ).hover(
   function() {
   	var weight = $(this).data('weight');
   	$(this).addClass('active').siblings().removeClass('active');
-  	$('.intro > .text').css('font-weight', weight);
+  	$(this).parent().siblings('.text').css('font-weight', weight);
   	console.log(weight);
   }, function() {}
 );
@@ -32,6 +32,19 @@ $( ".opentype .switch-container > div" ).hover(
       $('.opentype > .text > span').addClass('disabled');
     } else {
       $('.opentype > .text > span').removeClass('disabled');
+    }
+  }, function() {}
+);
+
+$( ".transition .switch-container > div" ).hover(
+  function() {
+    var features = $(this).data('features');
+    $(this).addClass('active').siblings().removeClass('active');
+
+    if(features == 'off') {
+      $('.transition > .text').addClass('disabled');
+    } else {
+      $('.transition > .text').removeClass('disabled');
     }
   }, function() {}
 );
