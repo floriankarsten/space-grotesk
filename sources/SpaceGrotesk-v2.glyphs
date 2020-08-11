@@ -4,7 +4,8 @@ DisplayStrings = (
 "/aogonek",
 "/NULL \015/space ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789[]{}()//|¦/backslash '\"/quoteleft/quoteright/quotedblleft/quotedblright/quotesinglbase/quotedblbase .,:;/ellipsis !¡?¿/guilsinglleft/guilsinglright -/endash/emdash ·/bullet _@&*ÀÁÂÃÄ/Amacron/Abreve Å/Aogonek ÆÇ/Cacute/Ccircumflex/Ccaron/Cdotaccent Ð/Dcaron/Dcroat ÈÉÊ/Ecaron Ë/Emacron/Ebreve/Edotaccent/Eogonek/Gcircumflex/Gbreve/Gdotaccent/Hcircumflex/Hbar ÌÍÎ/Itilde Ï/Imacron/Idotaccent/Iogonek/Ibreve/Jcircumflex/Lacute/Lcaron/uni1E38/Lslash/Ldot/Nacute/Ncaron ÑÒÓÔÕÖ/Omacron/Ohungarumlaut/Obreve Ø/OE/Racute/Rcaron/uni1E5C/Sacute/Scircumflex/Scaron/Scedilla/Tcaron/Tbar ÙÚÛ/Utilde Ü/Umacron/Ubreve/Uring/Uhungarumlaut/Uogonek/Wcircumflex Ý/Ycircumflex/Ydieresis/Zacute/Zcaron/Zdotaccent Þ/Eng/IJ/IJacute àáâãä/amacron/abreve å/aogonek æç/cacute/ccircumflex/ccaron/cdotaccent ð/dcaron/dcroat èéê/ecaron ë/emacron/ebreve/eogonek/edotaccent/gcircumflex/gbreve/gdotaccent/hcircumflex/hbar ìíî/itilde ï/imacron/iogonek/ibreve/jcircumflex/kgreenlandic/lacute/lcaron/uni1E39/lslash/ldot/nacute/ncaron ñ/napostrophe òóôõö/omacron/ohungarumlaut/obreve ø/oe/racute/rcaron/uni1E5D/sacute/scircumflex/scaron/scedilla ß/longs/tcaron/tbar ùúû/utilde ü/umacron/ubreve/uring/uhungarumlaut/uogonek/wcircumflex ý/ycircumflex/ydieresis/zacute/zcaron/zdotaccent þ/eng/ij/ijacute/a.ss01/uni0251/pi ªº/dagger/daggerdbl §¶©®/trademark/uni2120 #¤$£¥¢/fraction %/perthousand ¼½¾/onethird/twothirds/oneeighth/threeeighths/fiveeighths/seveneighths +/minus ×÷=<>/lessequal/greaterequal ±^/notequal ~/approxequal ¬/infinity °/partialdiff/lozenge/integral/radical/summation/product/Omega/Delta `´/circumflex/caron/tilde ¨¯/breve/ring/hungarumlaut/dotaccent ¸/ogonek/fi/fl/florin/acutecomb ¹²³/uni2071/uni207F/uni2094/Abreveacute/Abrevedotbelow/Abrevegrave/Abrevehookabove/Abrevetilde/Acaron/Acircumflexacute/Acircumflexdotbelow/Acircumflexgrave/Acircumflexhookabove/Acircumflextilde/Adblgrave/Adotbelow/Ahookabove/Ainvertedbreve/Aringacute/AEacute/Bstroke/Ccedillaacute/DZcaron/Ddotbelow/Dlinebelow/Dzcaron/Ecedillabreve/Ecircumflexacute/Ecircumflexdotbelow/Ecircumflexgrave/Ecircumflexhookabove/Ecircumflextilde/Edblgrave/Edotbelow/Ehookabove/Einvertedbreve/Emacronacute/Emacrongrave/Etilde/Gcaron/Gcommaaccent/Gmacron/Hbrevebelow/Hdotbelow/Icaron/Idblgrave/Idieresisacute/Idotbelow/Ihookabove/Iinvertedbreve/Jacute/Kcommaaccent/LJ/Lcommaaccent/Ldotbelow/Lj/Llinebelow/Mdotbelow/NJ/Ncommaaccent/Ndotaccent/Ndotbelow/Nj/Nlinebelow/Ocaron/Ocircumflexacute/Ocircumflexdotbelow/Ocircumflexgrave/Ocircumflexhookabove/Ocircumflextilde/Odblgrave/Odieresismacron/Odotaccentmacron/Odotbelow/Ohookabove/Ohorn/Ohornacute/Ohorndotbelow/Ohorngrave/Ohornhookabove/Ohorntilde/Oinvertedbreve/Omacronacute/Omacrongrave/Oogonek/Oslashacute/Otildeacute/Otildedieresis/Otildemacron/Rcommaaccent/Rdblgrave/Rdotbelow/Rinvertedbreve/Rlinebelow/Sacutedotaccent/Scarondotaccent/Scommaaccent/Sdotaccent/Sdotbelow/Sdotbelowdotaccent/Germandbls/Schwa/Tcedilla/Tcommaaccent/Tdotbelow/Tlinebelow/Ucaron/Udblgrave/Udieresisacute/Udieresiscaron/Udieresisgrave/Udieresismacron/Udotbelow/Uhookabove/Uhorn/Uhornacute/Uhorndotbelow/Uhorngrave/Uhornhookabove/Uhorntilde/Uinvertedbreve/Umacrondieresis/Utildeacute/Wacute/Wdieresis/Wgrave/Ydotaccent/Ydotbelow/Ygrave/Yhookabove/Ymacron/Ytilde/Zdotbelow/B.ss04/Bstroke.ss04/D.ss04/DZcaron.ss04/Eth.ss04/Dcaron.ss04/Dcroat.ss04/Ddotbelow.ss04/Dlinebelow.ss04/Dzcaron.ss04/IJ.ss04/J.ss04/Jacute.ss04/Jcircumflex.ss04/LJ.ss04/NJ.ss04/I.ss05/Iacute.ss05/Ibreve.ss05/Icaron.ss05/Icircumflex.ss05/Idieresis.ss05/Idotaccent.ss05/Idotbelow.ss05/Igrave.ss05/Ihookabove.ss05/Imacron.ss05/Iogonek.ss05/Itilde.ss05/abreveacute/abrevedotbelow/abrevegrave/abrevehookabove/abrevetilde/acaron/acircumflexacute/acircumflexdotbelow/acircumflexgrave/acircumflexhookabove/acircumflextilde/adblgrave/adotbelow/ahookabove/ainvertedbreve/aringacute/aeacute/bstroke/ccedillaacute/ddotbelow/dlinebelow/dzcaron/ecedillabreve/ecircumflexacute/ecircumflexdotbelow/ecircumflexgrave/ecircumflexhookabove/ecircumflextilde/edblgrave/edotbelow/ehookabove/einvertedbreve/emacronacute/emacrongrave/etilde/schwa/gcaron/gcommaaccent/gmacron/hbrevebelow/hdotbelow/idotless/icaron/idblgrave/idieresisacute/idotaccent/idotbelow/ihookabove/iinvertedbreve/jdotless/jacute/kcommaaccent/lcommaaccent/ldotbelow/lj/llinebelow/mdotbelow/ncommaaccent/ndotaccent/ndotbelow/nj/nlinebelow/ocaron/ocircumflexacute/ocircumflexdotbelow/ocircumflexgrave/ocircumflexhookabove/ocircumflextilde/odblgrave/odieresismacron/odotaccentmacron/odotbelow/ohookabove/ohorn/ohornacute/ohorndotbelow/ohorngrave/ohornhookabove/ohorntilde/oinvertedbreve/omacronacute/omacrongrave/oogonek/oslashacute/otildeacute/otildedieresis/otildemacron/rcommaaccent/rdblgrave/rdotbelow/rinvertedbreve/rlinebelow/sacutedotaccent/scarondotaccent/scommaaccent/sdotaccent/sdotbelow/sdotbelowdotaccent/tcedilla/tcommaaccent/tdieresis/tdotbelow/tlinebelow/ucaron/udblgrave/udieresisacute/udieresiscaron/udieresisgrave/udieresismacron/udotbelow/uhookabove/uhorn/uhornacute/uhorndotbelow/uhorngrave/uhornhookabove/uhorntilde/uinvertedbreve/umacrondieresis/utildeacute/wacute/wdieresis/wgrave/ydotaccent/ydotbelow/ygrave/yhookabove/ymacron/ytilde/zdotbelow/a.ss01/aacute.ss01/abreve.ss01/abreveacute.ss01/abrevedotbelow.ss01/abrevegrave.ss01/abrevehookabove.ss01/abrevetilde.ss01/acaron.ss01/acircumflex.ss01/acircumflexacute.ss01/acircumflexdotbelow.ss01/acircumflexgrave.ss01/acircumflexhookabove.ss01/acircumflextilde.ss01/adieresis.ss01/adotbelow.ss01/agrave.ss01/ahookabove.ss01/ainvertedbreve.ss01/amacron.ss01/aogonek.ss01/aring.ss01/aringacute.ss01/atilde.ss01/g.ss02/gbreve.ss02/gcaron.ss02/gcircumflex.ss02/gcommaaccent.ss02/gdotaccent.ss02/gmacron.ss02/y.ss03/yacute.ss03/ycircumflex.ss03/ydieresis.ss03/ydotaccent.ss03/ydotbelow.ss03/ygrave.ss03/yhookabove.ss03/ymacron.ss03/ytilde.ss03/f_f/f_f_i/f_f_l/f_f_j.liga/f_j.liga/f_lcaron.liga/t_t.liga/zero.zero/zero.lf/one.lf/two.lf/three.lf 4/four.lf/five.lf 6/six.lf/seven.lf/eight.lf/nine.lf/zero.zero/zero.lf.zero/zero.osf/one.osf/two.osf/three.osf/four.osf/five.osf/six.osf/seven.osf/eight.osf/nine.osf/zero.osf.zero/zero.tf/one.tf/two.tf/three.tf/four.tf/five.tf/six.tf/seven.tf/eight.tf/nine.tf/zero.tf.zero/zero.tosf/one.tosf/two.tosf/three.tosf/four.tosf/five.tosf/six.tosf/seven.tosf/eight.tosf/nine.tosf/zero.osf.zero/zero.tosf.zero/zeroinferior/oneinferior/twoinferior/threeinferior/fourinferior/fiveinferior/sixinferior/seveninferior/eightinferior/nineinferior/zero.subs/zero.sinf/one.sinf/two.sinf/three.sinf/four.sinf/five.sinf/six.sinf/seven.sinf/eight.sinf/nine.sinf/one.subs/two.subs/three.subs/four.subs/five.subs/six.subs/seven.subs/eight.subs/nine.subs/zero.dnom/one.dnom/two.dnom/three.dnom/four.dnom/five.dnom/six.dnom/seven.dnom/eight.dnom/nine.dnom/zero.numr/one.numr/two.numr/three.numr/four.numr/five.numr/six.numr/seven.numr/eight.numr/nine.numr/zerosuperior/foursuperior/fivesuperior/sixsuperior/sevensuperior/eightsuperior/ninesuperior/zero.sups/one.sups/two.sups/three.sups/four.sups/five.sups/six.sups/seven.sups/eight.sups/nine.sups/zero.dnom.zero/zeroinferior.zero/zero.subs.zero/zero.sinf.zero/zero.dnom.zero/zero.numr.zero/zerosuperior.zero/zero.sups.zero/exclamdown.case/questiondown.case/periodcentered.case/bullet.case/slash.case/backslash.case/periodcentered.loclCAT/parenleftinferior/parenrightinferior/parenleftsuperior/parenrightsuperior/parenleft.case/parenright.case/braceleft.case/braceright.case/bracketleft.case/bracketright.case ­/figuredash/horizontalbar/hyphentwo/hyphen.case/softhyphen.case/endash.case/emdash.case/figuredash.case/horizontalbar.case/hyphentwo.case «»/guillemetleft.case/guillemetright.case/guilsinglleft.case/guilsinglright.case/leftanglebracket-math/rightanglebracket-math/leftanglebracket-math.case/rightanglebracket-math.case/figurespace/hairspace/punctuationspace/nbspace/thinspace/zerowidthspace/.notdef/baht/bitcoin/cedi/colonsign/dong/euro/franc/guarani/kip/lira/liraTurkish/manat/naira/peseta/peso/ruble/rupeeIndian/won/bulletoperator/commercialMinusSign/divisionslash/emptyset/Ohm/increment µ/upArrow/northEastArrow/rightArrow/southEastArrow/downArrow/southWestArrow/leftArrow/northWestArrow/leftRightArrow/upDownArrow/northEastArrow.case/rightArrow.case/leftArrow.case/northWestArrow.case/leftRightArrow.case/minute/second/literSign/estimated/numero/at.case/bar.case/brokenbar.case/apostrophemod/commaturnedmod/doubleprimemod/firsttonechinese/fourthtonechinese/primemod/ringhalfleft/ringhalfright/secondtonechinese/verticallinelowmod/verticallinemod/dieresiscomb/dotaccentcomb/gravecomb/hungarumlautcomb/caroncomb.alt/circumflexcomb/caroncomb/brevecomb/ringcomb/tildecomb/macroncomb/hookabovecomb/dblgravecomb/breveinvertedcomb/commaturnedabovecomb/horncomb/dotbelowcomb/dieresisbelowcomb/commaaccentcomb/cedillacomb/ogonekcomb/brevebelowcomb/macronbelowcomb/dieresiscomb.case/dotaccentcomb.case/gravecomb.case/acutecomb.case/hungarumlautcomb.case/circumflexcomb.case/caroncomb.case/brevecomb.case/ringcomb.case/tildecomb.case/macroncomb.case/hookabovecomb.case/dblgravecomb.case/gravecomb_side/acutecomb_side/hookabovecomb_side/strokeshortcomb/strokelongcomb/slashshortcomb/slashlongcomb/gravecomb_side.case/acutecomb_side.case/hookabovecomb_side.case/horncomb_o/brevecomb_acutecomb/brevecomb_gravecomb/brevecomb_hookabovecomb/brevecomb_tildecomb/circumflexcomb_acutecomb/circumflexcomb_gravecomb/circumflexcomb_hookabovecomb/circumflexcomb_tildecomb/brevecomb_acutecomb.case/brevecomb_gravecomb.case/brevecomb_hookabovecomb.case/brevecomb_tildecomb.case/circumflexcomb_acutecomb.case/circumflexcomb_gravecomb.case/circumflexcomb_hookabovecomb.case/circumflexcomb_tildecomb.case/IJacute.ss04/apostrophecomb/ringacutecomb/ringacutecomb.case/strokemidcomb",
 "HH/Placeholder HO/Placeholder OO/space FÓSFORO/space VIVIANA/space KILO/space TOTORO\012HOAOSOBCDEFGHIJKOLOHMNOPRHOTOYOTAHALTANERANARSOHOHTROASUNOTOARHHOWOHHLYHHL/Lcaron YHH/space/Lcaron WHHquick/space AFTER/space after/space aer/space \012/Lcaron THH/Lcaron XHHGXHH/space/space/space \012RSOTOVOWOXOHOYOHOZONOAZARHOLLWYWOOD/space HALAVAROHANTENAHHATAMEHZARAGOZA\012OXOHOYOHOHZHAVATARHAWARD/space MATADORHOYO/space AWESOME/space ALLANAMIENTOHHH\012HMARJORAMHAVAROHALAYAHAYALA/space/space HHATAMEHHALTOHHOYOHYingHYaconHYolanda\012LYON/space LÝ/space L/Ydotaccent ON/space LYME/space Von/space Volcano/space Velocidad/space Vacuna/space Vyl/space \012\012HH/Placeholder HO/Placeholder OO/space OVOIDE/space HOYO/space AWARD/space AVATAR/space MATADOR\012ARROWROOTO/space FLOW/space BAOARLEY/space CHERVIL/space DUMPLING/space ENDIVE/space FLAGXSEED/space GARBANZO/space HIJIKI/space ISHTU/space JICAMA/space KALEHOYOHOXOHLYCHEE/space HOYO/space MARJORAM/space SXS/space NECTARINE/space OXATAIL/space PIZZA/space QUINOA/space ROQUEFORT/space SQUASH/space TOFU/space UPPUMA/space VANILLA/space WHEAT/space XERGIS/space OXO/space YOGURT/space ZWEIBACK/space 0/space 1/space 2/space 3/space 4/space 5/space 6/space 7/space 8/space 9/space ¿¡!?/space L/space/periodcentered.case/Ldot L/periodcentered.loclCAT/space ;:\012HH/Placeholder HO/Placeholder OO\012LTLVLYTAH,HHP,T.T,P.F,V.VaHH.F.HHATTeVoLWY.YeY,FAV,VeTAEYuWATERHHAWARDWaToev.y.w.W.TwTaeVAEWoPAEr.v,HHALTARHHALVINOHHHHLYONHHPAPAYAHHLoLAMOFAVORHHAVAROHHHAWARDHHAYALAHHAMAYAHAVYoYaPAP0AHHAHAHHKylonnTomateTamañoVoVAHHH/quoteleft HUEMUL/quoteright L/quotedblright HHH-T-HH-HHV-HHP-HH/space Lvino/space Lwdig/space L/space Lorena/space Lyon/space H.L.¿HH?¿HUEMUL?/space H.L./space ¿LL./quotesinglbase L,/space L/space Ogros/space OPomelo/space tHHWHOWAAHO/space Oyente/space OVOIDEHRomeroHH/space P:/space H:/space Pamela/space P/space/space/quotedblbase H/quotedblbase JUMEO/space Tamarindo/space Tgnimun/space H./space T./space Tsunami/space Tumulto/space Tvenium/space Twain/space AWARTxinum/space Tylenol/space Tzinum/space VJUMIVð:/space H:/space VolcanWgnerWWJV:/space/space Vfuman/space Volcano/space Vynil/space WniunuP//J/Ohorn JWsunO/quoteleft uomos/lslash//JYOYGAtrumion/space H.Y../space Yzus/space Ysnum/space Yucu/space Yvim/space Ywij/space Yxuru/space Yyimi/space Yzuni/space Yuca/space Yvar/space Z/space HHH/space HHZ/space Vsnn/space Vgnomo/space Warner/space WYWLLOW/space Ygeminu/space Ynamiun/space Yo/space Zgume/space Zomosa/space Z/space Zsilas/space Zumbido/space Zviro/space Zwis/space Zxor/space Zyrin/space",
-"/tildecomb.case"
+"/tildecomb.case",
+"/Ohorn WA/Ohorn AHH/Ohorn WOJHH/Ohorn OHH/Ohorn S/Ohorn J/Ohorn THH/Ohorn VHH/Ohorn ann/Ohorn -nn/Ohorn onn/Ohorn .HH/Ohorn snn/Ohorn tnn/Ohorn unn/Ohorn vnn/Ohorn wnn/Ohorn xnn/Ohorn znn"
 );
 classes = (
 {
@@ -1104,7 +1105,7 @@ unicode = 0020;
 },
 {
 glyphname = A;
-lastChange = "2020-08-10 18:50:20 +0000";
+lastChange = "2020-08-11 09:52:26 +0000";
 layers = (
 {
 anchors = (
@@ -2768,7 +2769,7 @@ unicode = 0049;
 },
 {
 glyphname = J;
-lastChange = "2020-08-10 20:18:37 +0000";
+lastChange = "2020-08-11 09:49:37 +0000";
 layers = (
 {
 anchors = (
@@ -4654,7 +4655,7 @@ unicode = 0053;
 },
 {
 glyphname = T;
-lastChange = "2020-08-10 18:12:01 +0000";
+lastChange = "2020-08-11 09:51:51 +0000";
 layers = (
 {
 anchors = (
@@ -4986,7 +4987,7 @@ unicode = 0055;
 },
 {
 glyphname = V;
-lastChange = "2020-08-10 18:12:01 +0000";
+lastChange = "2020-08-11 09:51:55 +0000";
 layers = (
 {
 background = {
@@ -5068,7 +5069,7 @@ unicode = 0056;
 },
 {
 glyphname = W;
-lastChange = "2020-08-10 20:16:48 +0000";
+lastChange = "2020-08-11 09:53:25 +0000";
 layers = (
 {
 anchors = (
@@ -5580,7 +5581,7 @@ unicode = 005A;
 },
 {
 glyphname = a;
-lastChange = "2020-08-10 18:14:30 +0000";
+lastChange = "2020-08-11 09:50:05 +0000";
 layers = (
 {
 anchors = (
@@ -44433,7 +44434,7 @@ unicode = 1ECE;
 },
 {
 glyphname = Ohorn;
-lastChange = "2020-08-10 18:12:01 +0000";
+lastChange = "2020-08-11 09:50:24 +0000";
 layers = (
 {
 background = {
@@ -94485,9 +94486,10 @@ parenright = -10;
 slash = -24;
 };
 "@MMK_L_Ohorn" = {
-"@MMK_R_A" = -32;
-"@MMK_R_O" = 0;
+"@MMK_R_A" = -21;
 "@MMK_R_S" = -4;
+"@MMK_R_T" = 6;
+"@MMK_R_V" = 4;
 "@MMK_R_iwide" = 44;
 "@MMK_R_period" = -25;
 slash = -24;
@@ -95427,6 +95429,7 @@ slash = -22;
 "@MMK_R_S" = -8;
 "@MMK_R_T" = 8;
 "@MMK_R_V" = 8;
+"@MMK_R_W" = 2;
 "@MMK_R_a" = -16;
 "@MMK_R_hyphen" = -16;
 "@MMK_R_i" = -12;
