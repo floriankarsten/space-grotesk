@@ -1,5 +1,5 @@
 gftools
-ttfautohint==0.4.3
+ttfautohint-py
 fontbakery
 fontmake
 statmake
