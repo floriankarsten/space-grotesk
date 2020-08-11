@@ -48,5 +48,3 @@ $( ".transition .switch-container > div" ).hover(
     }
   }, function() {}
 );
-
-gfBadge();
