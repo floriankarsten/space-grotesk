@@ -27,6 +27,8 @@ jobs:
         with:
           update-wheel: "true"
           update-setuptools: "true"
+      - name: Install ttfautohint (Ubuntu package manager)
+        run: sudo apt-get install ttfautohint
       - name: Build fonts
         run: cd sources && ./build.sh && cd ..
       - name: Font Bakery CI tests
