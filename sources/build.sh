@@ -15,7 +15,6 @@ echo "Post processing VFs"
     gftools fix-dsig -f $VF_File
     gftools fix-unwanted-tables $VF_File -t MVAR
     python3 spaceG_stat_table.py $VF_File
-	#woff2_compress $VF_File
 	fonttools ttLib.woff2 compress $VF_File
 
 echo "Generating static TTFs"
@@ -28,7 +27,6 @@ do
 	gftools fix-dsig -f $ttf;
 	gftools fix-hinting $ttf
 	mv "$ttf.fix" $ttf
-	#woff2_compress $ttf
 	fonttools ttLib.woff2 compress $ttf
 done
 

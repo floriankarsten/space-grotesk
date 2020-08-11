@@ -1,6 +1,4 @@
-gftools
-ttfautohint-py
-fontbakery
 fontmake
+git+https://github.com/googlefonts/gftools
 statmake
 brotli
