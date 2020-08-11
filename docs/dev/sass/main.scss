@@ -157,7 +157,7 @@ section {
 	position: relative;
 
 	.text {
-		font-size: 14.75vw;
+		font-size: calc((100vw - 5rem) * 0.158);
 		line-height: 0.925;
 		text-align: center;
 		padding-bottom: 2.25rem;
@@ -395,7 +395,6 @@ section {
 	.title, .author {
 		font-weight: 500;
 		font-size: 1rem;
-		line-height: 1;
 		letter-spacing: 0.04em;
 	}	
 
@@ -404,6 +403,7 @@ section {
 		grid-column-end: 2;
 		grid-row-start: 1;
 		grid-row-end: 2;
+		line-height: 1;
 	}
 
 	.author {
@@ -414,7 +414,7 @@ section {
 		align-self: end;
 		padding-bottom: 0.4rem;
 		padding-right: 2.5rem;
-		line-height: 1.2;
+		line-height: 1.3;
 	}
 
 	.description {
@@ -759,10 +759,6 @@ section > .character-set {
 	}
 }
 
-#download {
-
-}
-
 .download {
 	.links {
 		display: flex;
@@ -791,7 +787,41 @@ section > .character-set {
 	}
 }
 
-section.license {
-	padding: 2.5rem;
+#gf-badge svg {
+	fill: white !important;
+}
+
+footer {
 	font-weight: 500;
+	line-height: 1.3;
+	letter-spacing: 0.04em;
+	padding: 1.25rem;
+
+	a {
+		text-decoration: underline;
+	}
+
+	ul a {
+		text-decoration: none;
+	}
+
+	p + p {
+		margin-top: 1.3em;
+	}
+
+	.column {
+		padding: 1.25rem;
+	}
+
+	@include min-screen(800px) {
+		display: flex;
+
+		.column {
+			width: 25%;
+
+			&:last-child {
+				width: 50%;
+			}
+		}
+	}
 }
