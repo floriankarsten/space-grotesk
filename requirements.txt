@@ -1,6 +1,6 @@
 gftools
+ttfautohint==0.4.3
 fontbakery
-ttfautohint
 fontmake
 statmake
 brotli
