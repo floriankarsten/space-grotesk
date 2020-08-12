@@ -23,7 +23,7 @@ UPRIGHT_AXES = [
         ordering=0,
         values=[
             dict(value=300, name="Light"),  # Light
-            dict(value=400, name="Regular", flags=0x2),  # Regular
+            dict(value=400, name="Regular", flags=0x2, linkedValue=700),  # Regular
             dict(value=500, name="Medium"),  # Medium
             dict(value=700, name="Bold"),  # Bold
         ],
