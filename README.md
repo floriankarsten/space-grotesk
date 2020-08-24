@@ -16,6 +16,6 @@ Space Grotesk is licensed under the SIL Open Font License v1.1, see [OFL.txt](OF
 
 ## About Author
 
-Florian Karsten is a graphic designer & developer highly interested in art & culture, open-source and cryptocurrency world.
+Florian Karsten Studio (Brno, Czech Republic) focuses on graphic design, type design and programming. We create websites, books, programmes, typefaces and above all, functional systems. We’re excited about open-source and peer2peer networks.
 
 Questions, comments, requests, suggestions: fonts@floriankarsten.com
