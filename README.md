@@ -8,7 +8,22 @@ Space Grotesk supports Google Fonts [Latin Plus](https://github.com/googlefonts/
 
 ## Build
 
-Instructions will be here soon.
+Family is built using fontmake and gftools post processing script. Tools are all python based.
+
+To install all the Python tools into a virtualenv, do the following:
+
+```
+python3 -m venv venv
+source venv/bin/activate
+pip install -r requirements.txt
+```
+
+Then run the build script in the terminal:
+
+```
+cd sources
+sh build.sh
+```
 
 ## License
 
