@@ -1,6 +1,6 @@
-# Space Grotesk 2.0 (see [minisite](https://floriankarsten.github.io/space-grotesk/))
+# Space Grotesk 2.0
 
-Space Grotesk is a sans-serif typeface and a proportional variant of the original fixed-width [Space Mono](https://github.com/googlefonts/spacemono) family. Designed by [Florian Karsten](https://fonts.floriankarsten.com) in 2018, Space Grotesk retains [Colophon's Foundry](https://www.colophon-foundry.org) Space Mono quirkiness and personality but was optimised for better readability at non-display sizes.
+[Space Grotesk](https://floriankarsten.github.io/space-grotesk/) is a sans-serif typeface and a proportional variant of the original fixed-width [Space Mono](https://github.com/googlefonts/spacemono) family. Designed by [Florian Karsten](https://fonts.floriankarsten.com) in 2018, Space Grotesk retains [Colophon's Foundry](https://www.colophon-foundry.org) Space Mono quirkiness and personality but was optimised for better readability at non-display sizes.
 
 Since its initial release in 2018, Space Grotesk was later heavily reworked and completed with previously missing or suppressed Space Mono design features for 2020 Google Fonts release.
 
