@@ -4,7 +4,7 @@ Space Grotesk is a sans-serif typeface and a proportional variant of the origina
 
 Since its initial release in 2018, Space Grotesk was later heavily reworked and completed with previously missing or suppressed Space Mono design features for 2020 Google Fonts release.
 
-Space Grotesk supports Google Fonts Latin Plus character set, as well as several OpenType features (old-style and tabular figures, superscript and subscript numerals, fractions, stylistic alternates).
+Space Grotesk supports Google Fonts [Latin Plus](https://github.com/googlefonts/gftools/tree/master/Lib/gftools/encodings/GF%20Glyph%20Sets) character set, as well as several OpenType features (old-style and tabular figures, superscript and subscript numerals, fractions, stylistic alternates).
 
 ## Build
 
