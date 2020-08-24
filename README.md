@@ -6,7 +6,7 @@ Since its initial release in 2018, Space Grotesk was later heavily reworked and 
 
 Space Grotesk supports Google Fonts [Latin Plus](https://github.com/googlefonts/gftools/tree/master/Lib/gftools/encodings/GF%20Glyph%20Sets) character set, as well as several OpenType features (old-style and tabular figures, superscript and subscript numerals, fractions, stylistic alternates).
 
-## Build
+## Building the Fonts
 
 Family is built using fontmake and gftools post processing script. Tools are all python based.
 
