@@ -1,10 +1,7 @@
 # Space Grotesk 2.0
+[Space Grotesk](https://floriankarsten.github.io/space-grotesk/) is a proportional sans-serif typeface variant based on [Colophon Foundry's](https://www.colophon-foundry.org) fixed-width [Space Mono](https://github.com/googlefonts/spacemono) family (2016). Originally designed by [Florian Karsten](https://fonts.floriankarsten.com) in 2018, Space Grotesk retains the monospace's idiosyncratic details while optimizing for improved readability at non-display sizes.
 
-[Space Grotesk](https://floriankarsten.github.io/space-grotesk/) is a sans-serif typeface and a proportional variant of the original fixed-width [Space Mono](https://github.com/googlefonts/spacemono) family. Designed by [Florian Karsten](https://fonts.floriankarsten.com) in 2018, Space Grotesk retains [Colophon's Foundry](https://www.colophon-foundry.org) Space Mono quirkiness and personality but was optimised for better readability at non-display sizes.
-
-Since its initial release in 2018, Space Grotesk was later heavily reworked and completed with previously missing or suppressed Space Mono design features for 2020 Google Fonts release.
-
-Space Grotesk supports Google Fonts [Latin Plus](https://github.com/googlefonts/gftools/tree/master/Lib/gftools/encodings/GF%20Glyph%20Sets) character set, as well as several OpenType features (old-style and tabular figures, superscript and subscript numerals, fractions, stylistic alternates).
+Space Grotesk includes Latin Vietnamese, Pinyin, and all Western, Central, and South-Eastern European language support, as well as several OpenType features (old-style and tabular figures, superscript and subscript numerals, fractions, stylistic alternates).
 
 ## Building the Fonts
 
@@ -31,6 +28,6 @@ Space Grotesk is licensed under the SIL Open Font License v1.1, see [OFL.txt](OF
 
 ## About Author
 
-Florian Karsten Studio (Brno, Czech Republic) focuses on graphic design, type design and programming. We create websites, books, programmes, typefaces and above all, functional systems. We’re excited about open-source and peer2peer networks.
+Florian Karsten Studio (Brno, Czech Republic) focuses on graphic design, type design and programming. We create websites, books, programmes, typefaces and above all, functional systems. We're excited about open-source and peer2peer networks.
 
 Questions, comments, requests, suggestions: fonts@floriankarsten.com
