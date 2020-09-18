@@ -785,7 +785,7 @@ name = "Enforce Compatibility Check";
 value = 1;
 }
 );
-date = "2020-08-07 23:27:37 +0000";
+date = "2020-09-18 16:02:03 +0000";
 designer = "Florian Karsten";
 designerURL = "https://fonts.floriankarsten.com";
 disablesNiceNames = 1;
@@ -5574,7 +5574,7 @@ unicode = 005A;
 },
 {
 glyphname = a;
-lastChange = "2020-08-11 15:53:35 +0000";
+lastChange = "2020-09-18 16:01:24 +0000";
 layers = (
 {
 anchors = (
@@ -5682,9 +5682,9 @@ nodes = (
 "359 42 OFFCURVE",
 "368 67 CURVE",
 "387 67 LINE",
-"387 65 LINE",
-"396 22 OFFCURVE",
-"431 0 OFFCURVE",
+"387 66 LINE SMOOTH",
+"387 26 OFFCURVE",
+"423 0 OFFCURVE",
 "472 0 CURVE SMOOTH",
 "556 0 LINE",
 "556 104 LINE",
@@ -58778,7 +58778,7 @@ unicode = 1E93;
 },
 {
 glyphname = a.ss01;
-lastChange = "2020-08-10 18:26:47 +0000";
+lastChange = "2020-09-18 16:01:47 +0000";
 layers = (
 {
 anchors = (
@@ -58940,10 +58940,10 @@ nodes = (
 "412 27 OFFCURVE",
 "435 76 CURVE",
 "453 76 LINE",
-"454 71 LINE",
-"460 28 OFFCURVE",
-"492 0 OFFCURVE",
-"540 0 CURVE SMOOTH",
+"453 75 LINE SMOOTH",
+"453 28 OFFCURVE",
+"488 0 OFFCURVE",
+"536 0 CURVE SMOOTH",
 "636 0 LINE",
 "636 104 LINE",
 "596 104 LINE SMOOTH",
