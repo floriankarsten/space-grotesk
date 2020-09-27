@@ -785,7 +785,7 @@ name = "Enforce Compatibility Check";
 value = 1;
 }
 );
-date = "2020-09-27 09:27:22 +0000";
+date = "2020-09-27 10:30:12 +0000";
 designer = "Florian Karsten";
 designerURL = "https://fonts.floriankarsten.com";
 disablesNiceNames = 1;
@@ -926,11 +926,11 @@ capHeight = 700;
 customParameters = (
 {
 name = typoAscender;
-value = 960;
+value = 984;
 },
 {
 name = typoDescender;
-value = -340;
+value = -292;
 },
 {
 name = typoLineGap;
@@ -938,11 +938,11 @@ value = 0;
 },
 {
 name = hheaAscender;
-value = 960;
+value = 984;
 },
 {
 name = hheaDescender;
-value = -340;
+value = -292;
 },
 {
 name = hheaLineGap;
@@ -954,7 +954,7 @@ value = 1150;
 },
 {
 name = winDescent;
-value = 340;
+value = 292;
 },
 {
 name = strikeoutPosition;
@@ -993,11 +993,11 @@ capHeight = 700;
 customParameters = (
 {
 name = typoAscender;
-value = 960;
+value = 984;
 },
 {
 name = typoDescender;
-value = -340;
+value = -292;
 },
 {
 name = typoLineGap;
@@ -1005,11 +1005,11 @@ value = 0;
 },
 {
 name = hheaAscender;
-value = 960;
+value = 984;
 },
 {
 name = hheaDescender;
-value = -340;
+value = -292;
 },
 {
 name = hheaLineGap;
@@ -1021,7 +1021,7 @@ value = 1150;
 },
 {
 name = winDescent;
-value = 340;
+value = 292;
 },
 {
 name = strikeoutPosition;
@@ -9234,7 +9234,7 @@ unicode = 0073;
 },
 {
 glyphname = t;
-lastChange = "2020-08-11 15:54:05 +0000";
+lastChange = "2020-09-27 11:41:20 +0000";
 layers = (
 {
 anchors = (
@@ -9244,7 +9244,7 @@ position = "{232, 0}";
 },
 {
 name = sidecaron;
-position = "{282, 743}";
+position = "{280, 757}";
 },
 {
 name = top;
@@ -9332,7 +9332,7 @@ position = "{261, 0}";
 },
 {
 name = sidecaron;
-position = "{268, 757}";
+position = "{260, 762}";
 },
 {
 name = top;
@@ -14017,7 +14017,7 @@ unicode = 002E;
 },
 {
 glyphname = comma;
-lastChange = "2020-08-10 18:12:01 +0000";
+lastChange = "2020-09-27 11:00:10 +0000";
 layers = (
 {
 background = {
@@ -27794,7 +27794,7 @@ unicode = 017F;
 },
 {
 glyphname = tcaron;
-lastChange = "2020-08-10 18:12:01 +0000";
+lastChange = "2020-09-27 11:41:20 +0000";
 layers = (
 {
 background = {
@@ -27814,7 +27814,7 @@ name = t;
 },
 {
 name = caroncomb.alt;
-transform = "{1, 0, 0, 1, 298, 43}";
+transform = "{1, 0, 0, 1, 296, 57}";
 }
 );
 layerId = "5117E3E8-E17C-4812-BAF5-9E7064564A59";
@@ -27838,7 +27838,7 @@ name = t;
 },
 {
 name = caroncomb.alt;
-transform = "{1, 0, 0, 1, 288, 57}";
+transform = "{1, 0, 0, 1, 280, 62}";
 }
 );
 layerId = "CEFBB1E5-951F-4065-926E-8B9137F837F5";
@@ -86019,7 +86019,7 @@ unicode = 02CA;
 },
 {
 glyphname = verticallinelowmod;
-lastChange = "2020-08-10 18:12:01 +0000";
+lastChange = "2020-09-27 11:40:00 +0000";
 layers = (
 {
 anchors = (
@@ -86092,10 +86092,10 @@ paths = (
 {
 closed = 1;
 nodes = (
-"148 -306 LINE",
+"148 -286 LINE",
 "148 -56 LINE",
 "40 -56 LINE",
-"40 -306 LINE"
+"40 -286 LINE"
 );
 }
 );
@@ -86106,7 +86106,7 @@ unicode = 02CC;
 },
 {
 glyphname = verticallinemod;
-lastChange = "2020-08-10 18:12:01 +0000";
+lastChange = "2020-09-27 11:39:48 +0000";
 layers = (
 {
 anchors = (
@@ -86180,8 +86180,8 @@ paths = (
 closed = 1;
 nodes = (
 "148 552 LINE",
-"148 800 LINE",
-"40 800 LINE",
+"148 782 LINE",
+"40 782 LINE",
 "40 552 LINE"
 );
 }
@@ -88264,7 +88264,7 @@ unicode = 0311;
 },
 {
 glyphname = commaturnedabovecomb;
-lastChange = "2020-08-10 18:12:01 +0000";
+lastChange = "2020-09-27 11:38:44 +0000";
 layers = (
 {
 anchors = (
@@ -88314,27 +88314,27 @@ paths = (
 {
 closed = 1;
 nodes = (
-"163 546 OFFCURVE",
-"194 577 OFFCURVE",
-"194 624 CURVE SMOOTH",
-"194 667 OFFCURVE",
-"163 697 OFFCURVE",
-"117 697 CURVE SMOOTH",
-"106 697 LINE",
-"106 717 LINE SMOOTH",
-"106 746 OFFCURVE",
-"117 757 OFFCURVE",
-"147 757 CURVE SMOOTH",
-"177 757 LINE",
-"177 816 LINE",
-"144 816 LINE SMOOTH",
-"76 816 OFFCURVE",
-"40 782 OFFCURVE",
-"40 716 CURVE SMOOTH",
-"40 628 LINE SMOOTH",
-"40 577 OFFCURVE",
-"71 546 OFFCURVE",
-"117 546 CURVE SMOOTH"
+"144 788 LINE SMOOTH",
+"76 788 OFFCURVE",
+"40 754 OFFCURVE",
+"40 694 CURVE SMOOTH",
+"40 626 LINE SMOOTH",
+"40 574 OFFCURVE",
+"72 546 OFFCURVE",
+"118 546 CURVE SMOOTH",
+"164 546 OFFCURVE",
+"194 573 OFFCURVE",
+"194 616 CURVE SMOOTH",
+"194 657 OFFCURVE",
+"166 685 OFFCURVE",
+"119 685 CURVE SMOOTH",
+"106 685 LINE",
+"106 691 LINE SMOOTH",
+"106 718 OFFCURVE",
+"117 729 OFFCURVE",
+"147 729 CURVE SMOOTH",
+"177 729 LINE",
+"177 788 LINE"
 );
 }
 );
@@ -88388,6 +88388,14 @@ paths = (
 {
 closed = 1;
 nodes = (
+"127 747 LINE SMOOTH",
+"81 747 OFFCURVE",
+"60 725 OFFCURVE",
+"60 680 CURVE SMOOTH",
+"60 617 LINE SMOOTH",
+"60 583 OFFCURVE",
+"82 562 OFFCURVE",
+"110 562 CURVE SMOOTH",
 "139 562 OFFCURVE",
 "160 583 OFFCURVE",
 "160 611 CURVE SMOOTH",
@@ -88400,15 +88408,7 @@ nodes = (
 "109 709 OFFCURVE",
 "131 709 CURVE SMOOTH",
 "152 709 LINE",
-"152 747 LINE",
-"127 747 LINE SMOOTH",
-"81 747 OFFCURVE",
-"60 725 OFFCURVE",
-"60 680 CURVE SMOOTH",
-"60 617 LINE SMOOTH",
-"60 583 OFFCURVE",
-"82 562 OFFCURVE",
-"110 562 CURVE SMOOTH"
+"152 747 LINE"
 );
 }
 );
@@ -88844,7 +88844,7 @@ unicode = 0324;
 },
 {
 glyphname = commaaccentcomb;
-lastChange = "2020-08-10 18:12:01 +0000";
+lastChange = "2020-09-27 11:38:48 +0000";
 layers = (
 {
 anchors = (
@@ -88894,27 +88894,27 @@ paths = (
 {
 closed = 1;
 nodes = (
-"90 -320 LINE SMOOTH",
-"158 -320 OFFCURVE",
-"194 -286 OFFCURVE",
-"194 -220 CURVE SMOOTH",
-"194 -132 LINE SMOOTH",
-"194 -81 OFFCURVE",
-"163 -50 OFFCURVE",
-"117 -50 CURVE SMOOTH",
-"71 -50 OFFCURVE",
-"40 -81 OFFCURVE",
-"40 -128 CURVE SMOOTH",
-"40 -171 OFFCURVE",
-"71 -201 OFFCURVE",
-"117 -201 CURVE SMOOTH",
-"128 -201 LINE",
-"128 -221 LINE SMOOTH",
-"128 -250 OFFCURVE",
-"117 -261 OFFCURVE",
-"87 -261 CURVE SMOOTH",
-"57 -261 LINE",
-"57 -320 LINE"
+"90 -292 LINE SMOOTH",
+"158 -292 OFFCURVE",
+"194 -258 OFFCURVE",
+"194 -198 CURVE SMOOTH",
+"194 -130 LINE SMOOTH",
+"194 -78 OFFCURVE",
+"162 -50 OFFCURVE",
+"116 -50 CURVE SMOOTH",
+"70 -50 OFFCURVE",
+"40 -77 OFFCURVE",
+"40 -120 CURVE SMOOTH",
+"40 -161 OFFCURVE",
+"68 -189 OFFCURVE",
+"115 -189 CURVE SMOOTH",
+"128 -189 LINE",
+"128 -195 LINE SMOOTH",
+"128 -222 OFFCURVE",
+"117 -233 OFFCURVE",
+"87 -233 CURVE SMOOTH",
+"57 -233 LINE",
+"57 -292 LINE"
 );
 }
 );
