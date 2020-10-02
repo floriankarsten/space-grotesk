@@ -899,12 +899,12 @@ name = ss02;
 },
 {
 automatic = 1;
-code = "sub y by y.ss03;\012sub yacute by yacute.ss03;\012sub ycircumflex by ycircumflex.ss03;\012sub ydieresis by ydieresis.ss03;\012sub ydotaccent by ydotaccent.ss03;\012sub ydotbelow by ydotbelow.ss03;\012sub ygrave by ygrave.ss03;\012sub yhookabove by yhookabove.ss03;\012sub ymacron by ymacron.ss03;\012sub ytilde by ytilde.ss03;\012sub baht by baht.ss03;\012sub bitcoin by bitcoin.ss03;\012";
+code = "sub y by y.ss03;\012sub yacute by yacute.ss03;\012sub ycircumflex by ycircumflex.ss03;\012sub ydieresis by ydieresis.ss03;\012sub ydotaccent by ydotaccent.ss03;\012sub ydotbelow by ydotbelow.ss03;\012sub ygrave by ygrave.ss03;\012sub yhookabove by yhookabove.ss03;\012sub ymacron by ymacron.ss03;\012sub ytilde by ytilde.ss03;\012";
 name = ss03;
 },
 {
 automatic = 1;
-code = "sub B by B.ss04;\012sub Bstroke by Bstroke.ss04;\012sub D by D.ss04;\012sub DZcaron by DZcaron.ss04;\012sub Eth by Eth.ss04;\012sub Dcaron by Dcaron.ss04;\012sub Dcroat by Dcroat.ss04;\012sub Ddotbelow by Ddotbelow.ss04;\012sub Dlinebelow by Dlinebelow.ss04;\012sub Dzcaron by Dzcaron.ss04;\012sub IJ by IJ.ss04;\012sub J by J.ss04;\012sub Jacute by Jacute.ss04;\012sub Jcircumflex by Jcircumflex.ss04;\012sub LJ by LJ.ss04;\012sub NJ by NJ.ss04;\012sub IJacute by IJacute.ss04;\012";
+code = "sub B by B.ss04;\012sub Bstroke by Bstroke.ss04;\012sub D by D.ss04;\012sub DZcaron by DZcaron.ss04;\012sub Eth by Eth.ss04;\012sub Dcaron by Dcaron.ss04;\012sub Dcroat by Dcroat.ss04;\012sub Ddotbelow by Ddotbelow.ss04;\012sub Dlinebelow by Dlinebelow.ss04;\012sub Dzcaron by Dzcaron.ss04;\012sub IJ by IJ.ss04;\012sub J by J.ss04;\012sub Jacute by Jacute.ss04;\012sub Jcircumflex by Jcircumflex.ss04;\012sub LJ by LJ.ss04;\012sub NJ by NJ.ss04;\012sub baht by baht.ss04;\012sub bitcoin by bitcoin.ss04;\012sub IJacute by IJacute.ss04;\012";
 name = ss04;
 },
 {
@@ -81657,8 +81657,8 @@ width = 914;
 unicode = 20A9;
 },
 {
-glyphname = baht.ss03;
-lastChange = "2020-10-01 23:47:13 +0000";
+glyphname = baht.ss04;
+lastChange = "2020-10-02 07:13:38 +0000";
 layers = (
 {
 background = {
@@ -81933,8 +81933,8 @@ leftMetricsKey = H;
 rightMetricsKey = B;
 },
 {
-glyphname = bitcoin.ss03;
-lastChange = "2020-10-01 23:47:13 +0000";
+glyphname = bitcoin.ss04;
+lastChange = "2020-10-02 07:13:42 +0000";
 layers = (
 {
 background = {
