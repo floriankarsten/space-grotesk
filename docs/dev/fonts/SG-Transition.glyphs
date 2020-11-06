@@ -1050,15 +1050,35 @@ capHeight = 700;
 custom = Variable;
 customParameters = (
 {
+name = strikeoutPosition;
+value = 293;
+},
+{
+name = strikeoutSize;
+value = 50;
+},
+{
 name = typoAscender;
-value = 960;
+value = 984;
 },
 {
 name = typoDescender;
-value = -340;
+value = -292;
 },
 {
 name = typoLineGap;
+value = 0;
+},
+{
+name = hheaAscender;
+value = 984;
+},
+{
+name = hheaDescender;
+value = -292;
+},
+{
+name = hheaLineGap;
 value = 0;
 },
 {
@@ -1067,23 +1087,7 @@ value = 1150;
 },
 {
 name = winDescent;
-value = 340;
-},
-{
-name = hheaAscender;
-value = 960;
-},
-{
-name = hheaDescender;
-value = -340;
-},
-{
-name = strikeoutPosition;
-value = 293;
-},
-{
-name = strikeoutSize;
-value = 50;
+value = 292;
 }
 );
 descender = -340;
@@ -1107,15 +1111,35 @@ capHeight = 700;
 custom = Proportional;
 customParameters = (
 {
+name = strikeoutPosition;
+value = 293;
+},
+{
+name = strikeoutSize;
+value = 50;
+},
+{
 name = typoAscender;
-value = 960;
+value = 984;
 },
 {
 name = typoDescender;
-value = -340;
+value = -292;
 },
 {
 name = typoLineGap;
+value = 0;
+},
+{
+name = hheaAscender;
+value = 984;
+},
+{
+name = hheaDescender;
+value = -292;
+},
+{
+name = hheaLineGap;
 value = 0;
 },
 {
@@ -1124,23 +1148,7 @@ value = 1150;
 },
 {
 name = winDescent;
-value = 340;
-},
-{
-name = hheaAscender;
-value = 960;
-},
-{
-name = hheaDescender;
-value = -340;
-},
-{
-name = strikeoutPosition;
-value = 293;
-},
-{
-name = strikeoutSize;
-value = 50;
+value = 292;
 }
 );
 descender = -340;

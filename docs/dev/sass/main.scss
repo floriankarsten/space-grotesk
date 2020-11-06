@@ -5,7 +5,7 @@
 	font-family: 'Space Grotesk Variable';
 	src:	url("../fonts/SpaceGrotesk[wght].woff2") format("woff2"),
 			url("../fonts/SpaceGrotesk[wght].woff") format("woff");
-	font-weight: 300 700;
+	font-weight: 100 700;
 	font-style: normal;
 }
 
@@ -30,38 +30,6 @@
 	src:	url("../fonts/SG-Linear.woff2") format("woff2"),
 			url("../fonts/SG-Linear.woff") format("woff");
 	font-weight: 100 700;
-	font-style: normal;
-}
-
-@font-face {
-	font-family: 'Space Grotesk';
-	src:	url("../fonts/SpaceGrotesk-Light.woff2") format("woff2"),
-			url("../fonts/SpaceGrotesk-Light.woff") format("woff");
-	font-weight: 300;
-	font-style: normal;
-}
-
-@font-face {
-	font-family: 'Space Grotesk';
-	src:	url("../fonts/SpaceGrotesk-Regular.woff2") format("woff2"),
-			url("../fonts/SpaceGrotesk-Regular.woff") format("woff");
-	font-weight: 400;
-	font-style: normal;
-}
-
-@font-face {
-	font-family: 'Space Grotesk';
-	src:	url("../fonts/SpaceGrotesk-Medium.woff2") format("woff2"),
-			url("../fonts/SpaceGrotesk-Medium.woff") format("woff");
-	font-weight: 500;
-	font-style: normal;
-}
-
-@font-face {
-	font-family: 'Space Grotesk';
-	src:	url("../fonts/SpaceGrotesk-Bold.woff2") format("woff2"),
-			url("../fonts/SpaceGrotesk-Bold.woff") format("woff");
-	font-weight: 700;
 	font-style: normal;
 }
 
@@ -164,7 +132,7 @@ section {
 		font-size: calc((100vw - 5rem) * 0.158);
 		line-height: 0.925;
 		text-align: center;
-		margin-bottom: calc((1em * -0.15) + 1.75rem + 2.65rem);
+		margin-bottom: calc(1.75rem + 2.65rem);
 	}
 }
 
@@ -262,7 +230,7 @@ section {
 
 .weights {
 	.text {
-		font-family: 'Space Grotesk Variable';
+		font-family: 'Space Grotesk';
 		transition: font-weight 300ms;
 	}
 
@@ -570,6 +538,9 @@ section > .character-set {
 	display: flex;
 	padding-top: 0;
 	padding-bottom: 3rem;
+
+	font-family: 'Space Grotesk Variable';
+	font-weight: 700;
 
 	@include min-screen(600px) {
 		display: flex;
