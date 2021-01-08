@@ -121,7 +121,6 @@ section {
 
 	&.ot-section > .content {
 		padding: 0;
-
 	}
 }
 
@@ -784,6 +783,7 @@ section > .character-set {
 
 			.ot-string {
 				flex: 0 1 auto;
+				font-family: 'Space Grotesk Variable';
 				font-weight: 500;
 				font-size: 7vw;
 				line-height: 1;
