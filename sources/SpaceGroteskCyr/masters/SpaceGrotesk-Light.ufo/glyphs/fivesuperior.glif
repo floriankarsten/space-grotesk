@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="fivesuperior" format="2">
+  <advance width="419"/>
+  <unicode hex="2075"/>
+  <outline>
+    <component base="five.dnom" xOffset="20" yOffset="350"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.metricsLeft</key>
+  <string>five</string>
+  <key>com.fontlab.metricsRight</key>
+  <string>five</string>
+  </dict>
+  </lib>
+</glyph>

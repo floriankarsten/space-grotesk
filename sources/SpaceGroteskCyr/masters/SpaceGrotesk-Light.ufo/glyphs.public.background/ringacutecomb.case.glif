@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="ringacutecomb.case" format="2">
+  <advance width="368"/>
+  <outline>
+    <contour>
+      <point x="207" y="901" type="line"/>
+      <point x="287" y="1019" type="line"/>
+      <point x="215" y="1019" type="line"/>
+      <point x="147" y="901" type="line"/>
+    </contour>
+  </outline>
+</glyph>

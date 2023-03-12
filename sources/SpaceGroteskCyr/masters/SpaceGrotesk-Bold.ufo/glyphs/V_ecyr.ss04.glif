@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Vecyr.ss04" format="2">
+  <advance width="638"/>
+  <anchor x="138" y="350" name="stroke"/>
+  <outline>
+    <component base="B.ss04"/>
+  </outline>
+</glyph>

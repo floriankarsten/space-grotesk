@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Eth.ss04" format="2">
+  <advance width="685"/>
+  <outline>
+    <component base="D.ss04" xOffset="43"/>
+    <component base="strokemidcomb" xOffset="-48"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.metricsRight</key>
+  <string>D</string>
+  </dict>
+  </lib>
+</glyph>

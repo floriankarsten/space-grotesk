@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="tcaron" format="2">
+  <advance width="456"/>
+  <unicode hex="0165"/>
+  <outline>
+    <component base="t"/>
+    <component base="caroncomb.alt" xOffset="296" yOffset="57"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.metricsLeft</key>
+  <string>t</string>
+  </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="horncomb_o" format="2">
+  <advance width="261"/>
+  <anchor x="9" y="486" name="_horn"/>
+  <outline>
+    <contour>
+      <point x="81" y="400" type="line"/>
+      <point x="162" y="400"/>
+      <point x="201" y="433"/>
+      <point x="201" y="530" type="curve" smooth="yes"/>
+      <point x="201" y="566" type="line"/>
+      <point x="145" y="566" type="line"/>
+      <point x="145" y="532" type="line" smooth="yes"/>
+      <point x="145" y="461"/>
+      <point x="117" y="443"/>
+      <point x="60" y="443" type="curve"/>
+    </contour>
+  </outline>
+</glyph>

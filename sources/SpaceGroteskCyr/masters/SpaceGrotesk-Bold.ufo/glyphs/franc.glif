@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="franc" format="2">
+  <advance width="598"/>
+  <unicode hex="20A3"/>
+  <outline>
+    <contour>
+      <point x="262" y="0" type="line"/>
+      <point x="262" y="310" type="line"/>
+      <point x="546" y="310" type="line"/>
+      <point x="546" y="430" type="line"/>
+      <point x="262" y="430" type="line"/>
+      <point x="262" y="580" type="line"/>
+      <point x="570" y="580" type="line"/>
+      <point x="570" y="700" type="line"/>
+      <point x="130" y="700" type="line"/>
+      <point x="130" y="0" type="line"/>
+    </contour>
+    <contour>
+      <point x="414" y="104" type="line"/>
+      <point x="414" y="206" type="line"/>
+      <point x="38" y="206" type="line"/>
+      <point x="38" y="104" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.metricsLeft</key>
+  <string>peso</string>
+  <key>com.fontlab.metricsRight</key>
+  <string>F</string>
+  </dict>
+  </lib>
+</glyph>

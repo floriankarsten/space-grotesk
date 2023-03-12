@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="three.lf" format="2">
+  <advance width="603"/>
+  <outline>
+    <component base="three"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.metricsLeft</key>
+  <string>three</string>
+  <key>com.fontlab.metricsRight</key>
+  <string>three</string>
+  </dict>
+  </lib>
+</glyph>

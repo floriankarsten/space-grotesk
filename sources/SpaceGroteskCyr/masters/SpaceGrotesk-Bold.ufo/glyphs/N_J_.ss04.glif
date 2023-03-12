@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="NJ.ss04" format="2">
+  <advance width="1220"/>
+  <outline>
+    <component base="N"/>
+    <component base="J.ss04" xOffset="670"/>
+  </outline>
+</glyph>

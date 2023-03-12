@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Bstroke.ss04" format="2">
+  <advance width="632"/>
+  <outline>
+    <component base="B.ss04"/>
+    <component base="strokemidcomb" xOffset="-55" yOffset="-156"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.metricsRight</key>
+  <string>B</string>
+  </dict>
+  </lib>
+</glyph>

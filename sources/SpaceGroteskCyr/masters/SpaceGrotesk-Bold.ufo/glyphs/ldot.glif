@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="ldot" format="2">
+  <advance width="448"/>
+  <unicode hex="0140"/>
+  <outline>
+    <component base="l"/>
+    <component base="dotaccentcomb" xOffset="236" yOffset="-376"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.metricsLeft</key>
+  <string>l</string>
+  </dict>
+  </lib>
+</glyph>

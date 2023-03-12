@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="one.lf" format="2">
+  <advance width="452"/>
+  <outline>
+    <component base="one"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.metricsLeft</key>
+  <string>one</string>
+  <key>com.fontlab.metricsRight</key>
+  <string>one</string>
+  </dict>
+  </lib>
+</glyph>

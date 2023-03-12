@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="escyr" format="2">
+  <advance width="594"/>
+  <unicode hex="0441"/>
+  <anchor x="303" y="0" name="bottom"/>
+  <anchor x="303" y="496" name="top"/>
+  <outline>
+    <component base="c"/>
+  </outline>
+</glyph>

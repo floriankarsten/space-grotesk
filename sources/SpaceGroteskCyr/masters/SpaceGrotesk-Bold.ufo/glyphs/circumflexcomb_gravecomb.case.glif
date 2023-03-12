@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="circumflexcomb_gravecomb.case" format="2">
+  <advance width="529"/>
+  <outline>
+    <component base="circumflexcomb.case"/>
+    <component base="gravecomb_side.case" xOffset="291" yOffset="68"/>
+  </outline>
+</glyph>

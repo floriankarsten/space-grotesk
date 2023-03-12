@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Kjecyr" format="2">
+  <advance width="639"/>
+  <unicode hex="040C"/>
+  <anchor x="311" y="0" name="bottom"/>
+  <outline>
+    <component base="Kacyr"/>
+    <component base="acutecomb" xOffset="212" yOffset="204"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.recipe</key>
+  <string>afii10028+acutecomb</string>
+  </dict>
+  </lib>
+</glyph>

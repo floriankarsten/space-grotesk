@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="breveinvertedcomb" format="2">
+  <advance width="412"/>
+  <unicode hex="0311"/>
+  <anchor x="206" y="496" name="_top"/>
+  <outline>
+    <contour>
+      <point x="144" y="552" type="line"/>
+      <point x="144" y="556" type="line" smooth="yes"/>
+      <point x="144" y="593"/>
+      <point x="162" y="622"/>
+      <point x="206" y="622" type="curve" smooth="yes"/>
+      <point x="250" y="622"/>
+      <point x="268" y="593"/>
+      <point x="268" y="556" type="curve" smooth="yes"/>
+      <point x="268" y="552" type="line"/>
+      <point x="372" y="552" type="line"/>
+      <point x="372" y="558" type="line" smooth="yes"/>
+      <point x="372" y="649"/>
+      <point x="311" y="704"/>
+      <point x="206" y="704" type="curve" smooth="yes"/>
+      <point x="101" y="704"/>
+      <point x="40" y="649"/>
+      <point x="40" y="558" type="curve" smooth="yes"/>
+      <point x="40" y="552" type="line"/>
+    </contour>
+  </outline>
+</glyph>

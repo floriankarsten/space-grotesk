@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="guilsinglleft.case" format="2">
+  <advance width="454"/>
+  <outline>
+    <contour>
+      <point x="384" y="120" type="line"/>
+      <point x="384" y="183" type="line"/>
+      <point x="110" y="334" type="line"/>
+      <point x="110" y="344" type="line"/>
+      <point x="384" y="495" type="line"/>
+      <point x="384" y="558" type="line"/>
+      <point x="378" y="558" type="line"/>
+      <point x="52" y="376" type="line"/>
+      <point x="52" y="302" type="line"/>
+      <point x="378" y="120" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.metricsLeft</key>
+  <string>guilsinglleft</string>
+  <key>com.fontlab.metricsRight</key>
+  <string>guilsinglleft</string>
+  </dict>
+  </lib>
+</glyph>

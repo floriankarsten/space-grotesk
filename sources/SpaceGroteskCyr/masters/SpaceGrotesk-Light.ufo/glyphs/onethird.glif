@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="onethird" format="2">
+  <advance width="871"/>
+  <unicode hex="2153"/>
+  <outline>
+    <component base="one.numr"/>
+    <component base="fraction" xOffset="37"/>
+    <component base="three.dnom" xOffset="475"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.metricsLeft</key>
+  <string>one.numr</string>
+  <key>com.fontlab.metricsRight</key>
+  <string>one.numr</string>
+  </dict>
+  </lib>
+</glyph>

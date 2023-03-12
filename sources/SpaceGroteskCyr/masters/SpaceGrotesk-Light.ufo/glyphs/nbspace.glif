@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="nbspace" format="2">
+  <advance width="258"/>
+  <unicode hex="00A0"/>
+  <lib>
+  <dict>
+  <key>com.fontlab.metricsWidth</key>
+  <string>space</string>
+  </dict>
+  </lib>
+</glyph>

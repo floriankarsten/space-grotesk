@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="nineinferior" format="2">
+  <advance width="404"/>
+  <unicode hex="2089"/>
+  <outline>
+    <component base="nine.dnom" xOffset="16" yOffset="-200"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.metricsLeft</key>
+  <string>nine</string>
+  <key>com.fontlab.metricsRight</key>
+  <string>nine</string>
+  </dict>
+  </lib>
+</glyph>

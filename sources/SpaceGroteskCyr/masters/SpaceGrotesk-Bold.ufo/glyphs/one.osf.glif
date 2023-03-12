@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="one.osf" format="2">
+  <advance width="411"/>
+  <outline>
+    <contour>
+      <point x="341" y="0" type="line"/>
+      <point x="341" y="496" type="line"/>
+      <point x="114" y="496" type="line"/>
+      <point x="18" y="274" type="line"/>
+      <point x="146" y="274" type="line"/>
+      <point x="197" y="406" type="line"/>
+      <point x="215" y="406" type="line"/>
+      <point x="215" y="0" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.metricsRight</key>
+  <string>u</string>
+  </dict>
+  </lib>
+</glyph>

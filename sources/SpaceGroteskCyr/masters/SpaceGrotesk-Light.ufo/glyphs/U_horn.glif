@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Uhorn" format="2">
+  <advance width="698"/>
+  <unicode hex="01AF"/>
+  <outline>
+    <component base="U"/>
+    <component base="horncomb" xOffset="520" yOffset="214"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.metricsLeft</key>
+  <string>U</string>
+  </dict>
+  </lib>
+</glyph>

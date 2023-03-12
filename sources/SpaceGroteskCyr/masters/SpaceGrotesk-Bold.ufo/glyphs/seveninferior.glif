@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="seveninferior" format="2">
+  <advance width="360"/>
+  <unicode hex="2087"/>
+  <outline>
+    <component base="seven.dnom" xOffset="14" yOffset="-200"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.metricsLeft</key>
+  <string>seven</string>
+  <key>com.fontlab.metricsRight</key>
+  <string>seven</string>
+  </dict>
+  </lib>
+</glyph>

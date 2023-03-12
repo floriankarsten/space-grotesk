@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="encyr" format="2">
+  <advance width="618"/>
+  <unicode hex="043D"/>
+  <outline>
+    <contour>
+      <point x="470" y="486" type="line"/>
+      <point x="470" y="274" type="line"/>
+      <point x="148" y="274" type="line"/>
+      <point x="148" y="486" type="line"/>
+      <point x="88" y="486" type="line"/>
+      <point x="88" y="0" type="line"/>
+      <point x="148" y="0" type="line"/>
+      <point x="148" y="220" type="line"/>
+      <point x="470" y="220" type="line"/>
+      <point x="470" y="0" type="line"/>
+      <point x="530" y="0" type="line"/>
+      <point x="530" y="486" type="line"/>
+    </contour>
+  </outline>
+</glyph>

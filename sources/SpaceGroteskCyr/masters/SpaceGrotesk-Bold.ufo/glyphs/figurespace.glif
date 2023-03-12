@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="figurespace" format="2">
+  <advance width="620"/>
+  <unicode hex="2007"/>
+  <lib>
+  <dict>
+  <key>com.fontlab.metricsWidth</key>
+  <string>zero.tf</string>
+  </dict>
+  </lib>
+</glyph>

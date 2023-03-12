@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="six.numr" format="2">
+  <advance width="398"/>
+  <outline>
+    <component base="six.dnom" yOffset="350"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.metricsLeft</key>
+  <string>six.dnom</string>
+  <key>com.fontlab.metricsRight</key>
+  <string>six.dnom</string>
+  </dict>
+  </lib>
+</glyph>

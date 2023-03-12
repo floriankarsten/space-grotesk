@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="kip" format="2">
+  <advance width="636"/>
+  <unicode hex="20AD"/>
+  <outline>
+    <contour>
+      <point x="182" y="0" type="line"/>
+      <point x="182" y="327" type="line"/>
+      <point x="194" y="327" type="line"/>
+      <point x="529" y="0" type="line"/>
+      <point x="620" y="0" type="line"/>
+      <point x="248" y="354" type="line"/>
+      <point x="608" y="700" type="line"/>
+      <point x="518" y="700" type="line"/>
+      <point x="194" y="379" type="line"/>
+      <point x="182" y="379" type="line"/>
+      <point x="182" y="700" type="line"/>
+      <point x="118" y="700" type="line"/>
+      <point x="118" y="0" type="line"/>
+    </contour>
+    <contour>
+      <point x="483" y="327" type="line"/>
+      <point x="483" y="379" type="line"/>
+      <point x="32" y="379" type="line"/>
+      <point x="32" y="327" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.metricsLeft</key>
+  <string>peso</string>
+  <key>com.fontlab.metricsRight</key>
+  <string>K</string>
+  </dict>
+  </lib>
+</glyph>

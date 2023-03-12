@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="idotless" format="2">
+  <advance width="236"/>
+  <unicode hex="0131"/>
+  <anchor x="118" y="0" name="bottom"/>
+  <anchor x="118" y="0" name="ogonek"/>
+  <anchor x="118" y="486" name="top"/>
+  <outline>
+    <contour>
+      <point x="148" y="0" type="line"/>
+      <point x="148" y="486" type="line"/>
+      <point x="88" y="486" type="line"/>
+      <point x="88" y="0" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.metricsLeft</key>
+  <string>l</string>
+  <key>com.fontlab.metricsRight</key>
+  <string>l</string>
+  </dict>
+  </lib>
+</glyph>

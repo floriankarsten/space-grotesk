@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Ohorn" format="2">
+  <advance width="692"/>
+  <unicode hex="01A0"/>
+  <outline>
+    <component base="O"/>
+    <component base="horncomb_o" xOffset="445" yOffset="204"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.metricsLeft</key>
+  <string>O</string>
+  </dict>
+  </lib>
+</glyph>
