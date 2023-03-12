@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Yucyr" format="2">
+  <advance width="968"/>
+  <unicode hex="042E"/>
+  <outline>
+    <contour>
+      <point x="198" y="0" type="line"/>
+      <point x="198" y="291" type="line"/>
+      <point x="398" y="291" type="line"/>
+      <point x="398" y="411" type="line"/>
+      <point x="198" y="411" type="line"/>
+      <point x="198" y="700" type="line"/>
+      <point x="66" y="700" type="line"/>
+      <point x="66" y="0" type="line"/>
+    </contour>
+    <contour>
+      <point x="630" y="-14" type="curve" smooth="yes"/>
+      <point x="806" y="-14"/>
+      <point x="918" y="86"/>
+      <point x="918" y="266" type="curve" smooth="yes"/>
+      <point x="918" y="434" type="line" smooth="yes"/>
+      <point x="918" y="614"/>
+      <point x="806" y="714"/>
+      <point x="630" y="714" type="curve" smooth="yes"/>
+      <point x="454" y="714"/>
+      <point x="342" y="614"/>
+      <point x="342" y="434" type="curve" smooth="yes"/>
+      <point x="342" y="266" type="line" smooth="yes"/>
+      <point x="342" y="86"/>
+      <point x="454" y="-14"/>
+    </contour>
+    <contour>
+      <point x="630" y="104" type="curve" smooth="yes"/>
+      <point x="532" y="104"/>
+      <point x="474" y="166"/>
+      <point x="474" y="262" type="curve" smooth="yes"/>
+      <point x="474" y="438" type="line" smooth="yes"/>
+      <point x="474" y="534"/>
+      <point x="532" y="596"/>
+      <point x="630" y="596" type="curve" smooth="yes"/>
+      <point x="728" y="596"/>
+      <point x="786" y="534"/>
+      <point x="786" y="438" type="curve" smooth="yes"/>
+      <point x="786" y="262" type="line" smooth="yes"/>
+      <point x="786" y="166"/>
+      <point x="728" y="104"/>
+    </contour>
+  </outline>
+</glyph>

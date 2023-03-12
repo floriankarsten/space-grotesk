@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="onequarter" format="2">
+  <advance width="843"/>
+  <unicode hex="00BC"/>
+  <outline>
+    <component base="one.numr"/>
+    <component base="fraction" xOffset="37"/>
+    <component base="four.dnom" xOffset="415"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.metricsLeft</key>
+  <string>one.numr</string>
+  <key>com.fontlab.metricsRight</key>
+  <string>one.numr</string>
+  </dict>
+  </lib>
+</glyph>

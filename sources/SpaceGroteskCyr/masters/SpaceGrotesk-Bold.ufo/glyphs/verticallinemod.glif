@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="verticallinemod" format="2">
+  <advance width="188"/>
+  <unicode hex="02C8"/>
+  <anchor x="94" y="496" name="_top"/>
+  <outline>
+    <contour>
+      <point x="148" y="552" type="line"/>
+      <point x="148" y="782" type="line"/>
+      <point x="40" y="782" type="line"/>
+      <point x="40" y="552" type="line"/>
+    </contour>
+  </outline>
+</glyph>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="fourinferior" format="2">
+  <advance width="416"/>
+  <unicode hex="2084"/>
+  <outline>
+    <component base="four.dnom" xOffset="12" yOffset="-200"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.metricsLeft</key>
+  <string>four</string>
+  <key>com.fontlab.metricsRight</key>
+  <string>four</string>
+  </dict>
+  </lib>
+</glyph>

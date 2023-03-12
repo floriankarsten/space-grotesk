@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="exclamdown.case" format="2">
+  <advance width="298"/>
+  <outline>
+    <component base="exclam" yScale="-1" yOffset="700"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.metricsLeft</key>
+  <string>period</string>
+  <key>com.fontlab.metricsRight</key>
+  <string>period</string>
+  </dict>
+  </lib>
+</glyph>

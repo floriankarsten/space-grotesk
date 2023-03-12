@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="peseta" format="2">
+  <advance width="758"/>
+  <unicode hex="20A7"/>
+  <outline>
+    <contour>
+      <point x="262" y="0" type="line"/>
+      <point x="262" y="244" type="line"/>
+      <point x="418" y="244" type="line" smooth="yes"/>
+      <point x="549" y="244"/>
+      <point x="648" y="330"/>
+      <point x="648" y="465" type="curve" smooth="yes"/>
+      <point x="648" y="479" type="line" smooth="yes"/>
+      <point x="648" y="614"/>
+      <point x="554" y="700"/>
+      <point x="418" y="700" type="curve" smooth="yes"/>
+      <point x="130" y="700" type="line"/>
+      <point x="130" y="0" type="line"/>
+    </contour>
+    <contour>
+      <point x="262" y="580" type="line"/>
+      <point x="405" y="580" type="line" smooth="yes"/>
+      <point x="472" y="580"/>
+      <point x="516" y="541"/>
+      <point x="516" y="477" type="curve" smooth="yes"/>
+      <point x="516" y="467" type="line" smooth="yes"/>
+      <point x="516" y="403"/>
+      <point x="471" y="364"/>
+      <point x="405" y="364" type="curve" smooth="yes"/>
+      <point x="262" y="364" type="line"/>
+    </contour>
+    <contour>
+      <point x="722" y="421" type="line"/>
+      <point x="722" y="523" type="line"/>
+      <point x="38" y="523" type="line"/>
+      <point x="38" y="421" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.metricsLeft</key>
+  <string>peso</string>
+  <key>com.fontlab.metricsRight</key>
+  <string>peso</string>
+  </dict>
+  </lib>
+</glyph>

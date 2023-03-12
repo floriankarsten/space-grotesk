@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="ordmasculine" format="2">
+  <advance width="438"/>
+  <unicode hex="00BA"/>
+  <outline>
+    <contour>
+      <point x="219" y="340" type="curve" smooth="yes"/>
+      <point x="325" y="340"/>
+      <point x="396" y="408"/>
+      <point x="396" y="523" type="curve" smooth="yes"/>
+      <point x="396" y="638"/>
+      <point x="325" y="706"/>
+      <point x="219" y="706" type="curve" smooth="yes"/>
+      <point x="113" y="706"/>
+      <point x="42" y="638"/>
+      <point x="42" y="523" type="curve" smooth="yes"/>
+      <point x="42" y="408"/>
+      <point x="113" y="340"/>
+    </contour>
+    <contour>
+      <point x="219" y="384" type="curve" smooth="yes"/>
+      <point x="144" y="384"/>
+      <point x="93" y="439"/>
+      <point x="93" y="523" type="curve" smooth="yes"/>
+      <point x="93" y="607"/>
+      <point x="144" y="662"/>
+      <point x="219" y="662" type="curve" smooth="yes"/>
+      <point x="294" y="662"/>
+      <point x="345" y="607"/>
+      <point x="345" y="523" type="curve" smooth="yes"/>
+      <point x="345" y="439"/>
+      <point x="294" y="384"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>RMXScaler</key>
+  <dict>
+    <key>source</key>
+    <string>o</string>
+  </dict>
+  </dict>
+  </lib>
+</glyph>

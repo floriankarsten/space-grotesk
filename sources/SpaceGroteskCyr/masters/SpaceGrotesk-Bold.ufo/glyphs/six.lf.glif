@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="six.lf" format="2">
+  <advance width="618"/>
+  <outline>
+    <component base="six"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.metricsLeft</key>
+  <string>six</string>
+  <key>com.fontlab.metricsRight</key>
+  <string>six</string>
+  </dict>
+  </lib>
+</glyph>

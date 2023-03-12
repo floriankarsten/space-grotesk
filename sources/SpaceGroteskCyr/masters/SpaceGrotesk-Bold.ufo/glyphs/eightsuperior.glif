@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="eightsuperior" format="2">
+  <advance width="372"/>
+  <unicode hex="2078"/>
+  <outline>
+    <component base="eight.dnom" yOffset="350"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.metricsLeft</key>
+  <string>eight</string>
+  <key>com.fontlab.metricsRight</key>
+  <string>eight</string>
+  </dict>
+  </lib>
+</glyph>

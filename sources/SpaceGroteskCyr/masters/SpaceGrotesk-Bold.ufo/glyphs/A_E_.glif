@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="AE" format="2">
+  <advance width="821"/>
+  <unicode hex="00C6"/>
+  <anchor x="425" y="700" name="top"/>
+  <outline>
+    <contour>
+      <point x="789" y="0" type="line"/>
+      <point x="789" y="120" type="line"/>
+      <point x="505" y="120" type="line"/>
+      <point x="505" y="293" type="line"/>
+      <point x="755" y="293" type="line"/>
+      <point x="755" y="413" type="line"/>
+      <point x="505" y="413" type="line"/>
+      <point x="505" y="580" type="line"/>
+      <point x="783" y="580" type="line"/>
+      <point x="783" y="700" type="line"/>
+      <point x="375" y="700" type="line"/>
+      <point x="375" y="0" type="line"/>
+    </contour>
+    <contour>
+      <point x="153" y="0" type="line"/>
+      <point x="203" y="154" type="line"/>
+      <point x="375" y="154" type="line"/>
+      <point x="375" y="276" type="line"/>
+      <point x="242" y="276" type="line"/>
+      <point x="357" y="630" type="line"/>
+      <point x="375" y="630" type="line"/>
+      <point x="375" y="700" type="line"/>
+      <point x="252" y="700" type="line"/>
+      <point x="18" y="0" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.metricsLeft</key>
+  <string>A</string>
+  <key>com.fontlab.metricsRight</key>
+  <string>E</string>
+  </dict>
+  </lib>
+</glyph>

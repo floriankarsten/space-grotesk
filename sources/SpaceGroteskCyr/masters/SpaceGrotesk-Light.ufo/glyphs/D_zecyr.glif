@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Dzecyr" format="2">
+  <advance width="616"/>
+  <unicode hex="0405"/>
+  <anchor x="320" y="0" name="bottom"/>
+  <anchor x="307" y="700" name="top"/>
+  <outline>
+    <component base="S"/>
+  </outline>
+</glyph>

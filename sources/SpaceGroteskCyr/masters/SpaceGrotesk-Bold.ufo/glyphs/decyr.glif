@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="decyr" format="2">
+  <advance width="630"/>
+  <unicode hex="0434"/>
+  <outline>
+    <contour>
+      <point x="120" y="496" type="line"/>
+      <point x="526" y="496" type="line"/>
+      <point x="526" y="112" type="line"/>
+      <point x="600" y="112" type="line"/>
+      <point x="600" y="-114" type="line"/>
+      <point x="474" y="-114" type="line"/>
+      <point x="474" y="0" type="line"/>
+      <point x="140" y="0" type="line"/>
+      <point x="140" y="-114" type="line"/>
+      <point x="30" y="-114" type="line"/>
+      <point x="30" y="112" type="line"/>
+      <point x="84" y="112" type="line"/>
+      <point x="103" y="154"/>
+      <point x="112" y="206"/>
+      <point x="114" y="286" type="curve" smooth="yes"/>
+    </contour>
+    <contour>
+      <point x="400" y="112" type="line"/>
+      <point x="400" y="384" type="line"/>
+      <point x="231" y="384" type="line"/>
+      <point x="228" y="274" type="line" smooth="yes"/>
+      <point x="226" y="202"/>
+      <point x="217" y="150"/>
+      <point x="202" y="112" type="curve"/>
+    </contour>
+  </outline>
+</glyph>

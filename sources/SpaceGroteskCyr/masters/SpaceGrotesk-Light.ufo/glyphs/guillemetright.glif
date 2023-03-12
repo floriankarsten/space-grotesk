@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="guillemetright" format="2">
+  <advance width="668"/>
+  <unicode hex="00BB"/>
+  <outline>
+    <contour>
+      <point x="330" y="26" type="line"/>
+      <point x="616" y="210" type="line"/>
+      <point x="616" y="284" type="line"/>
+      <point x="330" y="468" type="line"/>
+      <point x="324" y="468" type="line"/>
+      <point x="324" y="403" type="line"/>
+      <point x="562" y="252" type="line"/>
+      <point x="562" y="242" type="line"/>
+      <point x="324" y="91" type="line"/>
+      <point x="324" y="26" type="line"/>
+    </contour>
+    <contour>
+      <point x="76" y="26" type="line"/>
+      <point x="362" y="210" type="line"/>
+      <point x="362" y="284" type="line"/>
+      <point x="76" y="468" type="line"/>
+      <point x="70" y="468" type="line"/>
+      <point x="70" y="403" type="line"/>
+      <point x="308" y="252" type="line"/>
+      <point x="308" y="242" type="line"/>
+      <point x="70" y="91" type="line"/>
+      <point x="70" y="26" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.metricsLeft</key>
+  <string>guilsinglright</string>
+  <key>com.fontlab.metricsRight</key>
+  <string>guilsinglright</string>
+  </dict>
+  </lib>
+</glyph>

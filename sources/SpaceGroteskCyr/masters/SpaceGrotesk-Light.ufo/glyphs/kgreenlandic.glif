@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="kgreenlandic" format="2">
+  <advance width="527"/>
+  <unicode hex="0138"/>
+  <outline>
+    <contour>
+      <point x="148" y="0" type="line"/>
+      <point x="148" y="219" type="line"/>
+      <point x="160" y="219" type="line"/>
+      <point x="418" y="0" type="line"/>
+      <point x="505" y="0" type="line"/>
+      <point x="209" y="249" type="line"/>
+      <point x="497" y="486" type="line"/>
+      <point x="409" y="486" type="line"/>
+      <point x="160" y="278" type="line"/>
+      <point x="148" y="278" type="line"/>
+      <point x="148" y="486" type="line"/>
+      <point x="88" y="486" type="line"/>
+      <point x="88" y="0" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.metricsLeft</key>
+  <string>n</string>
+  <key>com.fontlab.metricsRight</key>
+  <string>k</string>
+  </dict>
+  </lib>
+</glyph>

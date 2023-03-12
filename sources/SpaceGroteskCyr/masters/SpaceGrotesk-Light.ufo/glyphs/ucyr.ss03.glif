@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="ucyr.ss03" format="2">
+  <advance width="546"/>
+  <anchor x="609" y="-42" name="bottom"/>
+  <anchor x="303" y="486" name="top"/>
+  <outline>
+    <component base="y.ss03"/>
+  </outline>
+</glyph>

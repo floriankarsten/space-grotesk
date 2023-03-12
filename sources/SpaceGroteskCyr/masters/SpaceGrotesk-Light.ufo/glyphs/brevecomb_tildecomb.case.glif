@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="brevecomb_tildecomb.case" format="2">
+  <advance width="440"/>
+  <outline>
+    <component base="brevecomb.case" xOffset="11"/>
+    <component base="tildecomb.case" yOffset="151"/>
+  </outline>
+</glyph>

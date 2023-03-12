@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="abrevetilde.ss01" format="2">
+  <advance width="664"/>
+  <outline>
+    <component base="a.ss01"/>
+    <component base="brevecomb" xOffset="130"/>
+    <component base="tildecomb" xOffset="117" yOffset="181"/>
+  </outline>
+</glyph>

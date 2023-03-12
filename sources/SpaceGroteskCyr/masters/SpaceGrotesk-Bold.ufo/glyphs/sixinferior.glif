@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="sixinferior" format="2">
+  <advance width="404"/>
+  <unicode hex="2086"/>
+  <outline>
+    <component base="six.dnom" xOffset="18" yOffset="-200"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.metricsLeft</key>
+  <string>six</string>
+  <key>com.fontlab.metricsRight</key>
+  <string>six</string>
+  </dict>
+  </lib>
+</glyph>

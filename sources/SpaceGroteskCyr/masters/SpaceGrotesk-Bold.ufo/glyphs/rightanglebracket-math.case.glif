@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="rightanglebracket-math.case" format="2">
+  <advance width="413"/>
+  <outline>
+    <contour>
+      <point x="147" y="-48" type="line"/>
+      <point x="377" y="318" type="line"/>
+      <point x="377" y="380" type="line"/>
+      <point x="147" y="756" type="line"/>
+      <point x="16" y="756" type="line"/>
+      <point x="262" y="354" type="line"/>
+      <point x="262" y="344" type="line"/>
+      <point x="16" y="-48" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.metricsLeft</key>
+  <string>braceright</string>
+  <key>com.fontlab.metricsRight</key>
+  <string>braceright</string>
+  </dict>
+  </lib>
+</glyph>

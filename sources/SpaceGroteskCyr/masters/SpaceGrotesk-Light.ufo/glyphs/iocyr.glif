@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="iocyr" format="2">
+  <advance width="598"/>
+  <unicode hex="0451"/>
+  <anchor x="312" y="0" name="bottom"/>
+  <anchor x="371" y="0" name="ogonek"/>
+  <anchor x="305" y="654" name="top"/>
+  <outline>
+    <component base="iecyr"/>
+    <component base="dieresiscomb" xOffset="104"/>
+  </outline>
+</glyph>

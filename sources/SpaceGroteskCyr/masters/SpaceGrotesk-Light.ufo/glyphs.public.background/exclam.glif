@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="exclam" format="2">
+  <advance width="298"/>
+  <outline>
+    <contour>
+      <point x="148" y="170" type="line"/>
+      <point x="148" y="700" type="line"/>
+      <point x="86" y="700" type="line"/>
+      <point x="86" y="170" type="line"/>
+    </contour>
+  </outline>
+</glyph>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="divisionslash" format="2">
+  <advance width="377"/>
+  <unicode hex="2215"/>
+  <outline>
+    <contour>
+      <point x="67" y="-140" type="line"/>
+      <point x="375" y="798" type="line"/>
+      <point x="314" y="798" type="line"/>
+      <point x="6" y="-140" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.metricsLeft</key>
+  <string>slash</string>
+  <key>com.fontlab.metricsRight</key>
+  <string>slash</string>
+  </dict>
+  </lib>
+</glyph>

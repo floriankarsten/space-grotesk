@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Vecyr" format="2">
+  <advance width="664"/>
+  <unicode hex="0412"/>
+  <anchor x="138" y="350" name="stroke"/>
+  <outline>
+    <component base="B" xOffset="-4" yOffset="-1"/>
+  </outline>
+</glyph>

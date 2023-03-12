@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="zero.lf" format="2">
+  <advance width="648"/>
+  <outline>
+    <component base="zero"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.metricsLeft</key>
+  <string>zero</string>
+  <key>com.fontlab.metricsRight</key>
+  <string>zero</string>
+  </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="exclam" format="2">
+  <advance width="298"/>
+  <unicode hex="0021"/>
+  <outline>
+    <component base="period"/>
+    <contour>
+      <point x="213" y="230" type="line"/>
+      <point x="213" y="700" type="line"/>
+      <point x="85" y="700" type="line"/>
+      <point x="85" y="230" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.metricsLeft</key>
+  <string>period</string>
+  <key>com.fontlab.metricsRight</key>
+  <string>period</string>
+  </dict>
+  </lib>
+</glyph>

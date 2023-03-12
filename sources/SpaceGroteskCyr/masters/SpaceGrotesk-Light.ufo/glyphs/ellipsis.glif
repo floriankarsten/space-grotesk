@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="ellipsis" format="2">
+  <advance width="630"/>
+  <unicode hex="2026"/>
+  <outline>
+    <component base="period"/>
+    <component base="period" xOffset="198"/>
+    <component base="period" xOffset="396"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.metricsLeft</key>
+  <string>period</string>
+  <key>com.fontlab.metricsRight</key>
+  <string>period</string>
+  </dict>
+  </lib>
+</glyph>

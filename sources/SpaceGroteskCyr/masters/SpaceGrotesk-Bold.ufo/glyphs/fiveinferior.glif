@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="fiveinferior" format="2">
+  <advance width="384"/>
+  <unicode hex="2085"/>
+  <outline>
+    <component base="five.dnom" xOffset="14" yOffset="-200"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.metricsLeft</key>
+  <string>five</string>
+  <key>com.fontlab.metricsRight</key>
+  <string>five</string>
+  </dict>
+  </lib>
+</glyph>

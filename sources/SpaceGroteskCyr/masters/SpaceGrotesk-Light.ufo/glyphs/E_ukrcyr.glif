@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Eukrcyr" format="2">
+  <advance width="666"/>
+  <unicode hex="0404"/>
+  <outline>
+    <component base="C"/>
+    <contour>
+      <point x="408" y="325" type="line"/>
+      <point x="104" y="325" type="line"/>
+      <point x="104" y="385" type="line"/>
+      <point x="408" y="385" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.recipe</key>
+  <string>O+macron%</string>
+  </dict>
+  </lib>
+</glyph>

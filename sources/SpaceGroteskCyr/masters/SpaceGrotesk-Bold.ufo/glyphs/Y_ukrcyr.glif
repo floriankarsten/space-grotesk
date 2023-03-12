@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Yukrcyr" format="2">
+  <advance width="448"/>
+  <unicode hex="0407"/>
+  <anchor x="224" y="496" name="_top"/>
+  <anchor x="224" y="684" name="top"/>
+  <anchor x="224" y="0" name="bottom"/>
+  <anchor x="224" y="0" name="ogonek"/>
+  <outline>
+    <component base="dieresiscomb" yOffset="210"/>
+    <contour>
+      <point x="290" y="0" type="line"/>
+      <point x="290" y="700" type="line"/>
+      <point x="158" y="700" type="line"/>
+      <point x="158" y="0" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.recipe</key>
+  <string>uni0406+dieresiscomb</string>
+  </dict>
+  </lib>
+</glyph>

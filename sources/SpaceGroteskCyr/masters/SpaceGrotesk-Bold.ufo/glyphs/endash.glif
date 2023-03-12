@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="endash" format="2">
+  <advance width="584"/>
+  <unicode hex="2013"/>
+  <outline>
+    <contour>
+      <point x="516" y="198" type="line"/>
+      <point x="516" y="312" type="line"/>
+      <point x="68" y="312" type="line"/>
+      <point x="68" y="198" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.metricsLeft</key>
+  <string>hyphen</string>
+  <key>com.fontlab.metricsRight</key>
+  <string>hyphen</string>
+  </dict>
+  </lib>
+</glyph>

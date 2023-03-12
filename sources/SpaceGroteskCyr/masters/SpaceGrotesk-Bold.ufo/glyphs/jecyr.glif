@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="jecyr" format="2">
+  <advance width="268"/>
+  <unicode hex="0458"/>
+  <outline>
+    <component base="j"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.recipe</key>
+  <string>j%</string>
+  </dict>
+  </lib>
+</glyph>

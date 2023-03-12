@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="second" format="2">
+  <advance width="416"/>
+  <unicode hex="2033"/>
+  <outline>
+    <contour>
+      <point x="330" y="420" type="line"/>
+      <point x="372" y="700" type="line"/>
+      <point x="247" y="700" type="line"/>
+      <point x="230" y="420" type="line"/>
+    </contour>
+    <contour>
+      <point x="144" y="420" type="line"/>
+      <point x="176" y="700" type="line"/>
+      <point x="51" y="700" type="line"/>
+      <point x="48" y="420" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.metricsLeft</key>
+  <string>minute</string>
+  <key>com.fontlab.metricsRight</key>
+  <string>minute</string>
+  </dict>
+  </lib>
+</glyph>
